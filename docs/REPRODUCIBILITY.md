@@ -1,5 +1,10 @@
 # Reproduction and exact artifact restoration
 
+For an immutable source checkout, use tag `softmax-10landmark-working-code-v1`.
+Model artifacts use release tag `softmax-10landmark-working-v1`. Both retain the
+same 64-file training/configuration snapshot; additional source-only-clone test
+handling and CSV normalization do not change model behavior.
+
 ## Two different meanings of “the same result”
 
 1. **Exact archived state:** download the release and verify its SHA-256 manifest.

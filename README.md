@@ -6,6 +6,9 @@ experiments. Its 64 recorded source/configuration files match the original run
 manifest byte for byte. Additional tools make the snapshot portable and verify
 the archived inputs/results without changing the training implementation.
 
+Immutable code pin: **`softmax-10landmark-working-code-v1`**. The separately
+versioned model-artifact release is **`softmax-10landmark-working-v1`**.
+
 **Result: 8/10 landmarks recovered; 19.31 native-pixel mean reprojection error
 on those eight.** Forehead and chin remain unresolved. This is a useful partial
 success, not a claim of perfect ten-landmark localization or improved geometry.
