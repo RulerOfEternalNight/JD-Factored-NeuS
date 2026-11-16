@@ -1,0 +1,113 @@
+test_478_head_shape_and_softmax (test_dense_matched.DenseMatchedTests) ... ok
+test_478_rendered_heatmap_loss_reaches_sdf (test_dense_matched.DenseMatchedTests) ... /workspace/.micromamba/envs/factored-neus/lib/python3.10/site-packages/torch/nn/modules/lazy.py:180: UserWarning: Lazy modules are a new feature under heavy development so changes to the API or functionality can happen at any moment.
+  warnings.warn('Lazy modules are a new feature under heavy development '
+ok
+test_config_diff_is_only_landmark_definitions_and_output (test_dense_matched.DenseMatchedTests) ... /workspace/.micromamba/envs/factored-neus/lib/python3.10/site-packages/pyhocon/config_parser.py:380: PyparsingDeprecationWarning: 'setDefaultWhitespaceChars' deprecated - use 'set_default_whitespace_chars'
+  ParserElement.setDefaultWhitespaceChars(' \t')
+/workspace/.micromamba/envs/factored-neus/lib/python3.10/site-packages/pyhocon/config_parser.py:386: PyparsingDeprecationWarning: 'replaceWith' deprecated - use 'replace_with'
+  true_expr = Keyword("true", caseless=True).setParseAction(replaceWith(True))
+/workspace/.micromamba/envs/factored-neus/lib/python3.10/site-packages/pyhocon/config_parser.py:386: PyparsingDeprecationWarning: 'setParseAction' deprecated - use 'set_parse_action'
+  true_expr = Keyword("true", caseless=True).setParseAction(replaceWith(True))
+/workspace/.micromamba/envs/factored-neus/lib/python3.10/site-packages/pyhocon/config_parser.py:387: PyparsingDeprecationWarning: 'replaceWith' deprecated - use 'replace_with'
+  false_expr = Keyword("false", caseless=True).setParseAction(replaceWith(False))
+/workspace/.micromamba/envs/factored-neus/lib/python3.10/site-packages/pyhocon/config_parser.py:387: PyparsingDeprecationWarning: 'setParseAction' deprecated - use 'set_parse_action'
+  false_expr = Keyword("false", caseless=True).setParseAction(replaceWith(False))
+/workspace/.micromamba/envs/factored-neus/lib/python3.10/site-packages/pyhocon/config_parser.py:388: PyparsingDeprecationWarning: 'replaceWith' deprecated - use 'replace_with'
+  null_expr = Keyword("null", caseless=True).setParseAction(replaceWith(NoneValue()))
+/workspace/.micromamba/envs/factored-neus/lib/python3.10/site-packages/pyhocon/config_parser.py:388: PyparsingDeprecationWarning: 'setParseAction' deprecated - use 'set_parse_action'
+  null_expr = Keyword("null", caseless=True).setParseAction(replaceWith(NoneValue()))
+/workspace/.micromamba/envs/factored-neus/lib/python3.10/site-packages/pyhocon/config_parser.py:389: PyparsingDeprecationWarning: 'escChar' argument is deprecated, use 'esc_char'
+  key = QuotedString('"', escChar='\\', unquoteResults=False) | Word(alphanums + alphas8bit + '._- /')
+/workspace/.micromamba/envs/factored-neus/lib/python3.10/site-packages/pyhocon/config_parser.py:389: PyparsingDeprecationWarning: 'unquoteResults' argument is deprecated, use 'unquote_results'
+  key = QuotedString('"', escChar='\\', unquoteResults=False) | Word(alphanums + alphas8bit + '._- /')
+/workspace/.micromamba/envs/factored-neus/lib/python3.10/site-packages/pyhocon/config_parser.py:397: PyparsingDeprecationWarning: 'setParseAction' deprecated - use 'set_parse_action'
+  re.DOTALL).setParseAction(convert_number)
+/workspace/.micromamba/envs/factored-neus/lib/python3.10/site-packages/pyhocon/config_parser.py:401: PyparsingDeprecationWarning: 'setParseAction' deprecated - use 'set_parse_action'
+  multiline_string = Regex('""".*?"*"""', re.DOTALL | re.UNICODE).setParseAction(parse_multi_string)
+/workspace/.micromamba/envs/factored-neus/lib/python3.10/site-packages/pyhocon/config_parser.py:403: PyparsingDeprecationWarning: 'setParseAction' deprecated - use 'set_parse_action'
+  quoted_string = Regex(r'"(?:[^"\\\n]|\\.)*"[ \t]*', re.UNICODE).setParseAction(create_quoted_string)
+/workspace/.micromamba/envs/factored-neus/lib/python3.10/site-packages/pyhocon/config_parser.py:409: PyparsingDeprecationWarning: 'setParseAction' deprecated - use 'set_parse_action'
+  unquoted_string = Regex(r'(?:[^^`+?!@*&"\[\{\s\]\}#,=\$\\]|\\.)+[ \t]*', re.UNICODE).setParseAction(
+/workspace/.micromamba/envs/factored-neus/lib/python3.10/site-packages/pyhocon/config_parser.py:411: PyparsingDeprecationWarning: 'setParseAction' deprecated - use 'set_parse_action'
+  substitution_expr = Regex(r'[ \t]*\$\{[^\}]+\}[ \t]*').setParseAction(create_substitution)
+/workspace/.micromamba/envs/factored-neus/lib/python3.10/site-packages/pyhocon/period_parser.py:69: PyparsingDeprecationWarning: 'setParseAction' deprecated - use 'set_parse_action'
+  ).setParseAction(convert_period)
+/workspace/.micromamba/envs/factored-neus/lib/python3.10/site-packages/pyhocon/config_parser.py:426: PyparsingDeprecationWarning: 'setParseAction' deprecated - use 'set_parse_action'
+  ).setParseAction(include_config)
+/workspace/.micromamba/envs/factored-neus/lib/python3.10/site-packages/pyhocon/config_parser.py:455: PyparsingDeprecationWarning: 'parseString' deprecated - use 'parse_string'
+  config = config_expr.parseString(content, parseAll=True)[0]
+/workspace/.micromamba/envs/factored-neus/lib/python3.10/site-packages/pyparsing/util.py:466: PyparsingDeprecationWarning: 'parseAll' argument is deprecated, use 'parse_all'
+  return fn(self, *args, **kwargs)
+/workspace/.micromamba/envs/factored-neus/lib/python3.10/site-packages/pyhocon/config_parser.py:382: PyparsingDeprecationWarning: 'setDefaultWhitespaceChars' deprecated - use 'set_default_whitespace_chars'
+  ParserElement.setDefaultWhitespaceChars(default)
+ok
+test_full_resolution_dense_annotation_alignment (test_dense_matched.DenseMatchedTests) ... skipped 'Original source photos are private; restore the dataset to run alignment checks'
+test_failed_preflight_blocks_training_without_changing_settings (test_followup_queue.FollowupQueueTests) ... ok
+test_wait_then_preflight_training_export (test_followup_queue.FollowupQueueTests) ... ok
+test_auxiliary_training_keeps_frozen_geometry_unchanged (test_landmark_corrections.CorrectionTests) ... ok
+test_corrected_loss_reaches_shared_features_and_preserves_main_weight_path (test_landmark_corrections.CorrectionTests) ... ok
+test_corrected_resume_restores_cache_and_rejects_objective_changes (test_landmark_corrections.CorrectionTests) ... Load data: Begin
+Load data: End
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 14.08it/s]
+ok
+test_empty_or_low_opacity_negatives_do_not_create_nan (test_landmark_corrections.CorrectionTests) ... ok
+test_filtered_training_labels_remain_in_historical_evaluation (test_landmark_corrections.CorrectionTests) ... ok
+test_hard_cache_and_sampling_protect_positive_and_unknown_regions (test_landmark_corrections.CorrectionTests) ... ok
+test_missing_and_excluded_labels_are_not_silent_negatives (test_landmark_corrections.CorrectionTests) ... ok
+test_real_sidecar_and_corrected_configuration_are_consistent (test_landmark_corrections.CorrectionTests) ... skipped 'Original source photos are private; restore the dataset for sidecar alignment checks'
+test_saturated_nonlandmark_gradient_is_strong_and_finite (test_landmark_corrections.CorrectionTests) ... ok
+test_unit_domain_excludes_missed_rays_without_changing_rgb (test_landmark_corrections.CorrectionTests) ... ok
+test_visibility_flags_occlusion_and_mask_conflict_without_editing_coordinates (test_landmark_corrections.CorrectionTests) ... ok
+test_visible_mean_does_not_reward_extra_visibility (test_landmark_corrections.CorrectionTests) ... ok
+test_accelerated_first_hits_match_trimesh_fallback (test_landmark_multiview.MultiviewTests) ... ok
+test_bilinear_uses_native_endpoint_coordinates (test_landmark_multiview.MultiviewTests) ... ok
+test_coincident_cameras_do_not_supply_angular_agreement (test_landmark_multiview.MultiviewTests) ... ok
+test_export_preserves_world_transform_and_explicit_abstention (test_landmark_multiview.MultiviewTests) ... ok
+test_invalid_inputs_and_search_bounds (test_landmark_multiview.MultiviewTests) ... ok
+test_occlusion_rejects_hidden_raw_maximum (test_landmark_multiview.MultiviewTests) ... ok
+test_reprojection_reports_abstention_and_coverage (test_landmark_multiview.MultiviewTests) ... ok
+test_runner_selects_views_without_annotation_access (test_landmark_multiview.MultiviewTests) ... ok
+test_single_view_peak_cannot_be_accepted (test_landmark_multiview.MultiviewTests) ... ok
+test_two_classes_produce_independent_surface_selections (test_landmark_multiview.MultiviewTests) ... ok
+test_weak_or_diffuse_maps_abstain_without_raw_fallback (test_landmark_multiview.MultiviewTests) ... ok
+test_analytical_aggregation_zero_opacity_and_alignment (test_landmarks.LandmarkTests) ... ok
+test_annotations_matching_transform_and_missing (test_landmarks.LandmarkTests) ... ok
+test_architecture_k1_k3 (test_landmarks.LandmarkTests) ... ok
+test_export_coordinate_transform (test_landmarks.LandmarkTests) ... ok
+test_frozen_sdf_head_update (test_landmarks.LandmarkTests) ... ok
+test_geometry_feature_path_with_weights_held_constant (test_landmarks.LandmarkTests) ... ok
+test_geometry_gradient_through_weights_with_constant_probabilities (test_landmarks.LandmarkTests) ... ok
+test_heatmap_targets_invalid_and_weighted_loss (test_landmarks.LandmarkTests) ... ok
+test_landmark_only_and_rgb_gradients (test_landmarks.LandmarkTests) ... ok
+test_normalized_annotation_visibility_and_camera_index (test_landmarks.LandmarkTests) ... ok
+test_positive_balance_rejects_all_zero_on_sparse_targets (test_landmarks.LandmarkTests) ... ok
+test_real_renderer_alignment_background_and_rgb_unchanged (test_landmarks.LandmarkTests) ... ok
+test_sampling_and_schedule (test_landmarks.LandmarkTests) ... ok
+test_config_initialization_freeze_and_resume (test_pretrained_config.PretrainedConfigTests) ... /tmp/tmplai8zadf/run
+iter:3 loss = 0.005094732157886028 lr=0.00038124999999999997
+Load data: Begin
+Load data: End
+Load data: Begin
+Load data: End
+Load data: Begin
+Load data: End
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 16.02it/s]
+ok
+test_public_archive_excludes_source_photos_and_overlays (test_reproduction_tools.ReproductionToolsTests) ... ok
+test_reject_corruption_before_writing_outputs (test_reproduction_tools.ReproductionToolsTests) ... ok
+test_reject_path_traversal (test_reproduction_tools.ReproductionToolsTests) ... ok
+test_restore_is_checked_and_idempotent (test_reproduction_tools.ReproductionToolsTests) ... ok
+test_source_hashes_and_portable_config (test_reproduction_tools.ReproductionToolsTests) ... ok
+test_schedule_labels_and_isolated_output (test_staged10_config.StagedTenTests) ... skipped 'Restore the public baseline artifact and private dataset for input alignment checks'
+test_sigma_is_measured_in_native_pixels (test_staged10_config.StagedTenTests) ... ok
+test_ten_landmark_loss_reaches_head_and_sdf (test_staged10_config.StagedTenTests) ... ok
+test_validation_generates_432_by_648_maps (test_staged10_config.StagedTenTests) ... skipped 'Original camera calibration/photos are private; restore the dataset for validation checks'
+
+----------------------------------------------------------------------
+Ran 52 tests in 1.464s
+
+OK (skipped=4)
+/tmp/tmp5q24tpww/experiment
+iter:3 loss = 0.0036632041446864605 lr=0.00038124999999999997
+Load data: Begin
+Load data: End

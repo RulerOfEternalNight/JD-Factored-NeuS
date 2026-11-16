@@ -11,5 +11,16 @@
     "mean_error_native_px": 19.306544285955006,
     "median_error_native_px": 12.372910900038086
   },
-  "original_run": "20261116T004348Z_staged10_corrected"
+  "original_run": "20261116T004348Z_staged10_corrected",
+  "public_clone_tests": {
+    "run": 52,
+    "passed": 48,
+    "skipped_private_inputs": 4,
+    "failures": 0,
+    "errors": 0,
+    "working_tree_clean": true
+  },
+  "published_artifact_sha256": "0e21d3b08b7f0317cf1ba19d3153a305654872159a26ce407210e7f3dea41922",
+  "published_artifact_files": 283,
+  "published_artifact_GitHub_digest_matches": true
 }
