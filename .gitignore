@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.venv/
+/public_data
+/exp
+/verification
+/runs
+/downloads
+/artifacts
+*.tar.gz
+*.zip

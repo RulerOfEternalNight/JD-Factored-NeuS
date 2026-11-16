@@ -1,5 +1,6 @@
 import os
 import time
+import random
 import logging
 import argparse
 import numpy as np
@@ -17,6 +18,8 @@ from models.dataset import Dataset, DatasetGlossySynthetic, DatasetGlossyReal, D
 from models.fields import RenderingNetwork, SDFNetwork, SingleVarianceNetwork, NeRF, RefColor
 from models.inverRender import EnvmapMaterialNetwork
 from models.renderer import NeuSRenderer
+from models.landmark_training import LandmarkTrainingMixin
+from models.landmark_validation import LandmarkValidationMixin
 import imageio
 from PIL import Image
 import open3d as o3d
@@ -24,18 +27,30 @@ import json
 from evaluation.shiny_eval import evaluation_shinyblender
 
 
-class Runner:
-    def __init__(self, conf_path, mode='train', case='CASE_NAME', is_continue=False, type='dtu', surface_weight=0.1):
+class Runner(LandmarkTrainingMixin, LandmarkValidationMixin):
+    def __init__(self, conf_path, mode='train', case='CASE_NAME', is_continue=False, type='dtu', surface_weight=0.1, init_checkpoint=None):
         self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
         # Configuration
         self.conf_path = conf_path
-        f = open(self.conf_path)
-        conf_text = f.read()
-        conf_text = conf_text.replace('CASE_NAME', case) 
-        f.close()
-
-        self.conf = ConfigFactory.parse_string(conf_text)  
+        self.case = case
+        # Resolve includes relative to each config, then expand the case in all
+        # included values (not just the top-level file).
+        def expand_case(value):
+            if isinstance(value, str):
+                return value.replace('CASE_NAME', case)
+            if isinstance(value, dict):
+                return {k: expand_case(v) for k, v in value.items()}
+            if isinstance(value, list):
+                return [expand_case(v) for v in value]
+            return value
+        self.conf = ConfigFactory.from_dict(expand_case(ConfigFactory.parse_file(self.conf_path).as_plain_ordered_dict()))
+        seed = self.conf.get_int('train.seed', default=42)
+        random.seed(seed)
+        np.random.seed(seed)
+        torch.manual_seed(seed)
+        if torch.cuda.is_available():
+            torch.cuda.manual_seed_all(seed)
         self.conf['dataset.data_dir'] = self.conf['dataset.data_dir'].replace('CASE_NAME', case)
         self.base_exp_dir = self.conf['general.base_exp_dir_geo']  
         os.makedirs(self.base_exp_dir, exist_ok=True)
@@ -93,16 +108,27 @@ class Runner:
         # ref
         params_to_train += list(self.refColor_network.parameters())
 
-        self.optimizer = torch.optim.Adam(params_to_train, lr=self.learning_rate)
+        self.setup_landmarks(params_to_train)
 
         self.renderer = NeuSRenderer(**self.conf['model.neus_renderer'],
                                      nerf=self.nerf_outside,
                                      sdf_network=self.sdf_network,
                                      deviation_network=self.deviation_network,
                                      color_network=self.color_network,
-                                     refColor_network=self.refColor_network
+                                     refColor_network=self.refColor_network,
+                                     landmark_head=self.landmark_head,
+                                     landmark_domain=self.landmark_conf.get('render_domain', 'legacy'),
+                                     return_landmark_log_probs=bool(self.landmark_conf.get('nonlandmark', {}).get('enabled', False))
                                     )
 
+        if init_checkpoint and is_continue:
+            raise ValueError("Use either --init_checkpoint or --is_continue")
+        # Configuration-based initialization also works with queued jobs. Resume
+        # takes precedence so subsequent --is_continue/export never reinitializes.
+        if init_checkpoint is None and not is_continue:
+            init_checkpoint = self.conf.get_string('train.init_checkpoint', default=None)
+        if init_checkpoint:
+            self.initialize_geometry(init_checkpoint)
         latest_model_name = None
         if is_continue:
             model_list_raw = os.listdir(os.path.join(self.base_exp_dir, 'checkpoints'))
@@ -121,15 +147,21 @@ class Runner:
             self.file_backup()
             
         self.pre_train_iter = 0
+        self.set_training_stage()
 
-    def train(self):
+    def train(self, max_steps=None):
         self.writer = SummaryWriter(log_dir=os.path.join(self.base_exp_dir, 'logs'))  
         self.update_learning_rate()  
         res_step = self.end_iter - self.iter_step  
-        image_perm = self.get_image_perm()  
+        if max_steps is not None:
+            res_step = min(res_step, max_steps)
+        image_perm = self.image_perm if self.image_perm is not None else self.get_image_perm()
+        self.image_perm = image_perm
 
         for iter_i in tqdm(range(res_step)):  
-            data = self.dataset.gen_random_rays_at(image_perm[self.iter_step % len(image_perm)], self.batch_size)
+            stage = self.set_training_stage()
+            landmark_active = self.landmarks_enabled and stage != 'geometry'
+            data, pixels, image_index = self.sample_training_data(image_perm[self.iter_step % len(image_perm)], landmark_active)
 
             rays_o, rays_d, true_rgb, mask = data[:, :3], data[:, 3: 6], data[:, 6: 9], data[:, 9: 10]
             near, far = self.dataset.near_far_from_sphere(rays_o, rays_d)  # [batch,1]
@@ -146,7 +178,8 @@ class Runner:
             mask_sum = mask.sum() + 1e-5  # [512,]
             render_out = self.renderer.render(rays_o, rays_d, near, far,
                                               background_rgb=background_rgb,
-                                              cos_anneal_ratio=self.get_cos_anneal_ratio())
+                                              cos_anneal_ratio=self.get_cos_anneal_ratio(),
+                                              render_landmarks=landmark_active)
 
             color_fine = render_out['color_fine']  # batch, 3
             s_val = render_out['s_val']  # batch, 1
@@ -176,11 +209,29 @@ class Runner:
                    eikonal_loss * self.igr_weight + \
                    mask_loss * self.mask_weight
 
+            reconstruction_loss = loss
+            self.writer.add_scalar('Loss/reconstruction', reconstruction_loss, self.iter_step)
+            self.writer.add_scalar('Loss/surface_color', surface_color_loss, self.iter_step)
+            self.writer.add_scalar('Loss/mask', mask_loss, self.iter_step)
+            self.writer.add_scalar('Training/stage', {'geometry': 0, 'head': 1, 'joint': 2}[stage], self.iter_step)
+            if landmark_active:
+                landmark_loss = self.landmark_objective(render_out['landmark_response'], image_index, pixels,
+                                                        render_out=render_out, foreground=data[:, 9:10])
+                self.log_landmark_gradients(landmark_loss, render_out)
+                loss = self.landmark_weight() * landmark_loss
+                if stage == 'joint':
+                    loss = loss + reconstruction_loss
+            if not torch.isfinite(loss):
+                raise FloatingPointError('Non-finite training loss at iteration ' + str(self.iter_step))
+
             self.optimizer.zero_grad()
             loss.backward()
             self.optimizer.step()
 
             self.iter_step += 1
+            if self.iter_step % len(image_perm) == 0:
+                image_perm = self.get_image_perm()
+                self.image_perm = image_perm
 
             self.writer.add_scalar('Loss/loss', loss, self.iter_step)
             self.writer.add_scalar('Loss/color_loss', color_fine_loss, self.iter_step)
@@ -194,9 +245,6 @@ class Runner:
             if self.iter_step % self.report_freq == 0:
                 print(self.base_exp_dir)
                 print('iter:{:8>d} loss = {} lr={}'.format(self.iter_step, loss, self.optimizer.param_groups[0]['lr']))
-
-            if self.iter_step % self.save_freq == 0:  
-                self.save_checkpoint()
 
             if self.iter_step % self.val_freq == 0:  
                 if self.type == 'dtu' or self.type == 'sk3d' or self.type == 'glossy_synthetic' or self.type == 'glossy_real':  
@@ -212,10 +260,18 @@ class Runner:
                 else:
                     self.validate_mesh(world_space=False)
 
+            if self.landmarks_enabled:
+                frequency = int(self.landmark_conf.get('visualization_freq', 2500))
+                if frequency > 0 and self.iter_step % frequency == 0:
+                    self.validate_landmarks(idx=int(self.valid_images[0]))
+                frequency = int(self.landmark_conf.get('export_freq', 0))
+                if frequency > 0 and self.iter_step % frequency == 0:
+                    self.export_surface_landmarks()
             self.update_learning_rate()  
-
-            if self.iter_step % len(image_perm) == 0:  
-                image_perm = self.get_image_perm()
+            if self.iter_step % self.save_freq == 0:
+                self.save_checkpoint()
+        self.save_checkpoint()
+        self.writer.close()
 
     def get_image_perm(self):
         return torch.randperm(self.dataset.n_images)  
@@ -231,9 +287,13 @@ class Runner:
             learning_factor = self.iter_step / self.warm_up_end
         else:  
             alpha = self.learning_rate_alpha
-            progress = (self.iter_step - self.warm_up_end) / (self.end_iter - self.warm_up_end)
+            progress = (self.iter_step - self.warm_up_end) / max(1., self.end_iter - self.warm_up_end)
             learning_factor = (np.cos(np.pi * progress) + 1.0) * 0.5 * (1 - alpha) + alpha
 
+        # Preserve baseline LR exactly. Landmark modes use a nonzero LR at
+        # iteration zero; head-only warmup uses the same global cosine clock.
+        if self.landmarks_enabled:
+            learning_factor = max(float(learning_factor), float(self.landmark_conf.get('lr_factor_floor', .001)))
         for g in self.optimizer.param_groups:
             g['lr'] = self.learning_rate * learning_factor  
 
@@ -250,18 +310,20 @@ class Runner:
 
         copyfile(self.conf_path, os.path.join(self.base_exp_dir, 'recording', 'config.conf'))
 
-    def load_checkpoint(self, checkpoint_name):
-        checkpoint = torch.load(os.path.join(self.base_exp_dir, 'checkpoints', checkpoint_name), map_location=self.device)
+    def load_reconstruction_state(self, checkpoint):
         self.nerf_outside.load_state_dict(checkpoint['nerf'])
         self.sdf_network.load_state_dict(checkpoint['sdf_network_fine'])
         self.deviation_network.load_state_dict(checkpoint['variance_network_fine'])
         self.color_network.load_state_dict(checkpoint['color_network_fine'])
         self.refColor_network.load_state_dict(checkpoint['refColor_network'])
 
-        self.optimizer.load_state_dict(checkpoint['optimizer'])
-        self.iter_step = checkpoint['iter_step']
-
-        logging.info('End')
+    def load_checkpoint(self, checkpoint_name):
+        checkpoint = torch.load(os.path.join(self.base_exp_dir, 'checkpoints', checkpoint_name), map_location=self.device)
+        self.load_reconstruction_state(checkpoint)
+        self.restore_extended_checkpoint(checkpoint)
+        self.current_stage = None
+        self.set_training_stage()
+        logging.info('Resumed iteration %d', self.iter_step)
 
     def save_checkpoint(self):
         checkpoint = {
@@ -274,6 +336,7 @@ class Runner:
             'iter_step': self.iter_step,
         }
 
+        checkpoint.update(self.checkpoint_metadata())
         os.makedirs(os.path.join(self.base_exp_dir, 'checkpoints'), exist_ok=True)
         torch.save(checkpoint, os.path.join(self.base_exp_dir, 'checkpoints', 'ckpt_{:0>6d}.pth'.format(self.iter_step)))
 
@@ -654,16 +717,23 @@ if __name__ == '__main__':
     parser.add_argument('--surface_weight', type=float, default=0.1)
 
     parser.add_argument('--idx', type=int, default=0)
+    parser.add_argument('--init_checkpoint', type=str, default=None, help='Initialize reconstruction weights; new optimizer/head')
+    parser.add_argument('--max_steps', type=int, default=None, help='Bound this invocation without changing the training schedule')
+    parser.add_argument('--resolution', type=int, default=256, help='Export surface grid resolution')
 
     args = parser.parse_args() 
 
     if torch.cuda.is_available():
         torch.cuda.set_device(args.gpu)  
 
-    runner = Runner(args.conf, args.mode, args.case, args.is_continue, args.type, args.surface_weight)  
+    runner = Runner(args.conf, args.mode, args.case, args.is_continue, args.type, args.surface_weight, args.init_checkpoint)
 
     if args.mode == 'train':
-        runner.train()  
+        runner.train(max_steps=args.max_steps)
+    elif args.mode == 'export_landmarks':
+        runner.export_surface_landmarks(resolution=args.resolution)
+    elif args.mode == 'validate_landmarks':
+        runner.validate_landmarks(idx=args.idx)
     elif args.mode == 'validate_mesh':
         runner.validate_mesh(world_space=True, resolution=512, threshold=args.mcube_threshold)
     elif args.mode == 'validate_mesh_shiny':

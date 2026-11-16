@@ -1,0 +1,24 @@
+{
+  "baseline": {
+    "steps": 6,
+    "peak_cuda_memory_MiB": 85.73,
+    "resume_exact_parameters": true
+  },
+  "joint_from_zero": {
+    "steps": 6,
+    "peak_cuda_memory_MiB": 146.63,
+    "resume_exact_parameters": true
+  },
+  "staged": {
+    "steps": 6,
+    "peak_cuda_memory_MiB": 145.64,
+    "resume_exact_parameters": true
+  },
+  "frozen_geometry_unchanged": true,
+  "joint_unfreezes_sdf": true,
+  "upstream_initialization": {
+    "steps": 3,
+    "peak_cuda_memory_MiB": 65.43
+  },
+  "optimizer_mismatch_rejected": true
+}

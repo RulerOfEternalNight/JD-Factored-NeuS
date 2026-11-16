@@ -1,0 +1,61 @@
+{
+  "rows": [
+    {
+      "camera": 6,
+      "annotated_center_rays": 10,
+      "opaque_center_rays": 10,
+      "opacity": {
+        "mean": 0.9999819993972778,
+        "median": 0.9999861121177673,
+        "minimum": 0.9999026656150818,
+        "maximum": 1.0000059604644775
+      },
+      "true_class_response": {
+        "mean": 0.7060115337371826,
+        "median": 0.8673762083053589,
+        "minimum": 1.0970691111740656e-14,
+        "maximum": 0.9257764220237732
+      },
+      "nonlandmark_probability_on_opaque_positive_surface": {
+        "mean": 0.2883608937263489,
+        "median": 0.12159191817045212,
+        "minimum": 0.06907130032777786,
+        "maximum": 0.9999839663505554
+      },
+      "main_heatmap_L1": 0.14721055328845978,
+      "main_heatmap_head_gradient_norm": 0.35606610774993896,
+      "counterfactual_positive_NLL": 6.149230003356934,
+      "counterfactual_positive_head_gradient_norm": 5.309555530548096
+    },
+    {
+      "camera": 16,
+      "annotated_center_rays": 3,
+      "opaque_center_rays": 3,
+      "opacity": {
+        "mean": 0.9997274279594421,
+        "median": 0.9999107718467712,
+        "minimum": 0.9992954730987549,
+        "maximum": 0.999975860118866
+      },
+      "true_class_response": {
+        "mean": 0.5051481127738953,
+        "median": 0.7186837196350098,
+        "minimum": 4.153740285756102e-12,
+        "maximum": 0.7967604994773865
+      },
+      "nonlandmark_probability_on_opaque_positive_surface": {
+        "mean": 0.4720791280269623,
+        "median": 0.27768024802207947,
+        "minimum": 0.13895519077777863,
+        "maximum": 0.9996019601821899
+      },
+      "main_heatmap_L1": 0.25224825739860535,
+      "main_heatmap_head_gradient_norm": 0.5857969522476196,
+      "counterfactual_positive_NLL": 8.921242713928223,
+      "counterfactual_positive_head_gradient_norm": 9.84867000579834
+    }
+  ],
+  "checkpoint_sha256": "4e59ef89b385ff362aab2b2328ee1972a43f6163338b92fe4d51fe1857ac68e6",
+  "checkpoint_unchanged": true,
+  "caveat": "Positive-center diagnostic batches, not training-batch averages. Counterfactual objectives have different normalizations; gradient magnitudes are not directly matched ablations. No optimizer updates."
+}

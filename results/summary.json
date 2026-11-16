@@ -1,0 +1,150 @@
+{
+  "experiment": "staged_10_corrected",
+  "reprojection": {
+    "unit": "native_image_pixels",
+    "valid_observations": 280,
+    "selected_landmarks": 8,
+    "total_landmarks": 10,
+    "selection_coverage": 0.8,
+    "coverage_caveat": "Errors exclude unresolved landmarks; assess error together with coverage.",
+    "mean_error": 19.306544285955006,
+    "median_error": 12.372910900038086,
+    "per_landmark": [
+      {
+        "id": 1,
+        "count": 35,
+        "mean_error": 19.189007668095506
+      },
+      {
+        "id": 33,
+        "count": 35,
+        "mean_error": 21.582315045189816
+      },
+      {
+        "id": 291,
+        "count": 35,
+        "mean_error": 13.779957019021085
+      },
+      {
+        "id": 263,
+        "count": 35,
+        "mean_error": 19.20568472912132
+      },
+      {
+        "id": 133,
+        "count": 35,
+        "mean_error": 17.861976075558516
+      },
+      {
+        "id": 362,
+        "count": 35,
+        "mean_error": 18.942680712661932
+      },
+      {
+        "id": 61,
+        "count": 35,
+        "mean_error": 16.086593769531156
+      },
+      {
+        "id": 10,
+        "count": 0,
+        "mean_error": null
+      },
+      {
+        "id": 168,
+        "count": 35,
+        "mean_error": 27.80413926846073
+      },
+      {
+        "id": 152,
+        "count": 0,
+        "mean_error": null
+      }
+    ],
+    "visibility_reviewed_subset": {
+      "count": 223,
+      "mean_error": 14.145772727935658,
+      "per_landmark": [
+        {
+          "id": 1,
+          "count": 34,
+          "mean_error": 17.904402558866696
+        },
+        {
+          "id": 33,
+          "count": 22,
+          "mean_error": 12.75872461136865
+        },
+        {
+          "id": 291,
+          "count": 31,
+          "mean_error": 8.056060028263381
+        },
+        {
+          "id": 263,
+          "count": 24,
+          "mean_error": 10.313478171594973
+        },
+        {
+          "id": 133,
+          "count": 21,
+          "mean_error": 10.516340654162097
+        },
+        {
+          "id": 362,
+          "count": 29,
+          "mean_error": 12.723117952274524
+        },
+        {
+          "id": 61,
+          "count": 28,
+          "mean_error": 9.27308628893901
+        },
+        {
+          "id": 10,
+          "count": 0,
+          "mean_error": null
+        },
+        {
+          "id": 168,
+          "count": 34,
+          "mean_error": 27.010128307058007
+        },
+        {
+          "id": 152,
+          "count": 0,
+          "mean_error": null
+        }
+      ]
+    },
+    "caveat": "Detected 2D labels are pseudo-ground-truth; visibility/occlusion only as annotated."
+  },
+  "geometry_difference": {
+    "mean_symmetric_l2": 0.006865256917911847,
+    "forward_mean_l2": 0.007068117691070834,
+    "backward_mean_l2": 0.006662396144752862
+  },
+  "annotations": {
+    "original": 350,
+    "retained": 284,
+    "views": 35,
+    "per_class_retained": [
+      34,
+      22,
+      31,
+      24,
+      21,
+      29,
+      28,
+      32,
+      34,
+      29
+    ]
+  },
+  "original_run": "runs/20261116T004348Z_staged10_corrected",
+  "limitations": [
+    "Training-view MediaPipe agreement, not held-out accuracy",
+    "8 of 10 selected; forehead 10 and chin 152 unresolved",
+    "No reference mesh; geometry improvement not established"
+  ]
+}

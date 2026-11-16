@@ -1,0 +1,4450 @@
+{
+  "version": 1,
+  "landmark_ids": [
+    1,
+    33,
+    133,
+    362,
+    263,
+    61,
+    291,
+    152
+  ],
+  "mediapipe_version": "1.0.1",
+  "model_url": "https://storage.googleapis.com/mediapipe-models/face_landmarker/face_landmarker/float16/1/face_landmarker.task",
+  "model_sha256": "64184e229b263107bc2b804c6625db1341ff2bb731874b0bcc2fe6544e0bc9ff",
+  "images": {
+    "000.png": {
+      "width": 1728,
+      "height": 2592,
+      "detected": false,
+      "landmarks": [
+        {
+          "id": 1,
+          "xy": null,
+          "valid": false,
+          "confidence": null,
+          "visibility": null
+        },
+        {
+          "id": 33,
+          "xy": null,
+          "valid": false,
+          "confidence": null,
+          "visibility": null
+        },
+        {
+          "id": 133,
+          "xy": null,
+          "valid": false,
+          "confidence": null,
+          "visibility": null
+        },
+        {
+          "id": 362,
+          "xy": null,
+          "valid": false,
+          "confidence": null,
+          "visibility": null
+        },
+        {
+          "id": 263,
+          "xy": null,
+          "valid": false,
+          "confidence": null,
+          "visibility": null
+        },
+        {
+          "id": 61,
+          "xy": null,
+          "valid": false,
+          "confidence": null,
+          "visibility": null
+        },
+        {
+          "id": 291,
+          "xy": null,
+          "valid": false,
+          "confidence": null,
+          "visibility": null
+        },
+        {
+          "id": 152,
+          "xy": null,
+          "valid": false,
+          "confidence": null,
+          "visibility": null
+        }
+      ]
+    },
+    "001.png": {
+      "width": 1728,
+      "height": 2592,
+      "detected": true,
+      "landmarks": [
+        {
+          "id": 1,
+          "xy": [
+            732.9168663024902,
+            990.0500650405884
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.3757031010897661,
+          "consensus_residual_px": 15.468722373422136
+        },
+        {
+          "id": 33,
+          "xy": [
+            735.6021995544434,
+            821.4378232955933
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.06361327910618528,
+          "consensus_residual_px": 46.039964246174414
+        },
+        {
+          "id": 133,
+          "xy": [
+            800.7645320892334,
+            799.9816017150879
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.10845709034470798,
+          "consensus_residual_px": 34.40514533258451
+        },
+        {
+          "id": 362,
+          "xy": [
+            960.2422943115234,
+            769.0618515014648
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.3869486781856797,
+          "consensus_residual_px": 15.104382633311436
+        },
+        {
+          "id": 263,
+          "xy": [
+            1090.5063972473145,
+            724.7002429962158
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.9637184039802767,
+          "consensus_residual_px": 2.328355880572201
+        },
+        {
+          "id": 61,
+          "xy": [
+            750.4604187011719,
+            1212.0051097869873
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.18856637367096996,
+          "consensus_residual_px": 24.892907311986793
+        },
+        {
+          "id": 291,
+          "xy": [
+            960.4162559509277,
+            1165.9445943832397
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.3577919315282902,
+          "consensus_residual_px": 16.07695712268082
+        },
+        {
+          "id": 152,
+          "xy": [
+            828.7061805725098,
+            1463.5503959655762
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.8865105345291958,
+          "consensus_residual_px": 4.293555399320338
+        }
+      ]
+    },
+    "002.png": {
+      "width": 1728,
+      "height": 2592,
+      "detected": false,
+      "landmarks": [
+        {
+          "id": 1,
+          "xy": null,
+          "valid": false,
+          "confidence": null,
+          "visibility": null
+        },
+        {
+          "id": 33,
+          "xy": null,
+          "valid": false,
+          "confidence": null,
+          "visibility": null
+        },
+        {
+          "id": 133,
+          "xy": null,
+          "valid": false,
+          "confidence": null,
+          "visibility": null
+        },
+        {
+          "id": 362,
+          "xy": null,
+          "valid": false,
+          "confidence": null,
+          "visibility": null
+        },
+        {
+          "id": 263,
+          "xy": null,
+          "valid": false,
+          "confidence": null,
+          "visibility": null
+        },
+        {
+          "id": 61,
+          "xy": null,
+          "valid": false,
+          "confidence": null,
+          "visibility": null
+        },
+        {
+          "id": 291,
+          "xy": null,
+          "valid": false,
+          "confidence": null,
+          "visibility": null
+        },
+        {
+          "id": 152,
+          "xy": null,
+          "valid": false,
+          "confidence": null,
+          "visibility": null
+        }
+      ]
+    },
+    "003.png": {
+      "width": 1728,
+      "height": 2592,
+      "detected": false,
+      "landmarks": [
+        {
+          "id": 1,
+          "xy": null,
+          "valid": false,
+          "confidence": null,
+          "visibility": null
+        },
+        {
+          "id": 33,
+          "xy": null,
+          "valid": false,
+          "confidence": null,
+          "visibility": null
+        },
+        {
+          "id": 133,
+          "xy": null,
+          "valid": false,
+          "confidence": null,
+          "visibility": null
+        },
+        {
+          "id": 362,
+          "xy": null,
+          "valid": false,
+          "confidence": null,
+          "visibility": null
+        },
+        {
+          "id": 263,
+          "xy": null,
+          "valid": false,
+          "confidence": null,
+          "visibility": null
+        },
+        {
+          "id": 61,
+          "xy": null,
+          "valid": false,
+          "confidence": null,
+          "visibility": null
+        },
+        {
+          "id": 291,
+          "xy": null,
+          "valid": false,
+          "confidence": null,
+          "visibility": null
+        },
+        {
+          "id": 152,
+          "xy": null,
+          "valid": false,
+          "confidence": null,
+          "visibility": null
+        }
+      ]
+    },
+    "004.png": {
+      "width": 1728,
+      "height": 2592,
+      "detected": false,
+      "landmarks": [
+        {
+          "id": 1,
+          "xy": null,
+          "valid": false,
+          "confidence": null,
+          "visibility": null
+        },
+        {
+          "id": 33,
+          "xy": null,
+          "valid": false,
+          "confidence": null,
+          "visibility": null
+        },
+        {
+          "id": 133,
+          "xy": null,
+          "valid": false,
+          "confidence": null,
+          "visibility": null
+        },
+        {
+          "id": 362,
+          "xy": null,
+          "valid": false,
+          "confidence": null,
+          "visibility": null
+        },
+        {
+          "id": 263,
+          "xy": null,
+          "valid": false,
+          "confidence": null,
+          "visibility": null
+        },
+        {
+          "id": 61,
+          "xy": null,
+          "valid": false,
+          "confidence": null,
+          "visibility": null
+        },
+        {
+          "id": 291,
+          "xy": null,
+          "valid": false,
+          "confidence": null,
+          "visibility": null
+        },
+        {
+          "id": 152,
+          "xy": null,
+          "valid": false,
+          "confidence": null,
+          "visibility": null
+        }
+      ]
+    },
+    "005.png": {
+      "width": 1728,
+      "height": 2592,
+      "detected": false,
+      "landmarks": [
+        {
+          "id": 1,
+          "xy": null,
+          "valid": false,
+          "confidence": null,
+          "visibility": null
+        },
+        {
+          "id": 33,
+          "xy": null,
+          "valid": false,
+          "confidence": null,
+          "visibility": null
+        },
+        {
+          "id": 133,
+          "xy": null,
+          "valid": false,
+          "confidence": null,
+          "visibility": null
+        },
+        {
+          "id": 362,
+          "xy": null,
+          "valid": false,
+          "confidence": null,
+          "visibility": null
+        },
+        {
+          "id": 263,
+          "xy": null,
+          "valid": false,
+          "confidence": null,
+          "visibility": null
+        },
+        {
+          "id": 61,
+          "xy": null,
+          "valid": false,
+          "confidence": null,
+          "visibility": null
+        },
+        {
+          "id": 291,
+          "xy": null,
+          "valid": false,
+          "confidence": null,
+          "visibility": null
+        },
+        {
+          "id": 152,
+          "xy": null,
+          "valid": false,
+          "confidence": null,
+          "visibility": null
+        }
+      ]
+    },
+    "006.png": {
+      "width": 1728,
+      "height": 2592,
+      "detected": true,
+      "landmarks": [
+        {
+          "id": 1,
+          "xy": [
+            1001.3742828369141,
+            1067.1363143920898
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.77075315412667,
+          "consensus_residual_px": 6.5444819654103235
+        },
+        {
+          "id": 33,
+          "xy": [
+            728.7425594329834,
+            853.540002822876
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.897185500750086,
+          "consensus_residual_px": 4.062256153046994
+        },
+        {
+          "id": 133,
+          "xy": [
+            889.266975402832,
+            889.2803907394409
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.8386533404828519,
+          "consensus_residual_px": 5.263443854039849
+        },
+        {
+          "id": 362,
+          "xy": [
+            1106.9348030090332,
+            919.0828313827515
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.9809334612419279,
+          "consensus_residual_px": 1.6730056271318023
+        },
+        {
+          "id": 263,
+          "xy": [
+            1258.030632019043,
+            931.2761363983154
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.947201097952001,
+          "consensus_residual_px": 2.833169745052526
+        },
+        {
+          "id": 61,
+          "xy": [
+            802.8759155273438,
+            1247.2562112808228
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.8300919543244631,
+          "consensus_residual_px": 5.429065934651197
+        },
+        {
+          "id": 291,
+          "xy": [
+            1104.795352935791,
+            1291.8658618927002
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.9314335951658759,
+          "consensus_residual_px": 3.255824495241331
+        },
+        {
+          "id": 152,
+          "xy": [
+            922.2821960449219,
+            1519.4713382720947
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.414241230804801,
+          "consensus_residual_px": 14.269671776103973
+        }
+      ]
+    },
+    "007.png": {
+      "width": 1728,
+      "height": 2592,
+      "detected": false,
+      "landmarks": [
+        {
+          "id": 1,
+          "xy": null,
+          "valid": false,
+          "confidence": null,
+          "visibility": null
+        },
+        {
+          "id": 33,
+          "xy": null,
+          "valid": false,
+          "confidence": null,
+          "visibility": null
+        },
+        {
+          "id": 133,
+          "xy": null,
+          "valid": false,
+          "confidence": null,
+          "visibility": null
+        },
+        {
+          "id": 362,
+          "xy": null,
+          "valid": false,
+          "confidence": null,
+          "visibility": null
+        },
+        {
+          "id": 263,
+          "xy": null,
+          "valid": false,
+          "confidence": null,
+          "visibility": null
+        },
+        {
+          "id": 61,
+          "xy": null,
+          "valid": false,
+          "confidence": null,
+          "visibility": null
+        },
+        {
+          "id": 291,
+          "xy": null,
+          "valid": false,
+          "confidence": null,
+          "visibility": null
+        },
+        {
+          "id": 152,
+          "xy": null,
+          "valid": false,
+          "confidence": null,
+          "visibility": null
+        }
+      ]
+    },
+    "008.png": {
+      "width": 1728,
+      "height": 2592,
+      "detected": true,
+      "landmarks": [
+        {
+          "id": 1,
+          "xy": [
+            516.8596000671387,
+            1349.3952541351318
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.39731714332556206,
+          "consensus_residual_px": 14.77940713396832
+        },
+        {
+          "id": 33,
+          "xy": [
+            393.27556228637695,
+            1193.9039840698242
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.7214807633082575,
+          "consensus_residual_px": 7.455838051906707
+        },
+        {
+          "id": 133,
+          "xy": [
+            523.5204048156738,
+            1191.6466541290283
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.585222090256505,
+          "consensus_residual_px": 10.10249629603522
+        },
+        {
+          "id": 362,
+          "xy": [
+            752.887487411499,
+            1179.4160385131836
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.7679206339022898,
+          "consensus_residual_px": 6.5969218951945106
+        },
+        {
+          "id": 263,
+          "xy": [
+            926.3726119995117,
+            1160.7161664962769
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.9746541351908146,
+          "consensus_residual_px": 1.9351272928579306
+        },
+        {
+          "id": 61,
+          "xy": [
+            431.39226722717285,
+            1591.1634635925293
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.8115384285089103,
+          "consensus_residual_px": 5.782799107323719
+        },
+        {
+          "id": 291,
+          "xy": [
+            742.5794105529785,
+            1579.7932319641113
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.46729498177016965,
+          "consensus_residual_px": 12.812358481285361
+        },
+        {
+          "id": 152,
+          "xy": [
+            533.3947105407715,
+            1852.7133979797363
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.26998875965309976,
+          "consensus_residual_px": 19.73209409596661
+        }
+      ]
+    },
+    "009.png": {
+      "width": 1728,
+      "height": 2592,
+      "detected": true,
+      "landmarks": [
+        {
+          "id": 1,
+          "xy": [
+            480.74685287475586,
+            1194.9242706298828
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.7540033405467137,
+          "consensus_residual_px": 6.854238559752089
+        },
+        {
+          "id": 33,
+          "xy": [
+            473.854923248291,
+            967.8527297973633
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.4756116702328554,
+          "consensus_residual_px": 12.600317942475225
+        },
+        {
+          "id": 133,
+          "xy": [
+            540.478214263916,
+            984.1712894439697
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.8236312719172313,
+          "consensus_residual_px": 5.55297379059908
+        },
+        {
+          "id": 362,
+          "xy": [
+            667.1482429504395,
+            989.8404922485352
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.9302627807477808,
+          "consensus_residual_px": 3.2855700904342866
+        },
+        {
+          "id": 263,
+          "xy": [
+            793.1686706542969,
+            977.4247913360596
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.7162078788726107,
+          "consensus_residual_px": 7.553737105859494
+        },
+        {
+          "id": 61,
+          "xy": [
+            516.2219982147217,
+            1334.122163772583
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.7042684663265564,
+          "consensus_residual_px": 7.776083979372324
+        },
+        {
+          "id": 291,
+          "xy": [
+            684.710283279419,
+            1349.887939453125
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.8919069902196983,
+          "consensus_residual_px": 4.177536634087283
+        },
+        {
+          "id": 152,
+          "xy": [
+            601.188045501709,
+            1550.8788299560547
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.5819701959139351,
+          "consensus_residual_px": 10.170317178917305
+        }
+      ]
+    },
+    "010.png": {
+      "width": 1728,
+      "height": 2592,
+      "detected": true,
+      "landmarks": [
+        {
+          "id": 1,
+          "xy": [
+            669.9709224700928,
+            987.9116191864014
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.6546181785438173,
+          "consensus_residual_px": 8.716396008191056
+        },
+        {
+          "id": 33,
+          "xy": [
+            532.0412292480469,
+            700.8183689117432
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.7957335229355713,
+          "consensus_residual_px": 6.079893447576039
+        },
+        {
+          "id": 133,
+          "xy": [
+            664.0675048828125,
+            737.523193359375
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.7328702726914279,
+          "consensus_residual_px": 7.244840081436925
+        },
+        {
+          "id": 362,
+          "xy": [
+            865.5733795166016,
+            755.0377006530762
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.6293770216270005,
+          "consensus_residual_px": 9.208565371268522
+        },
+        {
+          "id": 263,
+          "xy": [
+            1043.8341064453125,
+            741.1524410247803
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.9432558717155505,
+          "consensus_residual_px": 2.9432486379678924
+        },
+        {
+          "id": 61,
+          "xy": [
+            602.0854053497314,
+            1123.5666275024414
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.8107157828331423,
+          "consensus_residual_px": 5.798346089019563
+        },
+        {
+          "id": 291,
+          "xy": [
+            878.3624954223633,
+            1160.520652770996
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.871724628177802,
+          "consensus_residual_px": 4.603235874583459
+        },
+        {
+          "id": 152,
+          "xy": [
+            715.5217323303223,
+            1388.3447399139404
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.3614619788618353,
+          "consensus_residual_px": 15.949362031730038
+        }
+      ]
+    },
+    "011.png": {
+      "width": 1728,
+      "height": 2592,
+      "detected": true,
+      "landmarks": [
+        {
+          "id": 1,
+          "xy": [
+            1504.3806037902832,
+            1099.593755722046
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.1589328303199504,
+          "consensus_residual_px": 27.605128799235406
+        },
+        {
+          "id": 33,
+          "xy": [
+            1180.58597946167,
+            886.05615234375
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.3454423998684166,
+          "consensus_residual_px": 16.518376470708915
+        },
+        {
+          "id": 133,
+          "xy": [
+            1299.7690658569336,
+            885.2128400802612
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.3586885299497493,
+          "consensus_residual_px": 16.045638561715077
+        },
+        {
+          "id": 362,
+          "xy": [
+            1411.2636451721191,
+            876.9797115325928
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.21673772195512747,
+          "consensus_residual_px": 22.81222253808309
+        },
+        {
+          "id": 263,
+          "xy": [
+            1451.6623992919922,
+            871.2617654800415
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.05,
+          "consensus_residual_px": 59.75762727282105
+        },
+        {
+          "id": 61,
+          "xy": [
+            1273.8823585510254,
+            1292.6440544128418
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.7422415205722965,
+          "consensus_residual_px": 7.071557941365458
+        },
+        {
+          "id": 291,
+          "xy": [
+            1404.7687683105469,
+            1273.8724966049194
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.1860005218667506,
+          "consensus_residual_px": 25.103612811925835
+        },
+        {
+          "id": 152,
+          "xy": [
+            1301.1127624511719,
+            1508.2525119781494
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.17496441767592102,
+          "consensus_residual_px": 26.0580982886868
+        }
+      ]
+    },
+    "012.png": {
+      "width": 1728,
+      "height": 2592,
+      "detected": false,
+      "landmarks": [
+        {
+          "id": 1,
+          "xy": null,
+          "valid": false,
+          "confidence": null,
+          "visibility": null
+        },
+        {
+          "id": 33,
+          "xy": null,
+          "valid": false,
+          "confidence": null,
+          "visibility": null
+        },
+        {
+          "id": 133,
+          "xy": null,
+          "valid": false,
+          "confidence": null,
+          "visibility": null
+        },
+        {
+          "id": 362,
+          "xy": null,
+          "valid": false,
+          "confidence": null,
+          "visibility": null
+        },
+        {
+          "id": 263,
+          "xy": null,
+          "valid": false,
+          "confidence": null,
+          "visibility": null
+        },
+        {
+          "id": 61,
+          "xy": null,
+          "valid": false,
+          "confidence": null,
+          "visibility": null
+        },
+        {
+          "id": 291,
+          "xy": null,
+          "valid": false,
+          "confidence": null,
+          "visibility": null
+        },
+        {
+          "id": 152,
+          "xy": null,
+          "valid": false,
+          "confidence": null,
+          "visibility": null
+        }
+      ]
+    },
+    "013.png": {
+      "width": 1728,
+      "height": 2592,
+      "detected": true,
+      "landmarks": [
+        {
+          "id": 1,
+          "xy": [
+            932.5640602111816,
+            989.4164028167725
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.718830178210893,
+          "consensus_residual_px": 7.505030267780977
+        },
+        {
+          "id": 33,
+          "xy": [
+            621.4408779144287,
+            718.8626403808594
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.9648613044946388,
+          "consensus_residual_px": 2.2900323563624503
+        },
+        {
+          "id": 133,
+          "xy": [
+            802.2127704620361,
+            743.7940006256104
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.8461925190856605,
+          "consensus_residual_px": 5.116057122807876
+        },
+        {
+          "id": 362,
+          "xy": [
+            1021.8003044128418,
+            751.839958190918
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.9668781843553781,
+          "consensus_residual_px": 2.221019814940804
+        },
+        {
+          "id": 263,
+          "xy": [
+            1187.0797233581543,
+            737.7819728851318
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.9411315017006855,
+          "consensus_residual_px": 3.001218186683349
+        },
+        {
+          "id": 61,
+          "xy": [
+            734.7744655609131,
+            1141.56254196167
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.8399881547911651,
+          "consensus_residual_px": 5.2374601528048625
+        },
+        {
+          "id": 291,
+          "xy": [
+            1044.0636863708496,
+            1154.9886417388916
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.8814180219198922,
+          "consensus_residual_px": 4.401489075824634
+        },
+        {
+          "id": 152,
+          "xy": [
+            879.0573120117188,
+            1412.1506023406982
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.7075262950456662,
+          "consensus_residual_px": 7.715309755813248
+        }
+      ]
+    },
+    "014.png": {
+      "width": 1728,
+      "height": 2592,
+      "detected": true,
+      "landmarks": [
+        {
+          "id": 1,
+          "xy": [
+            1345.489356994629,
+            1203.764024734497
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.21937416593155665,
+          "consensus_residual_px": 22.636535779698786
+        },
+        {
+          "id": 33,
+          "xy": [
+            921.2466659545898,
+            881.097318649292
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.9214838830183588,
+          "consensus_residual_px": 3.502811613223583
+        },
+        {
+          "id": 133,
+          "xy": [
+            1103.658576965332,
+            917.7250499725342
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.7224227667207842,
+          "consensus_residual_px": 7.438364486387626
+        },
+        {
+          "id": 362,
+          "xy": [
+            1280.8675003051758,
+            924.4392585754395
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.8416550040375985,
+          "consensus_residual_px": 5.204947613108576
+        },
+        {
+          "id": 263,
+          "xy": [
+            1392.4965934753418,
+            908.8809700012207
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.700198788251076,
+          "consensus_residual_px": 7.852126011171002
+        },
+        {
+          "id": 61,
+          "xy": [
+            1032.3544921875,
+            1405.568796157837
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.7883797360337084,
+          "consensus_residual_px": 6.21716144992286
+        },
+        {
+          "id": 291,
+          "xy": [
+            1287.3787536621094,
+            1417.2682571411133
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.657024146915386,
+          "consensus_residual_px": 8.670064992313144
+        },
+        {
+          "id": 152,
+          "xy": [
+            1148.353328704834,
+            1699.1897792816162
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.2750622723259061,
+          "consensus_residual_px": 19.481216998381775
+        }
+      ]
+    },
+    "015.png": {
+      "width": 1728,
+      "height": 2592,
+      "detected": true,
+      "landmarks": [
+        {
+          "id": 1,
+          "xy": [
+            434.0940284729004,
+            1035.9560852050781
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.6145445328136158,
+          "consensus_residual_px": 9.503677081746535
+        },
+        {
+          "id": 33,
+          "xy": [
+            401.69287490844727,
+            887.9929046630859
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.05537349425473295,
+          "consensus_residual_px": 49.563314862070534
+        },
+        {
+          "id": 133,
+          "xy": [
+            474.698055267334,
+            857.3525590896606
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.08573120694792051,
+          "consensus_residual_px": 39.18760530169633
+        },
+        {
+          "id": 362,
+          "xy": [
+            651.0552978515625,
+            809.7803077697754
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.6703578783865086,
+          "consensus_residual_px": 8.414905389395507
+        },
+        {
+          "id": 263,
+          "xy": [
+            783.550724029541,
+            758.102499961853
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.41254525730864794,
+          "consensus_residual_px": 14.319658267309267
+        },
+        {
+          "id": 61,
+          "xy": [
+            442.1930809020996,
+            1275.0820398330688
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.325784654608358,
+          "consensus_residual_px": 17.26295945727459
+        },
+        {
+          "id": 291,
+          "xy": [
+            668.7119407653809,
+            1205.4912042617798
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.8747020448262987,
+          "consensus_residual_px": 4.541749393809874
+        },
+        {
+          "id": 152,
+          "xy": [
+            545.0042037963867,
+            1503.9677410125732
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.5705024167178385,
+          "consensus_residual_px": 10.411968943496545
+        }
+      ]
+    },
+    "016.png": {
+      "width": 1728,
+      "height": 2592,
+      "detected": true,
+      "landmarks": [
+        {
+          "id": 1,
+          "xy": [
+            1324.1632461547852,
+            1261.4489164352417
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.05,
+          "consensus_residual_px": 52.79727222651293
+        },
+        {
+          "id": 33,
+          "xy": [
+            1067.4846496582031,
+            983.8028955459595
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.2964433977858203,
+          "consensus_residual_px": 18.48672054507367
+        },
+        {
+          "id": 133,
+          "xy": [
+            1122.2892608642578,
+            1027.9920101165771
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.07506108194439605,
+          "consensus_residual_px": 42.1240735767937
+        },
+        {
+          "id": 362,
+          "xy": [
+            1153.2775039672852,
+            1055.4558563232422
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.05,
+          "consensus_residual_px": 72.7454668081809
+        },
+        {
+          "id": 263,
+          "xy": [
+            1166.050552368164,
+            1047.1399183273315
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.05,
+          "consensus_residual_px": 93.63679179754038
+        },
+        {
+          "id": 61,
+          "xy": [
+            1194.1024589538574,
+            1428.827745437622
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.05,
+          "consensus_residual_px": 59.66684539058666
+        },
+        {
+          "id": 291,
+          "xy": [
+            1229.2013053894043,
+            1455.9291458129883
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.05,
+          "consensus_residual_px": 78.6627539237995
+        },
+        {
+          "id": 152,
+          "xy": [
+            1180.8656158447266,
+            1702.3108921051025
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.05,
+          "consensus_residual_px": 56.381680246363615
+        }
+      ]
+    },
+    "017.png": {
+      "width": 1728,
+      "height": 2592,
+      "detected": true,
+      "landmarks": [
+        {
+          "id": 1,
+          "xy": [
+            524.6693344116211,
+            1070.998927116394
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.494636741322122,
+          "consensus_residual_px": 12.129416022575121
+        },
+        {
+          "id": 33,
+          "xy": [
+            382.2006998062134,
+            866.2833881378174
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.8207919155523256,
+          "consensus_residual_px": 5.607167242558193
+        },
+        {
+          "id": 133,
+          "xy": [
+            516.2933235168457,
+            869.7465534210205
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.8995106643348424,
+          "consensus_residual_px": 4.010865284638125
+        },
+        {
+          "id": 362,
+          "xy": [
+            719.5110054016113,
+            856.0452976226807
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.8306967832023787,
+          "consensus_residual_px": 5.417420996661134
+        },
+        {
+          "id": 263,
+          "xy": [
+            894.896369934082,
+            825.3467845916748
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.974229985623567,
+          "consensus_residual_px": 1.9516764881729491
+        },
+        {
+          "id": 61,
+          "xy": [
+            467.32482147216797,
+            1274.0572729110718
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.8788187544919149,
+          "consensus_residual_px": 4.456042186597016
+        },
+        {
+          "id": 291,
+          "xy": [
+            751.1323699951172,
+            1258.7708959579468
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.9543623957692539,
+          "consensus_residual_px": 2.624133983784874
+        },
+        {
+          "id": 152,
+          "xy": [
+            600.9293174743652,
+            1525.7171173095703
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.8328401260617228,
+          "consensus_residual_px": 5.376088915272862
+        }
+      ]
+    },
+    "018.png": {
+      "width": 1728,
+      "height": 2592,
+      "detected": true,
+      "landmarks": [
+        {
+          "id": 1,
+          "xy": [
+            831.7279014587402,
+            1029.1176624298096
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.8883537653264185,
+          "consensus_residual_px": 4.254125646570316
+        },
+        {
+          "id": 33,
+          "xy": [
+            605.900562286377,
+            892.0743598937988
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.8024083438898901,
+          "consensus_residual_px": 5.954808898065557
+        },
+        {
+          "id": 133,
+          "xy": [
+            765.2074012756348,
+            896.9914798736572
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.8390802490740185,
+          "consensus_residual_px": 5.2551385756871385
+        },
+        {
+          "id": 362,
+          "xy": [
+            999.6274566650391,
+            893.2942543029785
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.9979444418032737,
+          "consensus_residual_px": 0.5446192060595766
+        },
+        {
+          "id": 263,
+          "xy": [
+            1176.4958724975586,
+            888.6590881347656
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.9873193017082634,
+          "consensus_residual_px": 1.359953368765577
+        },
+        {
+          "id": 61,
+          "xy": [
+            686.7205238342285,
+            1274.1220836639404
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.6672005981677551,
+          "consensus_residual_px": 8.475089653392208
+        },
+        {
+          "id": 291,
+          "xy": [
+            1010.3815612792969,
+            1274.8370876312256
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.7108969120825043,
+          "consensus_residual_px": 7.652516899622234
+        },
+        {
+          "id": 152,
+          "xy": [
+            821.2566261291504,
+            1531.154577255249
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.296080093870019,
+          "consensus_residual_px": 18.50283451213104
+        }
+      ]
+    },
+    "019.png": {
+      "width": 1728,
+      "height": 2592,
+      "detected": true,
+      "landmarks": [
+        {
+          "id": 1,
+          "xy": [
+            1262.4547576904297,
+            914.4402494430542
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.6787830080179125,
+          "consensus_residual_px": 8.254960897830646
+        },
+        {
+          "id": 33,
+          "xy": [
+            860.0987377166748,
+            625.6341104507446
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.5765708494373658,
+          "consensus_residual_px": 10.283602520185092
+        },
+        {
+          "id": 133,
+          "xy": [
+            1039.8392715454102,
+            677.6453189849854
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.9243305613327135,
+          "consensus_residual_px": 3.433427220710734
+        },
+        {
+          "id": 362,
+          "xy": [
+            1227.7262878417969,
+            715.739673614502
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.5943960875025712,
+          "consensus_residual_px": 9.912754323135148
+        },
+        {
+          "id": 263,
+          "xy": [
+            1344.2305297851562,
+            724.0772409439087
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.2753922619143675,
+          "consensus_residual_px": 19.465110042698086
+        },
+        {
+          "id": 61,
+          "xy": [
+            988.6658134460449,
+            1108.3578844070435
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.7103168265471701,
+          "consensus_residual_px": 7.66331767989022
+        },
+        {
+          "id": 291,
+          "xy": [
+            1248.7652435302734,
+            1159.3756885528564
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.7530994334134338,
+          "consensus_residual_px": 6.870939569341476
+        },
+        {
+          "id": 152,
+          "xy": [
+            1118.3895950317383,
+            1419.331386566162
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.8805059117672188,
+          "consensus_residual_px": 4.420672255045218
+        }
+      ]
+    },
+    "020.png": {
+      "width": 1728,
+      "height": 2592,
+      "detected": true,
+      "landmarks": [
+        {
+          "id": 1,
+          "xy": [
+            1176.3963775634766,
+            1004.4109382629395
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.618356996574583,
+          "consensus_residual_px": 9.42736363163623
+        },
+        {
+          "id": 33,
+          "xy": [
+            830.6771278381348,
+            787.055757522583
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.9020309592178132,
+          "consensus_residual_px": 3.954712824389578
+        },
+        {
+          "id": 133,
+          "xy": [
+            1003.972583770752,
+            833.8651885986328
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.8045189820284472,
+          "consensus_residual_px": 5.915144989320156
+        },
+        {
+          "id": 362,
+          "xy": [
+            1229.5520095825195,
+            883.9358596801758
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.8254296870941498,
+          "consensus_residual_px": 5.518568008474567
+        },
+        {
+          "id": 263,
+          "xy": [
+            1370.6369590759277,
+            915.0767698287964
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.6544433944632673,
+          "consensus_residual_px": 8.71976541411752
+        },
+        {
+          "id": 61,
+          "xy": [
+            936.0413360595703,
+            1203.6104564666748
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.38292040043894293,
+          "consensus_residual_px": 15.233426039884503
+        },
+        {
+          "id": 291,
+          "xy": [
+            1239.052848815918,
+            1277.562692642212
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.5934182298250441,
+          "consensus_residual_px": 9.93287008790155
+        },
+        {
+          "id": 152,
+          "xy": [
+            1062.0171661376953,
+            1512.5040664672852
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.08674199983091298,
+          "consensus_residual_px": 38.937070494898954
+        }
+      ]
+    },
+    "021.png": {
+      "width": 1728,
+      "height": 2592,
+      "detected": false,
+      "landmarks": [
+        {
+          "id": 1,
+          "xy": null,
+          "valid": false,
+          "confidence": null,
+          "visibility": null
+        },
+        {
+          "id": 33,
+          "xy": null,
+          "valid": false,
+          "confidence": null,
+          "visibility": null
+        },
+        {
+          "id": 133,
+          "xy": null,
+          "valid": false,
+          "confidence": null,
+          "visibility": null
+        },
+        {
+          "id": 362,
+          "xy": null,
+          "valid": false,
+          "confidence": null,
+          "visibility": null
+        },
+        {
+          "id": 263,
+          "xy": null,
+          "valid": false,
+          "confidence": null,
+          "visibility": null
+        },
+        {
+          "id": 61,
+          "xy": null,
+          "valid": false,
+          "confidence": null,
+          "visibility": null
+        },
+        {
+          "id": 291,
+          "xy": null,
+          "valid": false,
+          "confidence": null,
+          "visibility": null
+        },
+        {
+          "id": 152,
+          "xy": null,
+          "valid": false,
+          "confidence": null,
+          "visibility": null
+        }
+      ]
+    },
+    "022.png": {
+      "width": 1728,
+      "height": 2592,
+      "detected": false,
+      "landmarks": [
+        {
+          "id": 1,
+          "xy": null,
+          "valid": false,
+          "confidence": null,
+          "visibility": null
+        },
+        {
+          "id": 33,
+          "xy": null,
+          "valid": false,
+          "confidence": null,
+          "visibility": null
+        },
+        {
+          "id": 133,
+          "xy": null,
+          "valid": false,
+          "confidence": null,
+          "visibility": null
+        },
+        {
+          "id": 362,
+          "xy": null,
+          "valid": false,
+          "confidence": null,
+          "visibility": null
+        },
+        {
+          "id": 263,
+          "xy": null,
+          "valid": false,
+          "confidence": null,
+          "visibility": null
+        },
+        {
+          "id": 61,
+          "xy": null,
+          "valid": false,
+          "confidence": null,
+          "visibility": null
+        },
+        {
+          "id": 291,
+          "xy": null,
+          "valid": false,
+          "confidence": null,
+          "visibility": null
+        },
+        {
+          "id": 152,
+          "xy": null,
+          "valid": false,
+          "confidence": null,
+          "visibility": null
+        }
+      ]
+    },
+    "023.png": {
+      "width": 1728,
+      "height": 2592,
+      "detected": true,
+      "landmarks": [
+        {
+          "id": 1,
+          "xy": [
+            1364.9450454711914,
+            1139.3109283447266
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.36138485618239363,
+          "consensus_residual_px": 15.952027063779987
+        },
+        {
+          "id": 33,
+          "xy": [
+            968.4393997192383,
+            798.9219188690186
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.37234351265393295,
+          "consensus_residual_px": 15.580104320415344
+        },
+        {
+          "id": 133,
+          "xy": [
+            1089.8831634521484,
+            853.2941236495972
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.056841381300320605,
+          "consensus_residual_px": 48.88113745862012
+        },
+        {
+          "id": 362,
+          "xy": [
+            1213.8353118896484,
+            894.6334190368652
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.05,
+          "consensus_residual_px": 99.61061306142713
+        },
+        {
+          "id": 263,
+          "xy": [
+            1268.1086654663086,
+            917.6113414764404
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.05,
+          "consensus_residual_px": 132.26219861445676
+        },
+        {
+          "id": 61,
+          "xy": [
+            1083.5420608520508,
+            1290.505994796753
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.9040046763093837,
+          "consensus_residual_px": 3.9103978569131685
+        },
+        {
+          "id": 291,
+          "xy": [
+            1246.0127563476562,
+            1348.908748626709
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.05,
+          "consensus_residual_px": 74.1573872096655
+        },
+        {
+          "id": 152,
+          "xy": [
+            1213.8299560546875,
+            1638.1647777557373
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.052166440435612284,
+          "consensus_residual_px": 51.15071219036147
+        }
+      ]
+    },
+    "024.png": {
+      "width": 1728,
+      "height": 2592,
+      "detected": true,
+      "landmarks": [
+        {
+          "id": 1,
+          "xy": [
+            805.8615875244141,
+            786.0550918579102
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.3132294867433238,
+          "consensus_residual_px": 17.768703756404328
+        },
+        {
+          "id": 33,
+          "xy": [
+            569.2048015594482,
+            771.7723159790039
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.16214740699510385,
+          "consensus_residual_px": 27.277844611468552
+        },
+        {
+          "id": 133,
+          "xy": [
+            752.6737174987793,
+            749.0202655792236
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.3818120868396482,
+          "consensus_residual_px": 15.269213391170648
+        },
+        {
+          "id": 362,
+          "xy": [
+            1020.5384902954102,
+            729.144453048706
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.36769816767969193,
+          "consensus_residual_px": 15.736122703725428
+        },
+        {
+          "id": 263,
+          "xy": [
+            1210.598430633545,
+            728.1333589553833
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.25779390446993833,
+          "consensus_residual_px": 20.361378742195996
+        },
+        {
+          "id": 61,
+          "xy": [
+            645.1941604614258,
+            1082.1907939910889
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.6119296505486191,
+          "consensus_residual_px": 9.556210955972979
+        },
+        {
+          "id": 291,
+          "xy": [
+            1011.1508445739746,
+            1056.235439300537
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.5765961042550665,
+          "consensus_residual_px": 10.283070634504238
+        },
+        {
+          "id": 152,
+          "xy": [
+            789.3626289367676,
+            1364.7163925170898
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.05,
+          "consensus_residual_px": 74.32371676149918
+        }
+      ]
+    },
+    "025.png": {
+      "width": 1728,
+      "height": 2592,
+      "detected": false,
+      "landmarks": [
+        {
+          "id": 1,
+          "xy": null,
+          "valid": false,
+          "confidence": null,
+          "visibility": null
+        },
+        {
+          "id": 33,
+          "xy": null,
+          "valid": false,
+          "confidence": null,
+          "visibility": null
+        },
+        {
+          "id": 133,
+          "xy": null,
+          "valid": false,
+          "confidence": null,
+          "visibility": null
+        },
+        {
+          "id": 362,
+          "xy": null,
+          "valid": false,
+          "confidence": null,
+          "visibility": null
+        },
+        {
+          "id": 263,
+          "xy": null,
+          "valid": false,
+          "confidence": null,
+          "visibility": null
+        },
+        {
+          "id": 61,
+          "xy": null,
+          "valid": false,
+          "confidence": null,
+          "visibility": null
+        },
+        {
+          "id": 291,
+          "xy": null,
+          "valid": false,
+          "confidence": null,
+          "visibility": null
+        },
+        {
+          "id": 152,
+          "xy": null,
+          "valid": false,
+          "confidence": null,
+          "visibility": null
+        }
+      ]
+    },
+    "026.png": {
+      "width": 1728,
+      "height": 2592,
+      "detected": false,
+      "landmarks": [
+        {
+          "id": 1,
+          "xy": null,
+          "valid": false,
+          "confidence": null,
+          "visibility": null
+        },
+        {
+          "id": 33,
+          "xy": null,
+          "valid": false,
+          "confidence": null,
+          "visibility": null
+        },
+        {
+          "id": 133,
+          "xy": null,
+          "valid": false,
+          "confidence": null,
+          "visibility": null
+        },
+        {
+          "id": 362,
+          "xy": null,
+          "valid": false,
+          "confidence": null,
+          "visibility": null
+        },
+        {
+          "id": 263,
+          "xy": null,
+          "valid": false,
+          "confidence": null,
+          "visibility": null
+        },
+        {
+          "id": 61,
+          "xy": null,
+          "valid": false,
+          "confidence": null,
+          "visibility": null
+        },
+        {
+          "id": 291,
+          "xy": null,
+          "valid": false,
+          "confidence": null,
+          "visibility": null
+        },
+        {
+          "id": 152,
+          "xy": null,
+          "valid": false,
+          "confidence": null,
+          "visibility": null
+        }
+      ]
+    },
+    "027.png": {
+      "width": 1728,
+      "height": 2592,
+      "detected": true,
+      "landmarks": [
+        {
+          "id": 1,
+          "xy": [
+            927.7398948669434,
+            1040.9728546142578
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.501595217729792,
+          "consensus_residual_px": 11.961775653369953
+        },
+        {
+          "id": 33,
+          "xy": [
+            721.8476943969727,
+            881.6676378250122
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.8522800459168617,
+          "consensus_residual_px": 4.995853192159124
+        },
+        {
+          "id": 133,
+          "xy": [
+            868.9511604309082,
+            880.2950248718262
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.8303441159536858,
+          "consensus_residual_px": 5.424211973979044
+        },
+        {
+          "id": 362,
+          "xy": [
+            1095.4015274047852,
+            862.9620494842529
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.9640089241007876,
+          "consensus_residual_px": 2.318665678951777
+        },
+        {
+          "id": 263,
+          "xy": [
+            1267.5909004211426,
+            840.0814590454102
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.9345763325339904,
+          "consensus_residual_px": 3.1749822350190806
+        },
+        {
+          "id": 61,
+          "xy": [
+            813.9371566772461,
+            1260.8963642120361
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.8757024369488677,
+          "consensus_residual_px": 4.520997573381085
+        },
+        {
+          "id": 291,
+          "xy": [
+            1114.9301376342773,
+            1246.5891780853271
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.6538786685647068,
+          "consensus_residual_px": 8.730655342811701
+        },
+        {
+          "id": 152,
+          "xy": [
+            952.1936073303223,
+            1513.5271339416504
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.28788550667673585,
+          "consensus_residual_px": 18.87323110078423
+        }
+      ]
+    },
+    "028.png": {
+      "width": 1728,
+      "height": 2592,
+      "detected": true,
+      "landmarks": [
+        {
+          "id": 1,
+          "xy": [
+            1051.0681915283203,
+            815.8130378723145
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.7939384720189808,
+          "consensus_residual_px": 6.113448814936935
+        },
+        {
+          "id": 33,
+          "xy": [
+            763.1398429870605,
+            562.7500677108765
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.8024792102116525,
+          "consensus_residual_px": 5.953478064131196
+        },
+        {
+          "id": 133,
+          "xy": [
+            944.4369163513184,
+            594.3497514724731
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.9578056034760815,
+          "consensus_residual_px": 2.5186623444028653
+        },
+        {
+          "id": 362,
+          "xy": [
+            1182.7222366333008,
+            615.4943561553955
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.992721148900719,
+          "consensus_residual_px": 1.0275406850426068
+        },
+        {
+          "id": 263,
+          "xy": [
+            1361.2563171386719,
+            614.1136322021484
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.9124914510672022,
+          "consensus_residual_px": 3.7161401546183876
+        },
+        {
+          "id": 61,
+          "xy": [
+            855.3594932556152,
+            1007.2443037033081
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.9575866692453463,
+          "consensus_residual_px": 2.5254768387412936
+        },
+        {
+          "id": 291,
+          "xy": [
+            1189.680290222168,
+            1040.652045249939
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.9924661663271789,
+          "consensus_residual_px": 1.0455177367005541
+        },
+        {
+          "id": 152,
+          "xy": [
+            998.5240516662598,
+            1306.6902980804443
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.47252136031003744,
+          "consensus_residual_px": 12.67864850887685
+        }
+      ]
+    },
+    "029.png": {
+      "width": 1728,
+      "height": 2592,
+      "detected": false,
+      "landmarks": [
+        {
+          "id": 1,
+          "xy": null,
+          "valid": false,
+          "confidence": null,
+          "visibility": null
+        },
+        {
+          "id": 33,
+          "xy": null,
+          "valid": false,
+          "confidence": null,
+          "visibility": null
+        },
+        {
+          "id": 133,
+          "xy": null,
+          "valid": false,
+          "confidence": null,
+          "visibility": null
+        },
+        {
+          "id": 362,
+          "xy": null,
+          "valid": false,
+          "confidence": null,
+          "visibility": null
+        },
+        {
+          "id": 263,
+          "xy": null,
+          "valid": false,
+          "confidence": null,
+          "visibility": null
+        },
+        {
+          "id": 61,
+          "xy": null,
+          "valid": false,
+          "confidence": null,
+          "visibility": null
+        },
+        {
+          "id": 291,
+          "xy": null,
+          "valid": false,
+          "confidence": null,
+          "visibility": null
+        },
+        {
+          "id": 152,
+          "xy": null,
+          "valid": false,
+          "confidence": null,
+          "visibility": null
+        }
+      ]
+    },
+    "030.png": {
+      "width": 1728,
+      "height": 2592,
+      "detected": true,
+      "landmarks": [
+        {
+          "id": 1,
+          "xy": [
+            997.6595993041992,
+            991.7057132720947
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.40744750315752876,
+          "consensus_residual_px": 14.47134281944323
+        },
+        {
+          "id": 33,
+          "xy": [
+            663.6888885498047,
+            889.3076591491699
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.09920161814866106,
+          "consensus_residual_px": 36.16060321576253
+        },
+        {
+          "id": 133,
+          "xy": [
+            845.7571506500244,
+            931.5359973907471
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.3601516634256731,
+          "consensus_residual_px": 15.994735260262454
+        },
+        {
+          "id": 362,
+          "xy": [
+            1108.4666748046875,
+            995.684892654419
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.5651287313711904,
+          "consensus_residual_px": 10.526594896272314
+        },
+        {
+          "id": 263,
+          "xy": [
+            1247.8302383422852,
+            1050.158369064331
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.1077025202510749,
+          "consensus_residual_px": 34.540064659785195
+        },
+        {
+          "id": 61,
+          "xy": [
+            766.1838111877441,
+            1207.4485816955566
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.14748138887406806,
+          "consensus_residual_px": 28.851245814990662
+        },
+        {
+          "id": 291,
+          "xy": [
+            1123.4632186889648,
+            1304.629795074463
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.20517140287254187,
+          "consensus_residual_px": 23.618894928531148
+        },
+        {
+          "id": 152,
+          "xy": [
+            888.0911636352539,
+            1537.7054843902588
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.05,
+          "consensus_residual_px": 61.85483804108196
+        }
+      ]
+    },
+    "031.png": {
+      "width": 1728,
+      "height": 2592,
+      "detected": true,
+      "landmarks": [
+        {
+          "id": 1,
+          "xy": [
+            1006.7102394104004,
+            1197.8194341659546
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.9914195722035882,
+          "consensus_residual_px": 1.1163669543894383
+        },
+        {
+          "id": 33,
+          "xy": [
+            674.8288707733154,
+            860.2821750640869
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.9997310292612608,
+          "consensus_residual_px": 0.19683040135722818
+        },
+        {
+          "id": 133,
+          "xy": [
+            882.9167060852051,
+            900.3890619277954
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.8472568821512192,
+          "consensus_residual_px": 5.095121198450326
+        },
+        {
+          "id": 362,
+          "xy": [
+            1141.1926803588867,
+            916.0740365982056
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.8508932705141874,
+          "consensus_residual_px": 5.02333710654782
+        },
+        {
+          "id": 263,
+          "xy": [
+            1345.3218841552734,
+            898.065839767456
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.8242705968488296,
+          "consensus_residual_px": 5.540750049398216
+        },
+        {
+          "id": 61,
+          "xy": [
+            790.3711223602295,
+            1357.5825748443604
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.7527561385433975,
+          "consensus_residual_px": 6.877282305507901
+        },
+        {
+          "id": 291,
+          "xy": [
+            1153.7498474121094,
+            1383.5353031158447
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.9102374557956483,
+          "consensus_residual_px": 3.768352072248412
+        },
+        {
+          "id": 152,
+          "xy": [
+            951.0661010742188,
+            1676.0420665740967
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.6964242786062612,
+          "consensus_residual_px": 7.922783937069776
+        }
+      ]
+    },
+    "032.png": {
+      "width": 1728,
+      "height": 2592,
+      "detected": true,
+      "landmarks": [
+        {
+          "id": 1,
+          "xy": [
+            1371.229190826416,
+            1081.7243728637695
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.05142871124977148,
+          "consensus_residual_px": 51.536321051595614
+        },
+        {
+          "id": 33,
+          "xy": [
+            1092.110366821289,
+            814.9168882369995
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.43177181912883794,
+          "consensus_residual_px": 13.766244653741085
+        },
+        {
+          "id": 133,
+          "xy": [
+            1169.9465103149414,
+            850.6963634490967
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.32105480264562575,
+          "consensus_residual_px": 17.450546040430677
+        },
+        {
+          "id": 362,
+          "xy": [
+            1271.1616973876953,
+            898.03586769104
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.06345183017355714,
+          "consensus_residual_px": 46.10247374760874
+        },
+        {
+          "id": 263,
+          "xy": [
+            1289.2731742858887,
+            911.3742914199829
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.05,
+          "consensus_residual_px": 71.61560363873156
+        },
+        {
+          "id": 61,
+          "xy": [
+            1209.5823669433594,
+            1312.4226894378662
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.05,
+          "consensus_residual_px": 54.48289557755455
+        },
+        {
+          "id": 291,
+          "xy": [
+            1280.3395385742188,
+            1319.1589908599854
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.05,
+          "consensus_residual_px": 57.57537782037835
+        },
+        {
+          "id": 152,
+          "xy": [
+            1222.0375671386719,
+            1580.747703552246
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.05,
+          "consensus_residual_px": 52.530875474918126
+        }
+      ]
+    },
+    "033.png": {
+      "width": 1728,
+      "height": 2592,
+      "detected": true,
+      "landmarks": [
+        {
+          "id": 1,
+          "xy": [
+            244.91741466522217,
+            1447.1399116516113
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.7391278187124667,
+          "consensus_residual_px": 7.129110671778446
+        },
+        {
+          "id": 33,
+          "xy": [
+            359.60507583618164,
+            1190.640658378601
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.05,
+          "consensus_residual_px": 88.86418777553203
+        },
+        {
+          "id": 133,
+          "xy": [
+            392.75743675231934,
+            1218.5099773406982
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.05,
+          "consensus_residual_px": 53.35792122705359
+        },
+        {
+          "id": 362,
+          "xy": [
+            458.0840492248535,
+            1234.9612483978271
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.6016101095975335,
+          "consensus_residual_px": 9.765125694911324
+        },
+        {
+          "id": 263,
+          "xy": [
+            574.1458168029785,
+            1245.3541431427002
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.5316879809443142,
+          "consensus_residual_px": 11.262128453777894
+        },
+        {
+          "id": 61,
+          "xy": [
+            346.69354820251465,
+            1615.4559860229492
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.05,
+          "consensus_residual_px": 57.36730679271667
+        },
+        {
+          "id": 291,
+          "xy": [
+            465.35171127319336,
+            1656.1024475097656
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.4515329021344018,
+          "consensus_residual_px": 13.225491934165548
+        },
+        {
+          "id": 152,
+          "xy": [
+            439.8362045288086,
+            1852.6200828552246
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.214371764264207,
+          "consensus_residual_px": 22.97238027692786
+        }
+      ]
+    },
+    "034.png": {
+      "width": 1728,
+      "height": 2592,
+      "detected": true,
+      "landmarks": [
+        {
+          "id": 1,
+          "xy": [
+            883.771167755127,
+            1321.7674884796143
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.7367493851951896,
+          "consensus_residual_px": 7.173086236492239
+        },
+        {
+          "id": 33,
+          "xy": [
+            639.7373886108398,
+            953.0627460479736
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.4088752827971362,
+          "consensus_residual_px": 14.428639308362614
+        },
+        {
+          "id": 133,
+          "xy": [
+            823.9215660095215,
+            1004.6677093505859
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.7586682405840421,
+          "consensus_residual_px": 6.768034028736508
+        },
+        {
+          "id": 362,
+          "xy": [
+            1067.0134391784668,
+            1038.7526807785034
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.46794209144468435,
+          "consensus_residual_px": 12.795717451155362
+        },
+        {
+          "id": 263,
+          "xy": [
+            1274.129550933838,
+            1032.9522342681885
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.6543361109934169,
+          "consensus_residual_px": 8.721833821233325
+        },
+        {
+          "id": 61,
+          "xy": [
+            730.9868087768555,
+            1428.2499332427979
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.924904140109181,
+          "consensus_residual_px": 3.419328936840992
+        },
+        {
+          "id": 291,
+          "xy": [
+            1077.1473999023438,
+            1479.917158126831
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.8530378669052231,
+          "consensus_residual_px": 4.980808155167056
+        },
+        {
+          "id": 152,
+          "xy": [
+            868.6858406066895,
+            1727.0863666534424
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.5908915214469759,
+          "consensus_residual_px": 9.984966379287936
+        }
+      ]
+    },
+    "035.png": {
+      "width": 1728,
+      "height": 2592,
+      "detected": true,
+      "landmarks": [
+        {
+          "id": 1,
+          "xy": [
+            1425.8130798339844,
+            1368.1548385620117
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.4434271250106935,
+          "consensus_residual_px": 13.444081497826227
+        },
+        {
+          "id": 33,
+          "xy": [
+            1021.8698272705078,
+            1019.1853179931641
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.6579083363291754,
+          "consensus_residual_px": 8.653061630244862
+        },
+        {
+          "id": 133,
+          "xy": [
+            1210.8306884765625,
+            1067.4256839752197
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.9372346927656487,
+          "consensus_residual_px": 3.105395343903954
+        },
+        {
+          "id": 362,
+          "xy": [
+            1407.422996520996,
+            1092.5739555358887
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.7595945515806883,
+          "consensus_residual_px": 6.750912492991587
+        },
+        {
+          "id": 263,
+          "xy": [
+            1534.9147338867188,
+            1087.8241539001465
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.4109419227340246,
+          "consensus_residual_px": 14.367131919710971
+        },
+        {
+          "id": 61,
+          "xy": [
+            1111.059310913086,
+            1542.0769271850586
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.7144002004582608,
+          "consensus_residual_px": 7.587337649064469
+        },
+        {
+          "id": 291,
+          "xy": [
+            1380.736312866211,
+            1575.8142070770264
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.78233112781195,
+          "consensus_residual_px": 6.329714246081484
+        },
+        {
+          "id": 152,
+          "xy": [
+            1216.7231369018555,
+            1864.671329498291
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.758415581598719,
+          "consensus_residual_px": 6.7727038016231536
+        }
+      ]
+    },
+    "036.png": {
+      "width": 1728,
+      "height": 2592,
+      "detected": true,
+      "landmarks": [
+        {
+          "id": 1,
+          "xy": [
+            935.4971008300781,
+            1015.1641931533813
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.4833558709374542,
+          "consensus_residual_px": 12.406334782991888
+        },
+        {
+          "id": 33,
+          "xy": [
+            641.046272277832,
+            802.3992977142334
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.7931906218596328,
+          "consensus_residual_px": 6.12741894529115
+        },
+        {
+          "id": 133,
+          "xy": [
+            816.9066581726074,
+            831.2242469787598
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.7192655786903999,
+          "consensus_residual_px": 7.496946993535821
+        },
+        {
+          "id": 362,
+          "xy": [
+            1068.994686126709,
+            851.7271556854248
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.8139577649502321,
+          "consensus_residual_px": 5.737016314867513
+        },
+        {
+          "id": 263,
+          "xy": [
+            1239.6094436645508,
+            853.1265735626221
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.7840370672905205,
+          "consensus_residual_px": 6.297998552750167
+        },
+        {
+          "id": 61,
+          "xy": [
+            737.9137573242188,
+            1232.982087135315
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.7346027248420637,
+          "consensus_residual_px": 7.212788679460771
+        },
+        {
+          "id": 291,
+          "xy": [
+            1081.9995803833008,
+            1261.2439012527466
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.9157063375087995,
+          "consensus_residual_px": 3.640831651874255
+        },
+        {
+          "id": 152,
+          "xy": [
+            891.0286331176758,
+            1525.4841384887695
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.3335726430486453,
+          "consensus_residual_px": 16.961429099920508
+        }
+      ]
+    },
+    "037.png": {
+      "width": 1728,
+      "height": 2592,
+      "detected": true,
+      "landmarks": [
+        {
+          "id": 1,
+          "xy": [
+            1097.1076698303223,
+            1315.2482528686523
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.648038310009826,
+          "consensus_residual_px": 8.843590059214632
+        },
+        {
+          "id": 33,
+          "xy": [
+            778.4301338195801,
+            972.5790481567383
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.5934152182581063,
+          "consensus_residual_px": 9.932932079001594
+        },
+        {
+          "id": 133,
+          "xy": [
+            974.5667839050293,
+            1014.5886211395264
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.7423823336534824,
+          "consensus_residual_px": 7.068955580982584
+        },
+        {
+          "id": 362,
+          "xy": [
+            1227.5026817321777,
+            1030.4582176208496
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.7578572864508658,
+          "consensus_residual_px": 6.783022119157119
+        },
+        {
+          "id": 263,
+          "xy": [
+            1420.5752792358398,
+            1009.8547325134277
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.8345190904078439,
+          "consensus_residual_px": 5.343638346542826
+        },
+        {
+          "id": 61,
+          "xy": [
+            882.9338035583496,
+            1437.3084526062012
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.6789604013906495,
+          "consensus_residual_px": 8.251602997527542
+        },
+        {
+          "id": 291,
+          "xy": [
+            1228.3844375610352,
+            1465.5827808380127
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.9501411916831265,
+          "consensus_residual_px": 2.7488948006140808
+        },
+        {
+          "id": 152,
+          "xy": [
+            1031.7047882080078,
+            1726.2371063232422
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.6292567517848532,
+          "consensus_residual_px": 9.210939490436285
+        }
+      ]
+    },
+    "038.png": {
+      "width": 1728,
+      "height": 2592,
+      "detected": true,
+      "landmarks": [
+        {
+          "id": 1,
+          "xy": [
+            447.9048728942871,
+            758.3030347824097
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.8726027834154463,
+          "consensus_residual_px": 4.585143358533362
+        },
+        {
+          "id": 33,
+          "xy": [
+            350.8411273956299,
+            602.3900699615479
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.4366633382378195,
+          "consensus_residual_px": 13.629875495305162
+        },
+        {
+          "id": 133,
+          "xy": [
+            463.85717582702637,
+            591.3708901405334
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.5731308530083571,
+          "consensus_residual_px": 10.356231145030765
+        },
+        {
+          "id": 362,
+          "xy": [
+            657.8015384674072,
+            560.5119338035583
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.890536900161202,
+          "consensus_residual_px": 4.2071612481492755
+        },
+        {
+          "id": 263,
+          "xy": [
+            815.6729106903076,
+            524.746015548706
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.8294209042005396,
+          "consensus_residual_px": 5.441976494667167
+        },
+        {
+          "id": 61,
+          "xy": [
+            408.51111030578613,
+            986.1135263442993
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.9398632753445827,
+          "consensus_residual_px": 3.0354199997753404
+        },
+        {
+          "id": 291,
+          "xy": [
+            674.966474533081,
+            949.6007394790649
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.5326106470514157,
+          "consensus_residual_px": 11.241279124572879
+        },
+        {
+          "id": 152,
+          "xy": [
+            517.025218963623,
+            1226.8266105651855
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.5916359404127646,
+          "consensus_residual_px": 9.969599866470457
+        }
+      ]
+    },
+    "039.png": {
+      "width": 1728,
+      "height": 2592,
+      "detected": true,
+      "landmarks": [
+        {
+          "id": 1,
+          "xy": [
+            1246.8255043029785,
+            1427.020305633545
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.23158821157456025,
+          "consensus_residual_px": 21.858483645288327
+        },
+        {
+          "id": 33,
+          "xy": [
+            833.0859661102295,
+            1093.8201141357422
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.65978591617089,
+          "consensus_residual_px": 8.616995570332989
+        },
+        {
+          "id": 133,
+          "xy": [
+            1048.5432243347168,
+            1117.6737155914307
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.4834911323495786,
+          "consensus_residual_px": 12.402975348243714
+        },
+        {
+          "id": 362,
+          "xy": [
+            1294.2581176757812,
+            1103.0749969482422
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.786729340498136,
+          "consensus_residual_px": 6.247900842328249
+        },
+        {
+          "id": 263,
+          "xy": [
+            1463.831886291504,
+            1061.6923656463623
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.5415878718150893,
+          "consensus_residual_px": 11.040146349851783
+        },
+        {
+          "id": 61,
+          "xy": [
+            956.5545959472656,
+            1581.4047718048096
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.8373176075536214,
+          "consensus_residual_px": 5.289399982103445
+        },
+        {
+          "id": 291,
+          "xy": [
+            1297.7541389465332,
+            1568.598352432251
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.6714462008270462,
+          "consensus_residual_px": 8.394191686043243
+        },
+        {
+          "id": 152,
+          "xy": [
+            1115.07670211792,
+            1853.3086681365967
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.20045769352866946,
+          "consensus_residual_px": 23.965726890456658
+        }
+      ]
+    },
+    "040.png": {
+      "width": 1728,
+      "height": 2592,
+      "detected": true,
+      "landmarks": [
+        {
+          "id": 1,
+          "xy": [
+            576.9183368682861,
+            1252.6162691116333
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.3850199590961319,
+          "consensus_residual_px": 15.165967982570752
+        },
+        {
+          "id": 33,
+          "xy": [
+            489.6811065673828,
+            925.1817626953125
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.5781435652827713,
+          "consensus_residual_px": 10.250516212207007
+        },
+        {
+          "id": 133,
+          "xy": [
+            615.3222999572754,
+            982.588794708252
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.765934154848798,
+          "consensus_residual_px": 6.633680506020873
+        },
+        {
+          "id": 362,
+          "xy": [
+            805.3027267456055,
+            1024.9109888076782
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.8747019212099788,
+          "consensus_residual_px": 4.541751955135503
+        },
+        {
+          "id": 263,
+          "xy": [
+            984.8489570617676,
+            1034.1770725250244
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.43840158924606626,
+          "consensus_residual_px": 13.58182471397134
+        },
+        {
+          "id": 61,
+          "xy": [
+            546.650505065918,
+            1372.2937660217285
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.9074369329273472,
+          "consensus_residual_px": 3.832585822336691
+        },
+        {
+          "id": 291,
+          "xy": [
+            815.0207347869873,
+            1434.7048988342285
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.8068712338719993,
+          "consensus_residual_px": 5.87087201306206
+        },
+        {
+          "id": 152,
+          "xy": [
+            655.1839256286621,
+            1643.29541015625
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.3238427707180913,
+          "consensus_residual_px": 17.339556718262582
+        }
+      ]
+    },
+    "041.png": {
+      "width": 1728,
+      "height": 2592,
+      "detected": false,
+      "landmarks": [
+        {
+          "id": 1,
+          "xy": null,
+          "valid": false,
+          "confidence": null,
+          "visibility": null
+        },
+        {
+          "id": 33,
+          "xy": null,
+          "valid": false,
+          "confidence": null,
+          "visibility": null
+        },
+        {
+          "id": 133,
+          "xy": null,
+          "valid": false,
+          "confidence": null,
+          "visibility": null
+        },
+        {
+          "id": 362,
+          "xy": null,
+          "valid": false,
+          "confidence": null,
+          "visibility": null
+        },
+        {
+          "id": 263,
+          "xy": null,
+          "valid": false,
+          "confidence": null,
+          "visibility": null
+        },
+        {
+          "id": 61,
+          "xy": null,
+          "valid": false,
+          "confidence": null,
+          "visibility": null
+        },
+        {
+          "id": 291,
+          "xy": null,
+          "valid": false,
+          "confidence": null,
+          "visibility": null
+        },
+        {
+          "id": 152,
+          "xy": null,
+          "valid": false,
+          "confidence": null,
+          "visibility": null
+        }
+      ]
+    },
+    "042.png": {
+      "width": 1728,
+      "height": 2592,
+      "detected": true,
+      "landmarks": [
+        {
+          "id": 1,
+          "xy": [
+            555.7228260040283,
+            1188.8408660888672
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.07913682172044777,
+          "consensus_residual_px": 40.93450072742726
+        },
+        {
+          "id": 33,
+          "xy": [
+            641.7230129241943,
+            961.6247177124023
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.05,
+          "consensus_residual_px": 119.94051765935254
+        },
+        {
+          "id": 133,
+          "xy": [
+            675.7314834594727,
+            961.8436374664307
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.05,
+          "consensus_residual_px": 88.76571356611322
+        },
+        {
+          "id": 362,
+          "xy": [
+            777.8941898345947,
+            954.1163263320923
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.050660958207485694,
+          "consensus_residual_px": 51.946371486294865
+        },
+        {
+          "id": 263,
+          "xy": [
+            866.3606872558594,
+            928.1517791748047
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.09731444638653235,
+          "consensus_residual_px": 36.54776585876713
+        },
+        {
+          "id": 61,
+          "xy": [
+            619.479097366333,
+            1375.751214981079
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.05,
+          "consensus_residual_px": 68.01894108227303
+        },
+        {
+          "id": 291,
+          "xy": [
+            730.7844200134277,
+            1379.7393550872803
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.3822484821516221,
+          "consensus_residual_px": 15.25510748092124
+        },
+        {
+          "id": 152,
+          "xy": [
+            654.4770584106445,
+            1627.286922454834
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.07850349349867357,
+          "consensus_residual_px": 41.11341960609991
+        }
+      ]
+    },
+    "043.png": {
+      "width": 1728,
+      "height": 2592,
+      "detected": true,
+      "landmarks": [
+        {
+          "id": 1,
+          "xy": [
+            355.36618995666504,
+            1104.4548711776733
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.4441376395422616,
+          "consensus_residual_px": 13.424746376592925
+        },
+        {
+          "id": 33,
+          "xy": [
+            259.9535093307495,
+            815.8518161773682
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.44991974363099874,
+          "consensus_residual_px": 13.268650322321943
+        },
+        {
+          "id": 133,
+          "xy": [
+            387.25825595855713,
+            847.355712890625
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.7788864956775303,
+          "consensus_residual_px": 6.393693197991951
+        },
+        {
+          "id": 362,
+          "xy": [
+            585.4993629455566,
+            862.5223560333252
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.8308794779827726,
+          "consensus_residual_px": 5.413901937514997
+        },
+        {
+          "id": 263,
+          "xy": [
+            766.3264617919922,
+            849.2203159332275
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.9037481264166154,
+          "consensus_residual_px": 3.916175418544306
+        },
+        {
+          "id": 61,
+          "xy": [
+            323.5586585998535,
+            1268.9603204727173
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.7786941842868821,
+          "consensus_residual_px": 6.397262829523947
+        },
+        {
+          "id": 291,
+          "xy": [
+            602.1029148101807,
+            1294.836805343628
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.8452616916257382,
+          "consensus_residual_px": 5.134339414938338
+        },
+        {
+          "id": 152,
+          "xy": [
+            434.49231719970703,
+            1554.7818431854248
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.3291761800274956,
+          "consensus_residual_px": 17.130549067967397
+        }
+      ]
+    },
+    "044.png": {
+      "width": 1728,
+      "height": 2592,
+      "detected": true,
+      "landmarks": [
+        {
+          "id": 1,
+          "xy": [
+            1325.1373901367188,
+            1002.9099397659302
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.8326109569524135,
+          "consensus_residual_px": 5.380513165713647
+        },
+        {
+          "id": 33,
+          "xy": [
+            947.1967163085938,
+            716.5161666870117
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.756790962293107,
+          "consensus_residual_px": 6.802728403166582
+        },
+        {
+          "id": 133,
+          "xy": [
+            1113.8328094482422,
+            779.1553344726562
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.6103635914500968,
+          "consensus_residual_px": 9.587750014282927
+        },
+        {
+          "id": 362,
+          "xy": [
+            1305.437702178955,
+            844.703106880188
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.3065797869807815,
+          "consensus_residual_px": 18.047112912495365
+        },
+        {
+          "id": 263,
+          "xy": [
+            1402.0965156555176,
+            884.656888961792
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.2157540734805326,
+          "consensus_residual_px": 22.878517528778797
+        },
+        {
+          "id": 61,
+          "xy": [
+            1052.7667121887207,
+            1175.0191812515259
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.7218101121451089,
+          "consensus_residual_px": 7.449728316180739
+        },
+        {
+          "id": 291,
+          "xy": [
+            1307.7954025268555,
+            1266.5060863494873
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.7554186502447826,
+          "consensus_residual_px": 6.828087272363134
+        },
+        {
+          "id": 152,
+          "xy": [
+            1162.4143524169922,
+            1497.729377746582
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.44048664608292964,
+          "consensus_residual_px": 13.524465202416184
+        }
+      ]
+    },
+    "045.png": {
+      "width": 1728,
+      "height": 2592,
+      "detected": true,
+      "landmarks": [
+        {
+          "id": 1,
+          "xy": [
+            674.8072414398193,
+            1475.356149673462
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.3675909087915234,
+          "consensus_residual_px": 15.739753164354578
+        },
+        {
+          "id": 33,
+          "xy": [
+            658.3313026428223,
+            1161.2277002334595
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.14697996269666727,
+          "consensus_residual_px": 28.908915256787804
+        },
+        {
+          "id": 133,
+          "xy": [
+            743.1248817443848,
+            1215.2658863067627
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.44406319350700985,
+          "consensus_residual_px": 13.426770667295742
+        },
+        {
+          "id": 362,
+          "xy": [
+            878.7833404541016,
+            1258.586196899414
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.475933429381532,
+          "consensus_residual_px": 12.592192945119596
+        },
+        {
+          "id": 263,
+          "xy": [
+            1037.028694152832,
+            1269.78408908844
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.7434605256282977,
+          "consensus_residual_px": 7.0490304908309485
+        },
+        {
+          "id": 61,
+          "xy": [
+            724.7970600128174,
+            1612.5211944580078
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.11583538528697919,
+          "consensus_residual_px": 33.153332346886145
+        },
+        {
+          "id": 291,
+          "xy": [
+            914.5831832885742,
+            1664.810417175293
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.8951491411382514,
+          "consensus_residual_px": 4.106951200389383
+        },
+        {
+          "id": 152,
+          "xy": [
+            828.71653175354,
+            1859.9405307769775
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.2694905670057414,
+          "consensus_residual_px": 19.75706260987152
+        }
+      ]
+    },
+    "046.png": {
+      "width": 1728,
+      "height": 2592,
+      "detected": true,
+      "landmarks": [
+        {
+          "id": 1,
+          "xy": [
+            625.0825881958008,
+            1061.5512342453003
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.203885070732225,
+          "consensus_residual_px": 23.71244939348724
+        },
+        {
+          "id": 33,
+          "xy": [
+            731.3711414337158,
+            818.9223318099976
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.2982864981183063,
+          "consensus_residual_px": 18.40536204762368
+        },
+        {
+          "id": 133,
+          "xy": [
+            765.3278045654297,
+            837.8060531616211
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.37730959655086993,
+          "consensus_residual_px": 15.415883042858464
+        },
+        {
+          "id": 362,
+          "xy": [
+            853.1195182800293,
+            845.2326393127441
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.43766317809486566,
+          "consensus_residual_px": 13.602210838824753
+        },
+        {
+          "id": 263,
+          "xy": [
+            972.8257255554199,
+            832.5743808746338
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.15586251975089868,
+          "consensus_residual_px": 27.92653099160806
+        },
+        {
+          "id": 61,
+          "xy": [
+            714.5330657958984,
+            1247.0776920318604
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.6006633126380694,
+          "consensus_residual_px": 9.784424763024827
+        },
+        {
+          "id": 291,
+          "xy": [
+            847.675724029541,
+            1285.5555810928345
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.8595004953551888,
+          "consensus_residual_px": 4.8517182995247845
+        },
+        {
+          "id": 152,
+          "xy": [
+            794.4588088989258,
+            1518.0421028137207
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.1030803178672189,
+          "consensus_residual_px": 35.39730098262624
+        }
+      ]
+    },
+    "047.png": {
+      "width": 1728,
+      "height": 2592,
+      "detected": true,
+      "landmarks": [
+        {
+          "id": 1,
+          "xy": [
+            1350.2796363830566,
+            1426.578140258789
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.4111115941185324,
+          "consensus_residual_px": 14.362097992431224
+        },
+        {
+          "id": 33,
+          "xy": [
+            936.2283782958984,
+            1145.8024320602417
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.5411239949017007,
+          "consensus_residual_px": 11.050464261575836
+        },
+        {
+          "id": 133,
+          "xy": [
+            1127.100242614746,
+            1153.2278594970703
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.5321207529269406,
+          "consensus_residual_px": 11.252344986541617
+        },
+        {
+          "id": 362,
+          "xy": [
+            1310.9816093444824,
+            1128.5782985687256
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.6938284999250252,
+          "consensus_residual_px": 7.971454279022805
+        },
+        {
+          "id": 263,
+          "xy": [
+            1433.2779808044434,
+            1082.344825744629
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.41735039754107817,
+          "consensus_residual_px": 14.178639403925743
+        },
+        {
+          "id": 61,
+          "xy": [
+            1055.5277481079102,
+            1611.1682796478271
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.697806393059993,
+          "consensus_residual_px": 7.896895849718546
+        },
+        {
+          "id": 291,
+          "xy": [
+            1315.3365211486816,
+            1589.3262062072754
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.2170081503305252,
+          "consensus_residual_px": 22.794068240515973
+        },
+        {
+          "id": 152,
+          "xy": [
+            1189.032543182373,
+            1865.776279449463
+          ],
+          "valid": true,
+          "confidence": null,
+          "visibility": null,
+          "supervision_weight": 0.32788934570885775,
+          "consensus_residual_px": 17.18058642124891
+        }
+      ]
+    }
+  },
+  "supervision_weighting": {
+    "method": "leave_one_view_out_robust_camera_agreement",
+    "scale_px": 12.0,
+    "floor": 0.05,
+    "source_sha256": "07d96eea716cfed389069101b7c1f07aeb200e6e1fd2723425eb8df6e65cd5b7",
+    "cameras_sha256": "a374783349e3c47985de187e1f2f7dad6ecfe912d20152915c7999ff0729aa0b",
+    "note": "Heuristic reliability, not MediaPipe confidence, visibility or 3D ground truth. Original xy unchanged."
+  }
+}

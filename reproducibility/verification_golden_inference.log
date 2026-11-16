@@ -1,0 +1,12 @@
+/workspace/.micromamba/envs/factored-neus/lib/python3.10/site-packages/torch/nn/modules/lazy.py:180: UserWarning: Lazy modules are a new feature under heavy development so changes to the API or functionality can happen at any moment.
+  warnings.warn('Lazy modules are a new feature under heavy development '
+Load data: Begin
+Load data: End
+{
+  "iteration": 30000,
+  "head_outputs": 11,
+  "camera": 6,
+  "median_true_class_response": 0.8673762083053589,
+  "golden_median": 0.8673762083053589,
+  "checkpoint_unchanged": true
+}

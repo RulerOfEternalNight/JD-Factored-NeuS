@@ -1,0 +1,1138 @@
+{
+  "experiment": "staged_10_corrected",
+  "files": {
+    "exp/122_1_masked/staged_10_corrected/geometry/checkpoints/ckpt_012500.pth": {
+      "sha256": "9ed02e2e31a63721982dbd0fc5f6f8ce58a6a2863b52d1f36d22a3ab246321d9",
+      "bytes": 9195117
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/checkpoints/ckpt_015000.pth": {
+      "sha256": "382f34d590fe1e19d74fa5f8b5682ee2d33b5e0158f723f08316f876d9a6a44d",
+      "bytes": 9195245
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/checkpoints/ckpt_017500.pth": {
+      "sha256": "1d9a0b86840a7e1297320c53e2983e8d4b2e180316cd9839794d079213d1e305",
+      "bytes": 20017383
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/checkpoints/ckpt_020000.pth": {
+      "sha256": "c08460a713249e92c4806ec3e36dfbab7a056e897496fdf0b762a451880ef804",
+      "bytes": 20017383
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/checkpoints/ckpt_022500.pth": {
+      "sha256": "f0e1f045fb07bb552d01e5078a16b3e3825fff4ec9216380383d4b3fe85b0003",
+      "bytes": 20017383
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/checkpoints/ckpt_025000.pth": {
+      "sha256": "0fc0cb38a2d5d57eef43dc2b71d75834d528c42d30da50fb33a08847673696a9",
+      "bytes": 20017447
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/checkpoints/ckpt_027500.pth": {
+      "sha256": "beaeeac6de31ffdacb2a341c539f4f9a95bb6aaf4b759a6525c11d0780c25ace",
+      "bytes": 20017447
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/checkpoints/ckpt_030000.pth": {
+      "sha256": "4e59ef89b385ff362aab2b2328ee1972a43f6163338b92fe4d51fe1857ac68e6",
+      "bytes": 20017383
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/exports/00030000/landmarks.json": {
+      "sha256": "e7db1136d309d3ba5cf3ae43f5d648986c35f14abfb87d9fc717c0840767029d",
+      "bytes": 132347
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/exports/00030000/landmarks_world.ply": {
+      "sha256": "e1eef704c1861230bdd673c81af3526cb686308e1b2851ac06afa7ab7ece0716",
+      "bytes": 366
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/exports/00030000/mesh_normalized.ply": {
+      "sha256": "6fff1d1119e1aeb374a0399125b8d7fd903d8bba41dad8d4eb2076fea4c60940",
+      "bytes": 12441061
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/exports/00030000/mesh_with_landmarks_world.ply": {
+      "sha256": "c689393f9c6c1fa13d271b5b66eebf4c2ec65de5a1fed393cd48b71a9f6c0931",
+      "bytes": 12453413
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/exports/00030000/mesh_world.ply": {
+      "sha256": "defc1a4370edc1728ac5b4346cc7bca8824835847c65063d36eb0b3a5902e60b",
+      "bytes": 12441061
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/exports/00030000/multiview_heatmaps/000.npz": {
+      "sha256": "58ab7892d123d747c724659f2466e0f5f7d6a67e389c4843ace820c81155111f",
+      "bytes": 4119011
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/exports/00030000/multiview_heatmaps/004.npz": {
+      "sha256": "c05d4dc7c6e5c263390bc8c3d75f1c668ed4350a0e6e7e864b9a28b88af33f4e",
+      "bytes": 6457866
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/exports/00030000/multiview_heatmaps/008.npz": {
+      "sha256": "7d5c74e988134cc4df3aa5495bd7471e07bb01e23d478429b2d9e522a102c7c6",
+      "bytes": 7066559
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/exports/00030000/multiview_heatmaps/012.npz": {
+      "sha256": "785403b621fbe92fc136df09371ff6a3d3b1decb66439e2d82fa0c3bdb62057b",
+      "bytes": 8027055
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/exports/00030000/multiview_heatmaps/017.npz": {
+      "sha256": "b6b011c93e4425466c2c041057ed8aa34fae7e6efc15d7ee34c14014fd47a5e2",
+      "bytes": 6756890
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/exports/00030000/multiview_heatmaps/021.npz": {
+      "sha256": "edf934f8fc3eefab3dd8147f700b9e547ddb927ae2de5745df348bd0e968fb13",
+      "bytes": 3751406
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/exports/00030000/multiview_heatmaps/025.npz": {
+      "sha256": "b069767755969de0546a487908bb309c3d3a2ab461c3800ebcd568001e2a0fb7",
+      "bytes": 3987608
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/exports/00030000/multiview_heatmaps/029.npz": {
+      "sha256": "cff194ab6fef557a896431b50bfc2df087c10946d01b55e0bec3af64c06e605a",
+      "bytes": 7494519
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/exports/00030000/multiview_heatmaps/034.npz": {
+      "sha256": "ba98ca9ac96ac49aa1f48f35a86d1450f4ef14da35a952c831a4eea1c822d94a",
+      "bytes": 7706312
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/exports/00030000/multiview_heatmaps/038.npz": {
+      "sha256": "ce1be02a51643e8aa90db3b40f125e9a51b7579023a3130975f006b0d1056f47",
+      "bytes": 6426021
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/exports/00030000/multiview_heatmaps/042.npz": {
+      "sha256": "50fcf802629cb73465f4ca5921ac9cd9e22737e85df616d39ba230f1c1310749",
+      "bytes": 6126227
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/exports/00030000/multiview_heatmaps/047.npz": {
+      "sha256": "d8bf2bff734af8b26405e6b76390ecf28acc6c9589f422c018bf32bf6326d865",
+      "bytes": 8474176
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/exports/00030000/multiview_progress.json": {
+      "sha256": "85b4dd36b911cec09c8b19843674c148ca09e48a808dde7431bf5a7f3cbd9c25",
+      "bytes": 71
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00012500_001/0_comparison.png": {
+      "sha256": "22f54ceff30c557ad922079b45e580431228da1c14f373d3a8570cd957bcbd67",
+      "bytes": 15078
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00012500_001/0_prediction.png": {
+      "sha256": "147c0dc68501e038382eb36a7629ab37cc79bed4e523e982b0c304fe526b0cc7",
+      "bytes": 11850
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00012500_001/0_target.png": {
+      "sha256": "f03df45f208c281e4c2fe64023f5456246f41750a4b95992692f84fc411989ac",
+      "bytes": 3908
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00012500_001/1_comparison.png": {
+      "sha256": "1f7781e73fe0cf961c5ebd11b96f8b76b9ae68e86e92328097459896dd659d79",
+      "bytes": 13133
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00012500_001/1_prediction.png": {
+      "sha256": "d16a004fa3a9dbb0cc92a523977c88bdff2542b883689c35928d60d99e0640ba",
+      "bytes": 11307
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00012500_001/1_target.png": {
+      "sha256": "4bc1a73eee122744e69b374315f80f426d7db602df4dbfdcb9ac772369136fec",
+      "bytes": 2265
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00012500_001/2_comparison.png": {
+      "sha256": "746922d0b6f5f7fd2b13c072477614cddc7b5d3880ae07ce0f8401efa95df2f0",
+      "bytes": 10975
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00012500_001/2_prediction.png": {
+      "sha256": "df57253689850a18519c609cae2eb0555457b66f6d8f88a34331f3398d26dc49",
+      "bytes": 8082
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00012500_001/2_target.png": {
+      "sha256": "d47e94d2b94366cc729477c03956fac0d0afd946d2d5fe70015a9898573d4bb8",
+      "bytes": 3917
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00012500_001/3_comparison.png": {
+      "sha256": "1cb5112597a54e848f971ab6a0304850c55d8eb3d55d3dea8b4c8f13035a9722",
+      "bytes": 12702
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00012500_001/3_prediction.png": {
+      "sha256": "79bafaf7ae144a0dc2fb30d2e4649f283675a01d7ad6cef4ff1e55be345b47e6",
+      "bytes": 9781
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00012500_001/3_target.png": {
+      "sha256": "367d00f2c8554145d6bef061168379c85443eef12b319a35fb4206b6488762e9",
+      "bytes": 3890
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00012500_001/4_comparison.png": {
+      "sha256": "08498dcb57aa8e303ff839bc668c3a510566a8491fb75b9054f71a0f0fa7de74",
+      "bytes": 8845
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00012500_001/4_prediction.png": {
+      "sha256": "fba5735baf66fa7556a0f57c621e5c8bdb61f7901ab8f30fbb719e19587a60a0",
+      "bytes": 7314
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00012500_001/4_target.png": {
+      "sha256": "4bc1a73eee122744e69b374315f80f426d7db602df4dbfdcb9ac772369136fec",
+      "bytes": 2265
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00012500_001/5_comparison.png": {
+      "sha256": "7262d40a42738929d6a0ec6d4be5f49d2b76b7b7dd75c6b32840750e76eb669b",
+      "bytes": 10907
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00012500_001/5_prediction.png": {
+      "sha256": "73769b8659f8c3fc9556b920135baa91b30255799e3b6075284a699c75db39e7",
+      "bytes": 8160
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00012500_001/5_target.png": {
+      "sha256": "dd842d662697cf459a76e4e08752056ac6b3b1569709eb2f66b746d3af8cc205",
+      "bytes": 3899
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00012500_001/6_comparison.png": {
+      "sha256": "88ffb17f37452c2d3b00709489cc32cd2c88105af0ec48a9190ef5706a6acc64",
+      "bytes": 11842
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00012500_001/6_prediction.png": {
+      "sha256": "282bd8ff0b45272a3cb44ef54ba1d9d93a70a4c27953492d61dbd6e77f4c0c2d",
+      "bytes": 8617
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00012500_001/6_target.png": {
+      "sha256": "87ff8009fca9b08302b7b336ce1258d599561c33926d21c163ad505c86011bde",
+      "bytes": 3912
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00012500_001/7_comparison.png": {
+      "sha256": "d96567527ab6ccc3522670e8b9d77f51715af60aa4aad5b3ca27c3a293b2c1ef",
+      "bytes": 5093
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00012500_001/7_prediction.png": {
+      "sha256": "4bc1a73eee122744e69b374315f80f426d7db602df4dbfdcb9ac772369136fec",
+      "bytes": 2265
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00012500_001/7_target.png": {
+      "sha256": "e7637c410fcd299cb330918b594cf147d1daeb7ec64fa897c6f9b7b1faf61454",
+      "bytes": 3911
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00012500_001/8_comparison.png": {
+      "sha256": "3d2e5666257f7f580f9d2093450d7ffe96efd7d01af88e2c0e868b89c6202670",
+      "bytes": 5101
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00012500_001/8_prediction.png": {
+      "sha256": "4bc1a73eee122744e69b374315f80f426d7db602df4dbfdcb9ac772369136fec",
+      "bytes": 2265
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00012500_001/8_target.png": {
+      "sha256": "f9ee9f229ac9ac5b3201d972c8aeacbcbbe8ec90a2bc7be47641da12867aae02",
+      "bytes": 3921
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00012500_001/9_comparison.png": {
+      "sha256": "ed648a4defc976d71fe3b5ae81dc1375e0bb9f0e49672520938b0a5df7d78d85",
+      "bytes": 5115
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00012500_001/9_prediction.png": {
+      "sha256": "4bc1a73eee122744e69b374315f80f426d7db602df4dbfdcb9ac772369136fec",
+      "bytes": 2265
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00012500_001/9_target.png": {
+      "sha256": "fccfbe418f60e13c2c2d29e2aacdf688ffa0d94300063cfd8190c0784500f280",
+      "bytes": 3934
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00012500_001/statistics.json": {
+      "sha256": "f7d425e7bcb945bcd7cb725ddff4b2d571b67831aa6fcc84c21819eab22f4b25",
+      "bytes": 2529
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00015000_001/0_comparison.png": {
+      "sha256": "51d9a819371dd4f2d64e6e854a4e11ec728895dbff3acb153431dc54f9ceb849",
+      "bytes": 13966
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00015000_001/0_prediction.png": {
+      "sha256": "e0ef789142a6dd31958224352b4ec5cadc408725962acd7b10b77b9c8a5ea868",
+      "bytes": 10829
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00015000_001/0_target.png": {
+      "sha256": "f03df45f208c281e4c2fe64023f5456246f41750a4b95992692f84fc411989ac",
+      "bytes": 3908
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00015000_001/1_comparison.png": {
+      "sha256": "be068f07f48da37e0f262793832210478375605cbd36b24ed4f99d5bc08062b2",
+      "bytes": 8703
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00015000_001/1_prediction.png": {
+      "sha256": "0fa8d49441825499682e5af204ae548f22067dec535423d4f3e64078af4d1406",
+      "bytes": 7254
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00015000_001/1_target.png": {
+      "sha256": "4bc1a73eee122744e69b374315f80f426d7db602df4dbfdcb9ac772369136fec",
+      "bytes": 2265
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00015000_001/2_comparison.png": {
+      "sha256": "d09ec696d8b092cb536b107bd2243e38eada8b88d390bfa73487fede0bbbfb98",
+      "bytes": 9649
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00015000_001/2_prediction.png": {
+      "sha256": "ee9e5a51c6652f914b4dcfd28c413adcb3cb3a5db50847247bdf38a81a5e023c",
+      "bytes": 7049
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00015000_001/2_target.png": {
+      "sha256": "d47e94d2b94366cc729477c03956fac0d0afd946d2d5fe70015a9898573d4bb8",
+      "bytes": 3917
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00015000_001/3_comparison.png": {
+      "sha256": "7442eb196f54b1b83535091e6f1986c05be33d13ec78a1f4c7fc19552c9348ff",
+      "bytes": 9727
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00015000_001/3_prediction.png": {
+      "sha256": "7661caa6d006f511069a455372575edd05b5cc752cf71bd5d59fa7ecf3eeab35",
+      "bytes": 7019
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00015000_001/3_target.png": {
+      "sha256": "367d00f2c8554145d6bef061168379c85443eef12b319a35fb4206b6488762e9",
+      "bytes": 3890
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00015000_001/4_comparison.png": {
+      "sha256": "a59f0d0cdfb849245bc1d488cc41ba6e5ee2a16af92a7c28c8642efd97347761",
+      "bytes": 6680
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00015000_001/4_prediction.png": {
+      "sha256": "f74d6da2d502a8f4051868fb78a607134a7b6ed4a29ac5f51cc0db1b96ed7e73",
+      "bytes": 5263
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00015000_001/4_target.png": {
+      "sha256": "4bc1a73eee122744e69b374315f80f426d7db602df4dbfdcb9ac772369136fec",
+      "bytes": 2265
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00015000_001/5_comparison.png": {
+      "sha256": "50eece7206e951d9e97ad1979855d229729dccb7cbea2c6b98c6b08a47cb3fb4",
+      "bytes": 9279
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00015000_001/5_prediction.png": {
+      "sha256": "7276037e3bd51aeb6bd228d12419b3ea8bd8aff83e64892360e6d08a114af570",
+      "bytes": 6509
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00015000_001/5_target.png": {
+      "sha256": "dd842d662697cf459a76e4e08752056ac6b3b1569709eb2f66b746d3af8cc205",
+      "bytes": 3899
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00015000_001/6_comparison.png": {
+      "sha256": "81fc0c73cc1303737fe683944a4060b8bf1d328117fd124caa2710c7ec65e5c7",
+      "bytes": 8778
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00015000_001/6_prediction.png": {
+      "sha256": "2f2244fc8357ca3969d2989b1b15fdfba3128ea401cec3f17ff3ccb3e4cc5ea1",
+      "bytes": 5900
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00015000_001/6_target.png": {
+      "sha256": "87ff8009fca9b08302b7b336ce1258d599561c33926d21c163ad505c86011bde",
+      "bytes": 3912
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00015000_001/7_comparison.png": {
+      "sha256": "d96567527ab6ccc3522670e8b9d77f51715af60aa4aad5b3ca27c3a293b2c1ef",
+      "bytes": 5093
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00015000_001/7_prediction.png": {
+      "sha256": "4bc1a73eee122744e69b374315f80f426d7db602df4dbfdcb9ac772369136fec",
+      "bytes": 2265
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00015000_001/7_target.png": {
+      "sha256": "e7637c410fcd299cb330918b594cf147d1daeb7ec64fa897c6f9b7b1faf61454",
+      "bytes": 3911
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00015000_001/8_comparison.png": {
+      "sha256": "3d2e5666257f7f580f9d2093450d7ffe96efd7d01af88e2c0e868b89c6202670",
+      "bytes": 5101
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00015000_001/8_prediction.png": {
+      "sha256": "4bc1a73eee122744e69b374315f80f426d7db602df4dbfdcb9ac772369136fec",
+      "bytes": 2265
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00015000_001/8_target.png": {
+      "sha256": "f9ee9f229ac9ac5b3201d972c8aeacbcbbe8ec90a2bc7be47641da12867aae02",
+      "bytes": 3921
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00015000_001/9_comparison.png": {
+      "sha256": "ed648a4defc976d71fe3b5ae81dc1375e0bb9f0e49672520938b0a5df7d78d85",
+      "bytes": 5115
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00015000_001/9_prediction.png": {
+      "sha256": "4bc1a73eee122744e69b374315f80f426d7db602df4dbfdcb9ac772369136fec",
+      "bytes": 2265
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00015000_001/9_target.png": {
+      "sha256": "fccfbe418f60e13c2c2d29e2aacdf688ffa0d94300063cfd8190c0784500f280",
+      "bytes": 3934
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00015000_001/statistics.json": {
+      "sha256": "379fb839fa184935623e90020c8a897530752ecada91b01f105354ecb8d4d646",
+      "bytes": 2530
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00017500_001/0_comparison.png": {
+      "sha256": "d31558f0a4c75378aca3f91ccfc8b4fcbaa69f62ec20a514445f36575f986bab",
+      "bytes": 7147
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00017500_001/0_prediction.png": {
+      "sha256": "ecc7666384577e457aec51fb6ca12b343aa62139a2f8c6397dcf99c4bef4b822",
+      "bytes": 4305
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00017500_001/0_target.png": {
+      "sha256": "f03df45f208c281e4c2fe64023f5456246f41750a4b95992692f84fc411989ac",
+      "bytes": 3908
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00017500_001/1_comparison.png": {
+      "sha256": "6f4d27e79a48200329d356b11b1ebdc8d86551cd1f4d0a3bbe88831455b0c1cc",
+      "bytes": 4313
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00017500_001/1_prediction.png": {
+      "sha256": "a524fe1edc118b84073bb1222a7bff057abc9ac342bcfb630043bc039beb8c68",
+      "bytes": 3261
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00017500_001/1_target.png": {
+      "sha256": "4bc1a73eee122744e69b374315f80f426d7db602df4dbfdcb9ac772369136fec",
+      "bytes": 2265
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00017500_001/2_comparison.png": {
+      "sha256": "6150c3e6ac2b7aab0e29f980afb1949fcb7e38e9fa748c33559e804ac92be6f2",
+      "bytes": 11732
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00017500_001/2_prediction.png": {
+      "sha256": "2bd317655511cb7878d3b709c62b4bd5596a3314a977cc5326c61dab3b7f1e71",
+      "bytes": 8673
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00017500_001/2_target.png": {
+      "sha256": "d47e94d2b94366cc729477c03956fac0d0afd946d2d5fe70015a9898573d4bb8",
+      "bytes": 3917
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00017500_001/3_comparison.png": {
+      "sha256": "c165cafe08488a1ccb97987e7b02c0aa3bbbbb84071dd620dfc7bcd6b2468d84",
+      "bytes": 7884
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00017500_001/3_prediction.png": {
+      "sha256": "a13b4dcd6807fd6b7e9ccc47b5c716daa03dcddc446893f384f66318b03e43a7",
+      "bytes": 4997
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00017500_001/3_target.png": {
+      "sha256": "367d00f2c8554145d6bef061168379c85443eef12b319a35fb4206b6488762e9",
+      "bytes": 3890
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00017500_001/4_comparison.png": {
+      "sha256": "e7101b1419ee256c7a7e8d0e7f3a74d433f4fcfadcf5eaa98e9c7308fe4dd9e4",
+      "bytes": 5599
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00017500_001/4_prediction.png": {
+      "sha256": "0c71250fac292d5968b405084748f1f02afecb358d5df999af058f82314592d4",
+      "bytes": 4339
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00017500_001/4_target.png": {
+      "sha256": "4bc1a73eee122744e69b374315f80f426d7db602df4dbfdcb9ac772369136fec",
+      "bytes": 2265
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00017500_001/5_comparison.png": {
+      "sha256": "8d9678a69293fccbbb8f9caa208e56637142be5b61185fc25e8e3b41230a394e",
+      "bytes": 8401
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00017500_001/5_prediction.png": {
+      "sha256": "16dc7fd6441ac6bf6873c9ee31b51749743c6ddbbfdad575696095ec12d7e54f",
+      "bytes": 5483
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00017500_001/5_target.png": {
+      "sha256": "dd842d662697cf459a76e4e08752056ac6b3b1569709eb2f66b746d3af8cc205",
+      "bytes": 3899
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00017500_001/6_comparison.png": {
+      "sha256": "68eb8a7f1988308b678a68b39fa67f2745d40ee90eb4a0e8f2dce0975fceda41",
+      "bytes": 7253
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00017500_001/6_prediction.png": {
+      "sha256": "a4fe9b9c21ca78fc9091ed66c1bc0dc853e7cddb9fe8c9e93b59c140ea2f6bda",
+      "bytes": 4398
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00017500_001/6_target.png": {
+      "sha256": "87ff8009fca9b08302b7b336ce1258d599561c33926d21c163ad505c86011bde",
+      "bytes": 3912
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00017500_001/7_comparison.png": {
+      "sha256": "d96567527ab6ccc3522670e8b9d77f51715af60aa4aad5b3ca27c3a293b2c1ef",
+      "bytes": 5093
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00017500_001/7_prediction.png": {
+      "sha256": "4bc1a73eee122744e69b374315f80f426d7db602df4dbfdcb9ac772369136fec",
+      "bytes": 2265
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00017500_001/7_target.png": {
+      "sha256": "e7637c410fcd299cb330918b594cf147d1daeb7ec64fa897c6f9b7b1faf61454",
+      "bytes": 3911
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00017500_001/8_comparison.png": {
+      "sha256": "3d2e5666257f7f580f9d2093450d7ffe96efd7d01af88e2c0e868b89c6202670",
+      "bytes": 5101
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00017500_001/8_prediction.png": {
+      "sha256": "4bc1a73eee122744e69b374315f80f426d7db602df4dbfdcb9ac772369136fec",
+      "bytes": 2265
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00017500_001/8_target.png": {
+      "sha256": "f9ee9f229ac9ac5b3201d972c8aeacbcbbe8ec90a2bc7be47641da12867aae02",
+      "bytes": 3921
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00017500_001/9_comparison.png": {
+      "sha256": "ed648a4defc976d71fe3b5ae81dc1375e0bb9f0e49672520938b0a5df7d78d85",
+      "bytes": 5115
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00017500_001/9_prediction.png": {
+      "sha256": "4bc1a73eee122744e69b374315f80f426d7db602df4dbfdcb9ac772369136fec",
+      "bytes": 2265
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00017500_001/9_target.png": {
+      "sha256": "fccfbe418f60e13c2c2d29e2aacdf688ffa0d94300063cfd8190c0784500f280",
+      "bytes": 3934
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00017500_001/statistics.json": {
+      "sha256": "e973109e15048e935b9e2ac8a6050be48969382f5635e0acdb7514f0bd7aac7c",
+      "bytes": 2534
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00020000_001/0_comparison.png": {
+      "sha256": "8cf678ce7bbc0378c0b56783f8fd03c256ccaa7f7ddfc6ca97da7788d26aa52d",
+      "bytes": 8195
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00020000_001/0_prediction.png": {
+      "sha256": "c22080b4b1a8d54877ba391b584eb850bc35977eee5aa63e9a27fa9c5ed2b1b2",
+      "bytes": 5306
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00020000_001/0_target.png": {
+      "sha256": "f03df45f208c281e4c2fe64023f5456246f41750a4b95992692f84fc411989ac",
+      "bytes": 3908
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00020000_001/1_comparison.png": {
+      "sha256": "c9e5b4a9e42904844fea9e316f2dfe8c145e4e6d10563343d4e615d169939292",
+      "bytes": 4462
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00020000_001/1_prediction.png": {
+      "sha256": "ed01f9a2541474b27bab8d6fe31b2a5b26f334255ac997924f098bc4745d3f82",
+      "bytes": 3385
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00020000_001/1_target.png": {
+      "sha256": "4bc1a73eee122744e69b374315f80f426d7db602df4dbfdcb9ac772369136fec",
+      "bytes": 2265
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00020000_001/2_comparison.png": {
+      "sha256": "b57c16bfeb556d024dc7fdb4c7f5e38f97be1378c20f0c49b467252156b2c46b",
+      "bytes": 8964
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00020000_001/2_prediction.png": {
+      "sha256": "9b007ce6efa42b6f6c233e34b46241e179aa444c7654c53005fb42b7e56bd2da",
+      "bytes": 6142
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00020000_001/2_target.png": {
+      "sha256": "d47e94d2b94366cc729477c03956fac0d0afd946d2d5fe70015a9898573d4bb8",
+      "bytes": 3917
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00020000_001/3_comparison.png": {
+      "sha256": "e69bf5fd518dd436b519d840412650a6daa50ca500f814545bdd1e369b0c6cb5",
+      "bytes": 7757
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00020000_001/3_prediction.png": {
+      "sha256": "bf5abe5f4fb1da116e0fa1d4d1872d3799257e8174784aece8a418ef7a8b1db9",
+      "bytes": 4876
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00020000_001/3_target.png": {
+      "sha256": "367d00f2c8554145d6bef061168379c85443eef12b319a35fb4206b6488762e9",
+      "bytes": 3890
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00020000_001/4_comparison.png": {
+      "sha256": "57e6028d683c1c77f43fe87c101f14aad7ab7b93984778b13c1c8d5a06e7ce5f",
+      "bytes": 5096
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00020000_001/4_prediction.png": {
+      "sha256": "4c955e076efd15910444c4ede1f382cea37502e9ff2f011d73bb68cb35fe19aa",
+      "bytes": 3890
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00020000_001/4_target.png": {
+      "sha256": "4bc1a73eee122744e69b374315f80f426d7db602df4dbfdcb9ac772369136fec",
+      "bytes": 2265
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00020000_001/5_comparison.png": {
+      "sha256": "bf58ba68f17e807a9c5df56ffcb1aef23371cb15da3c4839789bc9261c2783cb",
+      "bytes": 7526
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00020000_001/5_prediction.png": {
+      "sha256": "5675490bd614552b7200cbe4f8f7541433a77f28da8f3425bc75ec4e60671aa4",
+      "bytes": 4684
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00020000_001/5_target.png": {
+      "sha256": "dd842d662697cf459a76e4e08752056ac6b3b1569709eb2f66b746d3af8cc205",
+      "bytes": 3899
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00020000_001/6_comparison.png": {
+      "sha256": "6c2348c0e03f12cf38735a4089466a1c88539f7e413da355facd44296f86c0d2",
+      "bytes": 6637
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00020000_001/6_prediction.png": {
+      "sha256": "a895de4ad21df93c4a5344ecfa7f4a06f63b98e166123b2f8dd7ce036a7ceeff",
+      "bytes": 3801
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00020000_001/6_target.png": {
+      "sha256": "87ff8009fca9b08302b7b336ce1258d599561c33926d21c163ad505c86011bde",
+      "bytes": 3912
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00020000_001/7_comparison.png": {
+      "sha256": "d96567527ab6ccc3522670e8b9d77f51715af60aa4aad5b3ca27c3a293b2c1ef",
+      "bytes": 5093
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00020000_001/7_prediction.png": {
+      "sha256": "4bc1a73eee122744e69b374315f80f426d7db602df4dbfdcb9ac772369136fec",
+      "bytes": 2265
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00020000_001/7_target.png": {
+      "sha256": "e7637c410fcd299cb330918b594cf147d1daeb7ec64fa897c6f9b7b1faf61454",
+      "bytes": 3911
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00020000_001/8_comparison.png": {
+      "sha256": "3d2e5666257f7f580f9d2093450d7ffe96efd7d01af88e2c0e868b89c6202670",
+      "bytes": 5101
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00020000_001/8_prediction.png": {
+      "sha256": "4bc1a73eee122744e69b374315f80f426d7db602df4dbfdcb9ac772369136fec",
+      "bytes": 2265
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00020000_001/8_target.png": {
+      "sha256": "f9ee9f229ac9ac5b3201d972c8aeacbcbbe8ec90a2bc7be47641da12867aae02",
+      "bytes": 3921
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00020000_001/9_comparison.png": {
+      "sha256": "ed648a4defc976d71fe3b5ae81dc1375e0bb9f0e49672520938b0a5df7d78d85",
+      "bytes": 5115
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00020000_001/9_prediction.png": {
+      "sha256": "4bc1a73eee122744e69b374315f80f426d7db602df4dbfdcb9ac772369136fec",
+      "bytes": 2265
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00020000_001/9_target.png": {
+      "sha256": "fccfbe418f60e13c2c2d29e2aacdf688ffa0d94300063cfd8190c0784500f280",
+      "bytes": 3934
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00020000_001/statistics.json": {
+      "sha256": "14f9ed28a108276422b0dc10af057cd1d2067f51d34b5b957c7e2624433a7048",
+      "bytes": 2531
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00022500_001/0_comparison.png": {
+      "sha256": "ce30eb11e68b122a01d5976e5bf36cd1e2e5f2ede809cda9a435e9925c879ce9",
+      "bytes": 7085
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00022500_001/0_prediction.png": {
+      "sha256": "f33ac23fbb1067c2dfed41cb41892d119ca568ab1edaa46d1ac1c0461e18640f",
+      "bytes": 4230
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00022500_001/0_target.png": {
+      "sha256": "f03df45f208c281e4c2fe64023f5456246f41750a4b95992692f84fc411989ac",
+      "bytes": 3908
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00022500_001/1_comparison.png": {
+      "sha256": "79fdfff1ee0c9685508b856295c18c62b6ccacc745917d211c2ce9f57c0647ef",
+      "bytes": 4474
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00022500_001/1_prediction.png": {
+      "sha256": "ea8bfc3dc11beffd46623ba268fb6fc6eb0885c4351422de0665f5a12265225f",
+      "bytes": 3398
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00022500_001/1_target.png": {
+      "sha256": "4bc1a73eee122744e69b374315f80f426d7db602df4dbfdcb9ac772369136fec",
+      "bytes": 2265
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00022500_001/2_comparison.png": {
+      "sha256": "79110fa30d1a6f9047ba117b8545886a38ec4ecd804333f53e43850103c17cff",
+      "bytes": 8305
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00022500_001/2_prediction.png": {
+      "sha256": "bbeea70cfb8cf0dcf122ce8cf97859d61ac0f6ee648735c4873639c1fc8aa04a",
+      "bytes": 5373
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00022500_001/2_target.png": {
+      "sha256": "d47e94d2b94366cc729477c03956fac0d0afd946d2d5fe70015a9898573d4bb8",
+      "bytes": 3917
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00022500_001/3_comparison.png": {
+      "sha256": "cf6e6de4334ea0056a30f9ffe98891f6837a91221c3fa48687a946a624d8c0c7",
+      "bytes": 7559
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00022500_001/3_prediction.png": {
+      "sha256": "2122422274c55a6093d7f1023bee3a42ac5993480cb2066de95b4e894294fe33",
+      "bytes": 4697
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00022500_001/3_target.png": {
+      "sha256": "367d00f2c8554145d6bef061168379c85443eef12b319a35fb4206b6488762e9",
+      "bytes": 3890
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00022500_001/4_comparison.png": {
+      "sha256": "455f7d3997d1ffb93921eaed087556ff7ed9ffa53e2e481d7e62621d61302f00",
+      "bytes": 5315
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00022500_001/4_prediction.png": {
+      "sha256": "e08de26a6ad8c82e82ee2a9f50e84bcfd9205873af4f435bd6bd3aa2dc473cf2",
+      "bytes": 4079
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00022500_001/4_target.png": {
+      "sha256": "4bc1a73eee122744e69b374315f80f426d7db602df4dbfdcb9ac772369136fec",
+      "bytes": 2265
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00022500_001/5_comparison.png": {
+      "sha256": "cd91fac588fd5b061d6b9162fdf14e0cd865ad4606dbf0570211afef75745074",
+      "bytes": 7093
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00022500_001/5_prediction.png": {
+      "sha256": "bf7966457564a4a3ce27482aef8abb1648b53c15228cd060f185c137a9a58dbe",
+      "bytes": 4280
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00022500_001/5_target.png": {
+      "sha256": "dd842d662697cf459a76e4e08752056ac6b3b1569709eb2f66b746d3af8cc205",
+      "bytes": 3899
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00022500_001/6_comparison.png": {
+      "sha256": "5b45bcc2e2ebc20d598d3178faf63354568256e18253fbb483702f331f05adc2",
+      "bytes": 6712
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00022500_001/6_prediction.png": {
+      "sha256": "99678c0a672176ac214b2afff739b7babe31c0539da24c45c545f78a1bbb1d36",
+      "bytes": 3873
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00022500_001/6_target.png": {
+      "sha256": "87ff8009fca9b08302b7b336ce1258d599561c33926d21c163ad505c86011bde",
+      "bytes": 3912
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00022500_001/7_comparison.png": {
+      "sha256": "d96567527ab6ccc3522670e8b9d77f51715af60aa4aad5b3ca27c3a293b2c1ef",
+      "bytes": 5093
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00022500_001/7_prediction.png": {
+      "sha256": "4bc1a73eee122744e69b374315f80f426d7db602df4dbfdcb9ac772369136fec",
+      "bytes": 2265
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00022500_001/7_target.png": {
+      "sha256": "e7637c410fcd299cb330918b594cf147d1daeb7ec64fa897c6f9b7b1faf61454",
+      "bytes": 3911
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00022500_001/8_comparison.png": {
+      "sha256": "da8c976b92b5917fb0c12542602eb876d5dd86d4c7dd7c0de2a46643d75b2665",
+      "bytes": 9860
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00022500_001/8_prediction.png": {
+      "sha256": "ca6d2fd44c357ed1e8004fb863baa2f746d19f8e5293da199b69fe0d33993a6d",
+      "bytes": 7358
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00022500_001/8_target.png": {
+      "sha256": "f9ee9f229ac9ac5b3201d972c8aeacbcbbe8ec90a2bc7be47641da12867aae02",
+      "bytes": 3921
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00022500_001/9_comparison.png": {
+      "sha256": "ed648a4defc976d71fe3b5ae81dc1375e0bb9f0e49672520938b0a5df7d78d85",
+      "bytes": 5115
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00022500_001/9_prediction.png": {
+      "sha256": "4bc1a73eee122744e69b374315f80f426d7db602df4dbfdcb9ac772369136fec",
+      "bytes": 2265
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00022500_001/9_target.png": {
+      "sha256": "fccfbe418f60e13c2c2d29e2aacdf688ffa0d94300063cfd8190c0784500f280",
+      "bytes": 3934
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00022500_001/statistics.json": {
+      "sha256": "e142794c07c8a40934e181bba3fb7dfa07a3c26fafaf1539843f9eab1b5aad72",
+      "bytes": 2529
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00025000_001/0_comparison.png": {
+      "sha256": "aac010a86a168949493dcf94d1ccff619ec5cd80d9f7468f6b3a7f36febd2f0f",
+      "bytes": 7036
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00025000_001/0_prediction.png": {
+      "sha256": "422e68b43f1dbc44175ede76cbbd4b289a369488922cf1cfaa8ccad9fc79e25e",
+      "bytes": 4191
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00025000_001/0_target.png": {
+      "sha256": "f03df45f208c281e4c2fe64023f5456246f41750a4b95992692f84fc411989ac",
+      "bytes": 3908
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00025000_001/1_comparison.png": {
+      "sha256": "a202c286eb53ce366efd6a9ab376324b581b30462f33c05aafabcc8612182d1e",
+      "bytes": 4444
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00025000_001/1_prediction.png": {
+      "sha256": "7e566e5255bb9198b25898de364cb3d2210ba1d035b1ada606b2e5edb9cb4701",
+      "bytes": 3375
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00025000_001/1_target.png": {
+      "sha256": "4bc1a73eee122744e69b374315f80f426d7db602df4dbfdcb9ac772369136fec",
+      "bytes": 2265
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00025000_001/2_comparison.png": {
+      "sha256": "67ba608412bcaef856b8a2e30cb0f6cc19e2e5cf5726b299c4f419c1e17e05d0",
+      "bytes": 7712
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00025000_001/2_prediction.png": {
+      "sha256": "b2de33b6c9df99c3feba4156a0cffd5a2072cc7824be8a23b9175fe41a09f5bf",
+      "bytes": 4822
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00025000_001/2_target.png": {
+      "sha256": "d47e94d2b94366cc729477c03956fac0d0afd946d2d5fe70015a9898573d4bb8",
+      "bytes": 3917
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00025000_001/3_comparison.png": {
+      "sha256": "5f3c2f109ac27a13c242e1fa4464c79026c403540f4f7558ecfa1dfd2110788e",
+      "bytes": 7457
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00025000_001/3_prediction.png": {
+      "sha256": "bacf47cb15368067e99eda8b88f6ffac6dbd73cb6fbd6bf7789c8d589708c5f7",
+      "bytes": 4599
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00025000_001/3_target.png": {
+      "sha256": "367d00f2c8554145d6bef061168379c85443eef12b319a35fb4206b6488762e9",
+      "bytes": 3890
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00025000_001/4_comparison.png": {
+      "sha256": "0ab75cd5590eb838658ed051faf74ddcd49bb8154048d1de2280fb1fe172028e",
+      "bytes": 5211
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00025000_001/4_prediction.png": {
+      "sha256": "ae765ad864774569a303049d84f96ef26cbba4693a4400a6756d0f5eb9f711fa",
+      "bytes": 3983
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00025000_001/4_target.png": {
+      "sha256": "4bc1a73eee122744e69b374315f80f426d7db602df4dbfdcb9ac772369136fec",
+      "bytes": 2265
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00025000_001/5_comparison.png": {
+      "sha256": "7738ab90bf8a9b7d659197664327265a0965323ef5c29db1fcb4be6fcdfbfbc4",
+      "bytes": 6908
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00025000_001/5_prediction.png": {
+      "sha256": "44b5d784a672e8c3783c7a8f633a0356ed67c521d82a43344190b5fcfd9448e1",
+      "bytes": 4095
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00025000_001/5_target.png": {
+      "sha256": "dd842d662697cf459a76e4e08752056ac6b3b1569709eb2f66b746d3af8cc205",
+      "bytes": 3899
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00025000_001/6_comparison.png": {
+      "sha256": "a9f1e0a0cfec2ddb60d25a05d25ede0f14ebb6a744e91cae56a486b50a26999f",
+      "bytes": 6506
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00025000_001/6_prediction.png": {
+      "sha256": "45c2a24a481abc4219d2a7743aee1b67a3e69a7c41e3742018b5c28ff0ae750c",
+      "bytes": 3693
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00025000_001/6_target.png": {
+      "sha256": "87ff8009fca9b08302b7b336ce1258d599561c33926d21c163ad505c86011bde",
+      "bytes": 3912
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00025000_001/7_comparison.png": {
+      "sha256": "d96567527ab6ccc3522670e8b9d77f51715af60aa4aad5b3ca27c3a293b2c1ef",
+      "bytes": 5093
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00025000_001/7_prediction.png": {
+      "sha256": "4bc1a73eee122744e69b374315f80f426d7db602df4dbfdcb9ac772369136fec",
+      "bytes": 2265
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00025000_001/7_target.png": {
+      "sha256": "e7637c410fcd299cb330918b594cf147d1daeb7ec64fa897c6f9b7b1faf61454",
+      "bytes": 3911
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00025000_001/8_comparison.png": {
+      "sha256": "fdf37ae27887c0b798df2c142115e095d1094141c3be3024edff5780b1152d89",
+      "bytes": 8688
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00025000_001/8_prediction.png": {
+      "sha256": "00a1379dbb33c7f3bd251fdd99f616d3f878bae4b237ed85c1f6e7eb35b0312e",
+      "bytes": 5765
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00025000_001/8_target.png": {
+      "sha256": "f9ee9f229ac9ac5b3201d972c8aeacbcbbe8ec90a2bc7be47641da12867aae02",
+      "bytes": 3921
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00025000_001/9_comparison.png": {
+      "sha256": "ed648a4defc976d71fe3b5ae81dc1375e0bb9f0e49672520938b0a5df7d78d85",
+      "bytes": 5115
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00025000_001/9_prediction.png": {
+      "sha256": "4bc1a73eee122744e69b374315f80f426d7db602df4dbfdcb9ac772369136fec",
+      "bytes": 2265
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00025000_001/9_target.png": {
+      "sha256": "fccfbe418f60e13c2c2d29e2aacdf688ffa0d94300063cfd8190c0784500f280",
+      "bytes": 3934
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00025000_001/statistics.json": {
+      "sha256": "20a39ffd4200a3260257c9d1b1a44dd3a4a5284c4be2854bc4f4fd72ac1b95e4",
+      "bytes": 2526
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00027500_001/0_comparison.png": {
+      "sha256": "be146ff5fc908cef76b72be1de708dd8f060b11db0f8fc390b667b2af0d661af",
+      "bytes": 7140
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00027500_001/0_prediction.png": {
+      "sha256": "dab01c258a4f4b3eb8cd6b5eec829ee280a7a345d1c49d2d1b8dee0a95ec3ce1",
+      "bytes": 4287
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00027500_001/0_target.png": {
+      "sha256": "f03df45f208c281e4c2fe64023f5456246f41750a4b95992692f84fc411989ac",
+      "bytes": 3908
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00027500_001/1_comparison.png": {
+      "sha256": "edc23eb5b5034f5052da2afcdd6032ae443ff6849a828c6f086265e97208a44a",
+      "bytes": 4415
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00027500_001/1_prediction.png": {
+      "sha256": "e2d498dfdbee7dc33cebb3cb08d6d594315ffdc9e23c0c45c98e6bc904290496",
+      "bytes": 3340
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00027500_001/1_target.png": {
+      "sha256": "4bc1a73eee122744e69b374315f80f426d7db602df4dbfdcb9ac772369136fec",
+      "bytes": 2265
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00027500_001/2_comparison.png": {
+      "sha256": "a2468bf2254729fe682f6def82f75ba8f598cc15a0d364e5600579c16a5e5529",
+      "bytes": 7913
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00027500_001/2_prediction.png": {
+      "sha256": "1a72bb786490e54c38227818cc9c7fbd4c87afa89ceba404b3a781a3543e4cb7",
+      "bytes": 5024
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00027500_001/2_target.png": {
+      "sha256": "d47e94d2b94366cc729477c03956fac0d0afd946d2d5fe70015a9898573d4bb8",
+      "bytes": 3917
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00027500_001/3_comparison.png": {
+      "sha256": "746ec7b7ceb7091fd461febc966cee38558cf64d0edeb9c196d9b488503b382b",
+      "bytes": 7485
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00027500_001/3_prediction.png": {
+      "sha256": "f3a1206b0b4f26fb2258b6c73b978b857ee0bfcfe509700fe678d48309a72546",
+      "bytes": 4619
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00027500_001/3_target.png": {
+      "sha256": "367d00f2c8554145d6bef061168379c85443eef12b319a35fb4206b6488762e9",
+      "bytes": 3890
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00027500_001/4_comparison.png": {
+      "sha256": "561beb1a210b78b3c9737a99b233196178ec2d8f815160c5324c387928ffcf27",
+      "bytes": 4865
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00027500_001/4_prediction.png": {
+      "sha256": "a7e9be110489fcfcd50a13fbe987b031fce4ed745b2ade899af7313bb7461947",
+      "bytes": 3696
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00027500_001/4_target.png": {
+      "sha256": "4bc1a73eee122744e69b374315f80f426d7db602df4dbfdcb9ac772369136fec",
+      "bytes": 2265
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00027500_001/5_comparison.png": {
+      "sha256": "1302e56395479f94953e62c8e67af59b99cd85d2353997cc45892af39ce389a3",
+      "bytes": 7157
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00027500_001/5_prediction.png": {
+      "sha256": "64e1347bda1e452e119e716c007799000a535ef94836eafef370b1957b0f0690",
+      "bytes": 4336
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00027500_001/5_target.png": {
+      "sha256": "dd842d662697cf459a76e4e08752056ac6b3b1569709eb2f66b746d3af8cc205",
+      "bytes": 3899
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00027500_001/6_comparison.png": {
+      "sha256": "0982451895ae3b0025f5fd881b54174c558e27c6c1624813a59f29c3ba30db5e",
+      "bytes": 6374
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00027500_001/6_prediction.png": {
+      "sha256": "01e90c836f01514021c9681795765ed7bd6247d6617b1a691d2657f8e4897889",
+      "bytes": 3564
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00027500_001/6_target.png": {
+      "sha256": "87ff8009fca9b08302b7b336ce1258d599561c33926d21c163ad505c86011bde",
+      "bytes": 3912
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00027500_001/7_comparison.png": {
+      "sha256": "d96567527ab6ccc3522670e8b9d77f51715af60aa4aad5b3ca27c3a293b2c1ef",
+      "bytes": 5093
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00027500_001/7_prediction.png": {
+      "sha256": "4bc1a73eee122744e69b374315f80f426d7db602df4dbfdcb9ac772369136fec",
+      "bytes": 2265
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00027500_001/7_target.png": {
+      "sha256": "e7637c410fcd299cb330918b594cf147d1daeb7ec64fa897c6f9b7b1faf61454",
+      "bytes": 3911
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00027500_001/8_comparison.png": {
+      "sha256": "ec4fc74c88b3cbc48593a631e1a48119a049d81c685eedc44cb2246c9ec7f3cc",
+      "bytes": 7979
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00027500_001/8_prediction.png": {
+      "sha256": "a1fe759484f8a8e7d3a7b8e7c2638837e159ae9e4e6519155f91ae337a8f3aa5",
+      "bytes": 5080
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00027500_001/8_target.png": {
+      "sha256": "f9ee9f229ac9ac5b3201d972c8aeacbcbbe8ec90a2bc7be47641da12867aae02",
+      "bytes": 3921
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00027500_001/9_comparison.png": {
+      "sha256": "ed648a4defc976d71fe3b5ae81dc1375e0bb9f0e49672520938b0a5df7d78d85",
+      "bytes": 5115
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00027500_001/9_prediction.png": {
+      "sha256": "4bc1a73eee122744e69b374315f80f426d7db602df4dbfdcb9ac772369136fec",
+      "bytes": 2265
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00027500_001/9_target.png": {
+      "sha256": "fccfbe418f60e13c2c2d29e2aacdf688ffa0d94300063cfd8190c0784500f280",
+      "bytes": 3934
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00027500_001/statistics.json": {
+      "sha256": "902ff4a9ba6aeb97ce98954c9e4c234e6930387cef0ec9c7c471da37b539889c",
+      "bytes": 2522
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00030000_001/0_comparison.png": {
+      "sha256": "64a8f52aff026b9083305695a8cbbc2318f87aa533b095ed0aaa07c2c9f87db2",
+      "bytes": 7498
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00030000_001/0_prediction.png": {
+      "sha256": "4c842cdf662af20f8ffe20ce4d40c5e8b42870c41b50467323e06108c8036f2b",
+      "bytes": 4650
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00030000_001/0_target.png": {
+      "sha256": "f03df45f208c281e4c2fe64023f5456246f41750a4b95992692f84fc411989ac",
+      "bytes": 3908
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00030000_001/1_comparison.png": {
+      "sha256": "30cfc559e30fe31b24b1cc6773543f43aba50169139d1da99cdd0cf14e8294d7",
+      "bytes": 4450
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00030000_001/1_prediction.png": {
+      "sha256": "5132eebe734b3fc1a3ecb77a0fac7153824d36464effdf089b0c80228e6a1d68",
+      "bytes": 3369
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00030000_001/1_target.png": {
+      "sha256": "4bc1a73eee122744e69b374315f80f426d7db602df4dbfdcb9ac772369136fec",
+      "bytes": 2265
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00030000_001/2_comparison.png": {
+      "sha256": "a073d6c898cf68978c911c75186e428bd4ba7bfa9cb16dd0afe59b871f90b4d2",
+      "bytes": 7920
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00030000_001/2_prediction.png": {
+      "sha256": "adc0fee3efc30c2797d1a62db988dc6afc3f88c57d396cf372db9003a85a18b2",
+      "bytes": 5020
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00030000_001/2_target.png": {
+      "sha256": "d47e94d2b94366cc729477c03956fac0d0afd946d2d5fe70015a9898573d4bb8",
+      "bytes": 3917
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00030000_001/3_comparison.png": {
+      "sha256": "0fa4bfc5e252e1032ca59fb18fce8be7fc7ea08b60f3556046a85c54e52b7f88",
+      "bytes": 7552
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00030000_001/3_prediction.png": {
+      "sha256": "9678a226b8c3a766a5ab22a02bfb2c4ccd0d0dc5e9d6074ae31a0a371e2f0310",
+      "bytes": 4682
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00030000_001/3_target.png": {
+      "sha256": "367d00f2c8554145d6bef061168379c85443eef12b319a35fb4206b6488762e9",
+      "bytes": 3890
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00030000_001/4_comparison.png": {
+      "sha256": "785b7ba11daf4a43bbffb005952080050d2304396e3e5724c325318bedda8d7a",
+      "bytes": 4794
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00030000_001/4_prediction.png": {
+      "sha256": "edab712d41856dcd05160aa11b216ae746753cc51322b9693a95ce9b01a9d7ac",
+      "bytes": 3643
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00030000_001/4_target.png": {
+      "sha256": "4bc1a73eee122744e69b374315f80f426d7db602df4dbfdcb9ac772369136fec",
+      "bytes": 2265
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00030000_001/5_comparison.png": {
+      "sha256": "435ea7e39fbacfddb913be77dd336a7536a9db585ca1d117b699a652b57e1c4a",
+      "bytes": 7044
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00030000_001/5_prediction.png": {
+      "sha256": "88e52324ea01c9ed2eb8ad0e0e85a45a9a212a07d83a23adcaa18547cea79fea",
+      "bytes": 4221
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00030000_001/5_target.png": {
+      "sha256": "dd842d662697cf459a76e4e08752056ac6b3b1569709eb2f66b746d3af8cc205",
+      "bytes": 3899
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00030000_001/6_comparison.png": {
+      "sha256": "7346818713a7e7de01d601e031814d4135781fbb898c580cd557065433d199af",
+      "bytes": 6365
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00030000_001/6_prediction.png": {
+      "sha256": "cf7e8bb302c8689c5ba68f7488336eae8c2e8debd763b077eeae03b76382e534",
+      "bytes": 3561
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00030000_001/6_target.png": {
+      "sha256": "87ff8009fca9b08302b7b336ce1258d599561c33926d21c163ad505c86011bde",
+      "bytes": 3912
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00030000_001/7_comparison.png": {
+      "sha256": "d96567527ab6ccc3522670e8b9d77f51715af60aa4aad5b3ca27c3a293b2c1ef",
+      "bytes": 5093
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00030000_001/7_prediction.png": {
+      "sha256": "4bc1a73eee122744e69b374315f80f426d7db602df4dbfdcb9ac772369136fec",
+      "bytes": 2265
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00030000_001/7_target.png": {
+      "sha256": "e7637c410fcd299cb330918b594cf147d1daeb7ec64fa897c6f9b7b1faf61454",
+      "bytes": 3911
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00030000_001/8_comparison.png": {
+      "sha256": "40513b3b58e95b41201424b255d311897a699c09d9798d7fefe38409dc9a3e61",
+      "bytes": 7872
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00030000_001/8_prediction.png": {
+      "sha256": "819d8ecbbaea4569a32a9a3fbe93ce7b1459e4610957286e8203a935d29c1cef",
+      "bytes": 4977
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00030000_001/8_target.png": {
+      "sha256": "f9ee9f229ac9ac5b3201d972c8aeacbcbbe8ec90a2bc7be47641da12867aae02",
+      "bytes": 3921
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00030000_001/9_comparison.png": {
+      "sha256": "ed648a4defc976d71fe3b5ae81dc1375e0bb9f0e49672520938b0a5df7d78d85",
+      "bytes": 5115
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00030000_001/9_prediction.png": {
+      "sha256": "4bc1a73eee122744e69b374315f80f426d7db602df4dbfdcb9ac772369136fec",
+      "bytes": 2265
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00030000_001/9_target.png": {
+      "sha256": "fccfbe418f60e13c2c2d29e2aacdf688ffa0d94300063cfd8190c0784500f280",
+      "bytes": 3934
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00030000_001/statistics.json": {
+      "sha256": "54df05395828ef234e2c3e7b1c864bf18a7a40fb98541bc6cf56cf2757a5c979",
+      "bytes": 2526
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/logs/events.out.tfevents.1794789888.34c8ce6814f0.1545949.0": {
+      "sha256": "9375107343714d438af603d38130e332f2163d5b6c7a77a195097adca2c9c09c",
+      "bytes": 47336287
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/meshes/00015000.ply": {
+      "sha256": "dcdf7690b5e70f666c305d97ed0d71ec388f1122d1d9f80a6a6b068ba14b399c",
+      "bytes": 47887233
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/meshes/00020000.ply": {
+      "sha256": "b94b6b9b7402de661902064fd633271f0d133690268576257f75051599fd7a96",
+      "bytes": 49589783
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/meshes/00025000.ply": {
+      "sha256": "e7045744e4907cd7187fcdcf7799be2ff5a50cd38b260405eb20498796e4c4ca",
+      "bytes": 50591977
+    },
+    "exp/122_1_masked/staged_10_corrected/geometry/meshes/00030000.ply": {
+      "sha256": "583a2f2d99100144ed095c4f679cf189fd4d66da649b130cc572c043f5df845c",
+      "bytes": 50110219
+    },
+    "exp/122_1_masked/baseline/geometry/checkpoints/ckpt_010000.pth": {
+      "sha256": "728b3818232c6fab778f4bfef3193640a4964a4c54cb095c4acf4c35e0c9f6ce",
+      "bytes": 18678711
+    },
+    "exp/122_1_masked/baseline/geometry/meshes/00010000.ply": {
+      "sha256": "dcdf7690b5e70f666c305d97ed0d71ec388f1122d1d9f80a6a6b068ba14b399c",
+      "bytes": 47887233
+    },
+    "exp/122_1_masked/baseline/geometry/exports/00030000/mesh_world.ply": {
+      "sha256": "05d336f599ef535fc63e4e1c35f40de9c3cf2566921a40348e09c767d87c0572",
+      "bytes": 12199255
+    },
+    "exp/122_1_masked/baseline/geometry/exports/00030000/landmarks.json": {
+      "sha256": "dd1917a98b3f28436e3e83a7598d982aadcf7eea50127b2ea6598043b6e025b5",
+      "bytes": 637
+    }
+  },
+  "excludes": "Source photos, annotations.png overlays, RGB validations and photographic reprojections are excluded."
+}

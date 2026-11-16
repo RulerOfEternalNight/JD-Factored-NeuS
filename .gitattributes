@@ -1,0 +1,11 @@
+# Frozen source/configuration hashes must survive checkout without EOL conversion.
+*.py -text
+*.conf -text
+*.json -text
+*.md text eol=lf
+*.csv text eol=lf
+*.pdf binary
+*.png binary
+*.pth binary
+*.npy binary
+*.npz binary

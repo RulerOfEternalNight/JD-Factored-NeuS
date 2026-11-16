@@ -58,10 +58,31 @@ class Dataset:
         self.images_lis = sorted(glob(os.path.join(self.data_dir, 'image/*.png')))
         self.n_images = len(self.images_lis)  # n = 123
         # [n, h, w, c] or [123, 576, 768 ,3] normalized
-        self.images_np = np.stack([cv.imread(im_name) for im_name in self.images_lis]) / 256.0
-        self.masks_lis = sorted(glob(os.path.join(self.data_dir, 'mask/*.png')))  # n = 123
-        # [n, h, w, c] or [123, 576, 768 ,3] normalized 
-        self.masks_np = np.stack([cv.imread(im_name) for im_name in self.masks_lis]) / 256.0
+        # Allocate once in float32; Torch below shares these CPU buffers.
+        # Preserve original image resolution and /256 normalization.
+        def load_stack(paths):
+            if not paths:
+                raise ValueError('No images found in ' + self.data_dir)
+            first = cv.imread(paths[0])
+            if first is None:
+                raise ValueError('Unreadable image: ' + paths[0])
+            result = np.empty((len(paths), *first.shape), dtype=np.float32)
+            for i, path in enumerate(paths):
+                image = cv.imread(path)
+                if image is None or image.shape != first.shape:
+                    raise ValueError('Unreadable or inconsistent image: ' + path)
+                np.multiply(image, np.float32(1. / 256.), out=result[i])
+            return result
+        self.images_np = load_stack(self.images_lis)
+        self.masks_lis = sorted(glob(os.path.join(self.data_dir, 'mask/*.png')))
+        if self.masks_lis:
+            if [os.path.basename(p) for p in self.images_lis] != [os.path.basename(p) for p in self.masks_lis]:
+                raise ValueError('Image/mask filenames must match')
+            self.masks_np = load_stack(self.masks_lis)
+            if self.masks_np.shape != self.images_np.shape:
+                raise ValueError('Image/mask dimensions must match')
+        else:
+            self.masks_np = np.ones_like(self.images_np)
 
         # world_mat is a projection matrix from world to image
         # [n, 4, 4] world->image
@@ -87,8 +108,8 @@ class Dataset:
             self.intrinsics_all.append(torch.from_numpy(intrinsics).float())
             self.pose_all.append(torch.from_numpy(pose).float())
 
-        self.images = torch.from_numpy(self.images_np.astype(np.float32)).cpu()  # [n_images, H, W, 3]
-        self.masks = torch.from_numpy(self.masks_np.astype(np.float32)).cpu()  # [n_images, H, W, 3]
+        self.images = torch.from_numpy(self.images_np).cpu()  # [n_images, H, W, 3]
+        self.masks = torch.from_numpy(self.masks_np).cpu()  # [n_images, H, W, 3]
         self.intrinsics_all = torch.stack(self.intrinsics_all).to(self.device)  # [n_images, 4, 4]
         self.intrinsics_all_inv = torch.inverse(self.intrinsics_all)  # [n_images, 4, 4]
         self.focal = self.intrinsics_all[0][0, 0]
@@ -130,25 +151,25 @@ class Dataset:
         rays_o = self.pose_all[img_idx, None, None, :3, 3].expand(rays_v.shape)  # W, H, 3
         return rays_o.transpose(0, 1), rays_v.transpose(0, 1)  # H, W, 3
 
-    def gen_random_rays_at(self, img_idx, batch_size):
-        img_idx = img_idx.cpu()
-        pixels_x = torch.randint(low=0, high=self.W, size=[batch_size]).cpu()  # [512,]
-        pixels_y = torch.randint(low=0, high=self.H, size=[batch_size]).cpu()  # [512,]
-        color = self.images[img_idx][(pixels_y, pixels_x)]  # [batch_size, 3]
-        mask = self.masks[img_idx][(pixels_y, pixels_x)]  # [batch_size, 3]
-        p = torch.stack([pixels_x, pixels_y, torch.ones_like(pixels_y)], dim=-1).cuda().float()  # [batch_size, 3]
-        # image->camera [1, 3, 3]@[batch, 3, 1]=[batch, 3, 1]
-        p = torch.matmul(self.intrinsics_all_inv[img_idx, None, :3, :3], p[:, :, None]).squeeze()  # [batch_size, 3]
-        # camera->camera(unit sphere)
-        rays_v = p / torch.linalg.norm(p, ord=2, dim=-1, keepdim=True)  # [batch_size, 3]
-        # camera(unit sphere)->world(unit sphere)
-        rays_v = torch.matmul(self.pose_all[img_idx, None, :3, :3], rays_v[:, :, None]).squeeze()  # [batch_size, 3]
-        rays_o = self.pose_all[img_idx, None, :3, 3].expand(rays_v.shape)  # [batch_size, 3]
+    def rays_at_pixels(self, img_idx, pixels):
+        """Calibrated rays and RGB/mask values at integer native image pixels."""
+        img_idx = int(img_idx)
+        pixels_cpu = torch.as_tensor(pixels, dtype=torch.long, device='cpu')
+        x, y = pixels_cpu.unbind(-1)
+        color = self.images[img_idx][y, x].to(self.device)
+        mask = self.masks[img_idx][y, x, :1].to(self.device)
+        pixels_gpu = pixels_cpu.to(self.device, dtype=torch.float32)
+        p = torch.cat([pixels_gpu, torch.ones_like(pixels_gpu[:, :1])], -1)
+        p = p @ self.intrinsics_all_inv[img_idx, :3, :3].T
+        rays_v = F.normalize(p, dim=-1) @ self.pose_all[img_idx, :3, :3].T
+        rays_o = self.pose_all[img_idx, :3, 3].expand_as(rays_v)
+        return torch.cat([rays_o, rays_v, color, mask], -1)
 
-        if torch.cuda.is_available():
-            return torch.cat([rays_o.cpu(), rays_v.cpu(), color, mask[:, :1]], dim=-1).cuda()  # [batch_size, 10]
-        else:
-            return torch.cat([rays_o.cpu(), rays_v.cpu(), color, mask[:, :1]], dim=-1)  # [batch_size, 10]
+    def gen_random_rays_at(self, img_idx, batch_size):
+        # Keep original Torch RNG call order for baseline sampling.
+        x = torch.randint(low=0, high=self.W, size=[batch_size]).cpu()
+        y = torch.randint(low=0, high=self.H, size=[batch_size]).cpu()
+        return self.rays_at_pixels(img_idx, torch.stack([x, y], -1))
 
     def gen_rays_between(self, idx_0, idx_1, ratio, resolution_level=1):
         """

@@ -1,0 +1,16 @@
+{
+  "state": "complete",
+  "phase": null,
+  "started": "2026-11-16T00:44:38.908368+00:00",
+  "supervisor_pid": 1545947,
+  "tmux_session": "fn-staged10-corrected",
+  "experiment": "staged_10_corrected",
+  "initial_iteration": 10000,
+  "end_iteration": 30000,
+  "updated": "2026-11-16T02:55:28.747122+00:00",
+  "child_pid": null,
+  "training_exit_code": 0,
+  "export_exit_code": 0,
+  "comparison_exit_code": 0,
+  "finished": "2026-11-16T02:55:28.747084+00:00"
+}

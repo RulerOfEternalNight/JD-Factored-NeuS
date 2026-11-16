@@ -1,0 +1,198 @@
+{
+  "general": {
+    "base_exp_dir_geo": "/workspace/new_implementation/exp/122_1_masked/staged_10_corrected/geometry",
+    "base_exp_dir_lvis": "/workspace/new_implementation/exp/122_1_masked/wmask/lvis",
+    "base_exp_dir_mateIllu": "/workspace/new_implementation/exp/122_1_masked/wmask/mateIllu",
+    "recording": [
+      "./",
+      "./models"
+    ]
+  },
+  "dataset": {
+    "data_dir": "/workspace/new_implementation/public_data/122_1_masked",
+    "render_cameras_name": "cameras_sphere.npz",
+    "object_cameras_name": "cameras_sphere.npz"
+  },
+  "train": {
+    "learning_rate": 0.0005,
+    "learning_rate_alpha": 0.05,
+    "end_iter": 30000,
+    "batch_size": 512,
+    "validate_resolution_level": 4,
+    "warm_up_end": 5000,
+    "anneal_end": 0,
+    "use_white_bkgd": false,
+    "save_freq": 2500,
+    "val_freq": 2500,
+    "val_mesh_freq": 5000,
+    "report_freq": 100,
+    "igr_weight": 0.1,
+    "mask_weight": 0.1,
+    "lvis": {
+      "batch_size": 512,
+      "end_iter": 10000,
+      "warm_up_end": 1000
+    },
+    "metaIllu": {
+      "batch_size": 512,
+      "end_iter": 40000
+    },
+    "seed": 42,
+    "init_checkpoint": "/workspace/new_implementation/exp/122_1_masked/baseline/geometry/checkpoints/ckpt_010000.pth"
+  },
+  "model": {
+    "nerf": {
+      "D": 8,
+      "d_in": 4,
+      "d_in_view": 3,
+      "W": 256,
+      "multires": 10,
+      "multires_view": 4,
+      "output_ch": 4,
+      "skips": [
+        4
+      ],
+      "use_viewdirs": true
+    },
+    "sdf_network": {
+      "d_out": 257,
+      "d_in": 3,
+      "d_hidden": 256,
+      "n_layers": 8,
+      "skip_in": [
+        4
+      ],
+      "multires": 6,
+      "bias": 0.5,
+      "scale": 1.0,
+      "geometric_init": true,
+      "weight_norm": true
+    },
+    "variance_network": {
+      "init_val": 0.3
+    },
+    "rendering_network": {
+      "d_feature": 256,
+      "mode": "idr",
+      "d_in": 9,
+      "d_out": 3,
+      "d_hidden": 256,
+      "n_layers": 4,
+      "weight_norm": true,
+      "multires_view": 4,
+      "squeeze_out": true
+    },
+    "neus_renderer": {
+      "n_samples": 64,
+      "n_importance": 64,
+      "n_outside": 0,
+      "up_sample_steps": 4,
+      "perturb": 1.0
+    },
+    "lvis_renderer": {
+      "n_samples": 64,
+      "n_importance": 64,
+      "n_outside": 0,
+      "up_sample_steps": 4,
+      "perturb": 1.0
+    }
+  },
+  "landmarks": {
+    "enabled": true,
+    "num_landmarks": 10,
+    "ids": [
+      1,
+      33,
+      291,
+      263,
+      133,
+      362,
+      61,
+      10,
+      168,
+      152
+    ],
+    "names": [
+      "nose_tip",
+      "outer_eye_corner_mp33",
+      "mouth_corner_mp291",
+      "outer_eye_corner_mp263",
+      "inner_eye_corner_mp133",
+      "inner_eye_corner_mp362",
+      "mouth_corner_mp61",
+      "forehead_center_mp10",
+      "nose_bridge_mp168",
+      "chin_mp152"
+    ],
+    "hidden_dims": [
+      128,
+      64
+    ],
+    "annotation_path": "/workspace/new_implementation/annotations/122_1_masked/mediapipe_478_v3.json",
+    "sigma": 20.0,
+    "balance_positive_negative": true,
+    "positive_weight": 1.0,
+    "negative_weight": 1.0,
+    "loss_weight": 0.1,
+    "initial_weight_ratio": 0.1,
+    "weight_ramp_iters": 1000,
+    "center_fraction": 0.1875,
+    "negative_fraction": 0.0625,
+    "center_sigma": 1.0,
+    "annotated_image_fraction": 0.5,
+    "geometry_warmup_iters": 10000,
+    "landmark_warmup_iters": 5000,
+    "joint_iters": 15000,
+    "lr_factor_floor": 0.001,
+    "gradient_log_freq": 100,
+    "visualization_freq": 2500,
+    "validation_resolution_level": 4,
+    "export_freq": 0,
+    "export_resolution": 256,
+    "export_chunk_size": 8192,
+    "marker_radius": 0.01,
+    "extraction_method": "multiview",
+    "multiview": {
+      "max_views": 12,
+      "resolution_level": 4,
+      "peaks_per_view": 8,
+      "min_views": 3,
+      "min_response": 0.05,
+      "min_relative_response": 0.5,
+      "min_support_fraction": 0.5,
+      "min_camera_spread_degrees": 10.0,
+      "min_peak_contrast": 2.0,
+      "visibility_tolerance": 0.02,
+      "visibility_chunk_size": 16,
+      "proposal_neighbors": 32,
+      "proposal_radius": 0.03,
+      "field_candidates": 32,
+      "score_mode": "visible_mean",
+      "domain": "unit_sphere",
+      "save_heatmaps": true
+    },
+    "training_mode": "staged",
+    "render_domain": "unit_sphere",
+    "nonlandmark": {
+      "enabled": true,
+      "weight": 0.1,
+      "minimum_opacity": 0.5,
+      "maximum_target": 0.01,
+      "detach_visibility": true
+    },
+    "hard_negatives": {
+      "enabled": true,
+      "capacity": 1024,
+      "sample_fraction": 0.75
+    },
+    "visibility": {
+      "enabled": true,
+      "cache_path": "/workspace/new_implementation/annotations/122_1_masked/staged10_visibility_baseline10k.json",
+      "reference_mesh": "/workspace/new_implementation/exp/122_1_masked/baseline/geometry/meshes/00010000.ply",
+      "mesh_coordinates": "world",
+      "tolerance": 0.02,
+      "maximum_reprojection_error": 60.0,
+      "maximum_surface_distance": 0.05
+    }
+  }
+}

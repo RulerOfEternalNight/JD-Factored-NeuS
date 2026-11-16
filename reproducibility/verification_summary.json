@@ -1,0 +1,15 @@
+{
+  "core_source_files_verified": 64,
+  "tests_passed": 52,
+  "archived_public_files_verified": 283,
+  "golden_camera6_median_response": 0.8673762083053589,
+  "golden_response_equal_on_original_machine": true,
+  "source_photos_published": false,
+  "working_result": {
+    "selected": 8,
+    "total": 10,
+    "mean_error_native_px": 19.306544285955006,
+    "median_error_native_px": 12.372910900038086
+  },
+  "original_run": "20261116T004348Z_staged10_corrected"
+}

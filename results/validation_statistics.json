@@ -1,0 +1,882 @@
+[
+  {
+    "iteration": 12500,
+    "camera": 1,
+    "directory": "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00012500_001",
+    "rows": [
+      {
+        "id": 1,
+        "name": "nose_tip",
+        "valid": true,
+        "source_detection_valid": true,
+        "target_supervised": true,
+        "mean": 0.003668484976515174,
+        "maximum": 0.7933447360992432,
+        "target_maximum": 0.9988182187080383
+      },
+      {
+        "id": 33,
+        "name": "outer_eye_corner_mp33",
+        "valid": false,
+        "source_detection_valid": true,
+        "target_supervised": false,
+        "mean": 0.001822489663027227,
+        "maximum": 0.5318424701690674,
+        "target_maximum": 0.0
+      },
+      {
+        "id": 291,
+        "name": "mouth_corner_mp291",
+        "valid": true,
+        "source_detection_valid": true,
+        "target_supervised": true,
+        "mean": 0.0015652778092771769,
+        "maximum": 0.8261789083480835,
+        "target_maximum": 0.9975932240486145
+      },
+      {
+        "id": 263,
+        "name": "outer_eye_corner_mp263",
+        "valid": true,
+        "source_detection_valid": true,
+        "target_supervised": true,
+        "mean": 0.0020208468195050955,
+        "maximum": 0.8303647637367249,
+        "target_maximum": 0.9995061755180359
+      },
+      {
+        "id": 133,
+        "name": "inner_eye_corner_mp133",
+        "valid": false,
+        "source_detection_valid": true,
+        "target_supervised": false,
+        "mean": 0.0006822528666816652,
+        "maximum": 0.30196404457092285,
+        "target_maximum": 0.0
+      },
+      {
+        "id": 362,
+        "name": "inner_eye_corner_mp362",
+        "valid": true,
+        "source_detection_valid": true,
+        "target_supervised": true,
+        "mean": 0.0013181320391595364,
+        "maximum": 0.7642128467559814,
+        "target_maximum": 0.9974165558815002
+      },
+      {
+        "id": 61,
+        "name": "mouth_corner_mp61",
+        "valid": true,
+        "source_detection_valid": true,
+        "target_supervised": true,
+        "mean": 0.001341408584266901,
+        "maximum": 0.5733471512794495,
+        "target_maximum": 0.9958805441856384
+      },
+      {
+        "id": 10,
+        "name": "forehead_center_mp10",
+        "valid": true,
+        "source_detection_valid": true,
+        "target_supervised": true,
+        "mean": 1.2956813399966904e-08,
+        "maximum": 1.3684646546607837e-05,
+        "target_maximum": 0.9998759627342224
+      },
+      {
+        "id": 168,
+        "name": "nose_bridge_mp168",
+        "valid": true,
+        "source_detection_valid": true,
+        "target_supervised": true,
+        "mean": 1.8176834259975294e-08,
+        "maximum": 2.098662662319839e-05,
+        "target_maximum": 0.9955459833145142
+      },
+      {
+        "id": 152,
+        "name": "chin_mp152",
+        "valid": true,
+        "source_detection_valid": true,
+        "target_supervised": true,
+        "mean": 1.3767651019236382e-08,
+        "maximum": 1.586299367772881e-05,
+        "target_maximum": 0.9950225353240967
+      }
+    ],
+    "peaks_above_005": 7,
+    "median_peak": 0.5525948107242584,
+    "maximum_peak": 0.8303647637367249
+  },
+  {
+    "iteration": 15000,
+    "camera": 1,
+    "directory": "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00015000_001",
+    "rows": [
+      {
+        "id": 1,
+        "name": "nose_tip",
+        "valid": true,
+        "source_detection_valid": true,
+        "target_supervised": true,
+        "mean": 0.0034183510579168797,
+        "maximum": 0.8911305665969849,
+        "target_maximum": 0.9988182187080383
+      },
+      {
+        "id": 33,
+        "name": "outer_eye_corner_mp33",
+        "valid": false,
+        "source_detection_valid": true,
+        "target_supervised": false,
+        "mean": 0.0005729342228733003,
+        "maximum": 0.4574538469314575,
+        "target_maximum": 0.0
+      },
+      {
+        "id": 291,
+        "name": "mouth_corner_mp291",
+        "valid": true,
+        "source_detection_valid": true,
+        "target_supervised": true,
+        "mean": 0.0013314503012225032,
+        "maximum": 0.8698972463607788,
+        "target_maximum": 0.9975932240486145
+      },
+      {
+        "id": 263,
+        "name": "outer_eye_corner_mp263",
+        "valid": true,
+        "source_detection_valid": true,
+        "target_supervised": true,
+        "mean": 0.0015002712607383728,
+        "maximum": 0.8341143727302551,
+        "target_maximum": 0.9995061755180359
+      },
+      {
+        "id": 133,
+        "name": "inner_eye_corner_mp133",
+        "valid": false,
+        "source_detection_valid": true,
+        "target_supervised": false,
+        "mean": 0.0003135158331133425,
+        "maximum": 0.24761749804019928,
+        "target_maximum": 0.0
+      },
+      {
+        "id": 362,
+        "name": "inner_eye_corner_mp362",
+        "valid": true,
+        "source_detection_valid": true,
+        "target_supervised": true,
+        "mean": 0.000918370031286031,
+        "maximum": 0.7091225981712341,
+        "target_maximum": 0.9974165558815002
+      },
+      {
+        "id": 61,
+        "name": "mouth_corner_mp61",
+        "valid": true,
+        "source_detection_valid": true,
+        "target_supervised": true,
+        "mean": 0.0005837532808072865,
+        "maximum": 0.5900464057922363,
+        "target_maximum": 0.9958805441856384
+      },
+      {
+        "id": 10,
+        "name": "forehead_center_mp10",
+        "valid": true,
+        "source_detection_valid": true,
+        "target_supervised": true,
+        "mean": 8.38837799221892e-09,
+        "maximum": 1.1776256542361807e-05,
+        "target_maximum": 0.9998759627342224
+      },
+      {
+        "id": 168,
+        "name": "nose_bridge_mp168",
+        "valid": true,
+        "source_detection_valid": true,
+        "target_supervised": true,
+        "mean": 1.0507307024454349e-08,
+        "maximum": 1.7446252968511544e-05,
+        "target_maximum": 0.9955459833145142
+      },
+      {
+        "id": 152,
+        "name": "chin_mp152",
+        "valid": true,
+        "source_detection_valid": true,
+        "target_supervised": true,
+        "mean": 8.916490656929454e-09,
+        "maximum": 1.3895198208047077e-05,
+        "target_maximum": 0.9950225353240967
+      }
+    ],
+    "peaks_above_005": 7,
+    "median_peak": 0.5237501263618469,
+    "maximum_peak": 0.8911305665969849
+  },
+  {
+    "iteration": 17500,
+    "camera": 1,
+    "directory": "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00017500_001",
+    "rows": [
+      {
+        "id": 1,
+        "name": "nose_tip",
+        "valid": true,
+        "source_detection_valid": true,
+        "target_supervised": true,
+        "mean": 0.0009109114180319011,
+        "maximum": 0.7497863173484802,
+        "target_maximum": 0.9988182187080383
+      },
+      {
+        "id": 33,
+        "name": "outer_eye_corner_mp33",
+        "valid": false,
+        "source_detection_valid": true,
+        "target_supervised": false,
+        "mean": 0.00011668538354570046,
+        "maximum": 0.5904784798622131,
+        "target_maximum": 0.0
+      },
+      {
+        "id": 291,
+        "name": "mouth_corner_mp291",
+        "valid": true,
+        "source_detection_valid": true,
+        "target_supervised": true,
+        "mean": 0.002003870438784361,
+        "maximum": 0.9163060188293457,
+        "target_maximum": 0.9975932240486145
+      },
+      {
+        "id": 263,
+        "name": "outer_eye_corner_mp263",
+        "valid": true,
+        "source_detection_valid": true,
+        "target_supervised": true,
+        "mean": 0.0008530860650353134,
+        "maximum": 0.7802008390426636,
+        "target_maximum": 0.9995061755180359
+      },
+      {
+        "id": 133,
+        "name": "inner_eye_corner_mp133",
+        "valid": false,
+        "source_detection_valid": true,
+        "target_supervised": false,
+        "mean": 0.00017264366033487022,
+        "maximum": 0.29239988327026367,
+        "target_maximum": 0.0
+      },
+      {
+        "id": 362,
+        "name": "inner_eye_corner_mp362",
+        "valid": true,
+        "source_detection_valid": true,
+        "target_supervised": true,
+        "mean": 0.0006856006220914423,
+        "maximum": 0.7830599546432495,
+        "target_maximum": 0.9974165558815002
+      },
+      {
+        "id": 61,
+        "name": "mouth_corner_mp61",
+        "valid": true,
+        "source_detection_valid": true,
+        "target_supervised": true,
+        "mean": 0.00043730149627663195,
+        "maximum": 0.6328458786010742,
+        "target_maximum": 0.9958805441856384
+      },
+      {
+        "id": 10,
+        "name": "forehead_center_mp10",
+        "valid": true,
+        "source_detection_valid": true,
+        "target_supervised": true,
+        "mean": 2.0768309738627977e-08,
+        "maximum": 2.109480556100607e-05,
+        "target_maximum": 0.9998759627342224
+      },
+      {
+        "id": 168,
+        "name": "nose_bridge_mp168",
+        "valid": true,
+        "source_detection_valid": true,
+        "target_supervised": true,
+        "mean": 2.6235284167341888e-08,
+        "maximum": 2.3948450689204037e-05,
+        "target_maximum": 0.9955459833145142
+      },
+      {
+        "id": 152,
+        "name": "chin_mp152",
+        "valid": true,
+        "source_detection_valid": true,
+        "target_supervised": true,
+        "mean": 4.116663987474567e-08,
+        "maximum": 2.9920018278062344e-05,
+        "target_maximum": 0.9950225353240967
+      }
+    ],
+    "peaks_above_005": 7,
+    "median_peak": 0.6116621792316437,
+    "maximum_peak": 0.9163060188293457
+  },
+  {
+    "iteration": 20000,
+    "camera": 1,
+    "directory": "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00020000_001",
+    "rows": [
+      {
+        "id": 1,
+        "name": "nose_tip",
+        "valid": true,
+        "source_detection_valid": true,
+        "target_supervised": true,
+        "mean": 0.001334736472927034,
+        "maximum": 0.8571239709854126,
+        "target_maximum": 0.9988182187080383
+      },
+      {
+        "id": 33,
+        "name": "outer_eye_corner_mp33",
+        "valid": false,
+        "source_detection_valid": true,
+        "target_supervised": false,
+        "mean": 0.00010256384121021256,
+        "maximum": 0.5187509059906006,
+        "target_maximum": 0.0
+      },
+      {
+        "id": 291,
+        "name": "mouth_corner_mp291",
+        "valid": true,
+        "source_detection_valid": true,
+        "target_supervised": true,
+        "mean": 0.0011573120718821883,
+        "maximum": 0.8660404682159424,
+        "target_maximum": 0.9975932240486145
+      },
+      {
+        "id": 263,
+        "name": "outer_eye_corner_mp263",
+        "valid": true,
+        "source_detection_valid": true,
+        "target_supervised": true,
+        "mean": 0.0009435974061489105,
+        "maximum": 0.8703891038894653,
+        "target_maximum": 0.9995061755180359
+      },
+      {
+        "id": 133,
+        "name": "inner_eye_corner_mp133",
+        "valid": false,
+        "source_detection_valid": true,
+        "target_supervised": false,
+        "mean": 0.00011417266796343029,
+        "maximum": 0.22713327407836914,
+        "target_maximum": 0.0
+      },
+      {
+        "id": 362,
+        "name": "inner_eye_corner_mp362",
+        "valid": true,
+        "source_detection_valid": true,
+        "target_supervised": true,
+        "mean": 0.0007413155981339514,
+        "maximum": 0.8083906173706055,
+        "target_maximum": 0.9974165558815002
+      },
+      {
+        "id": 61,
+        "name": "mouth_corner_mp61",
+        "valid": true,
+        "source_detection_valid": true,
+        "target_supervised": true,
+        "mean": 0.0003062652249354869,
+        "maximum": 0.6896045207977295,
+        "target_maximum": 0.9958805441856384
+      },
+      {
+        "id": 10,
+        "name": "forehead_center_mp10",
+        "valid": true,
+        "source_detection_valid": true,
+        "target_supervised": true,
+        "mean": 8.074340307473449e-09,
+        "maximum": 1.0561176168266684e-05,
+        "target_maximum": 0.9998759627342224
+      },
+      {
+        "id": 168,
+        "name": "nose_bridge_mp168",
+        "valid": true,
+        "source_detection_valid": true,
+        "target_supervised": true,
+        "mean": 5.2988447407642525e-08,
+        "maximum": 4.4606880692299455e-05,
+        "target_maximum": 0.9955459833145142
+      },
+      {
+        "id": 152,
+        "name": "chin_mp152",
+        "valid": true,
+        "source_detection_valid": true,
+        "target_supervised": true,
+        "mean": 2.01031955526787e-08,
+        "maximum": 2.135557951987721e-05,
+        "target_maximum": 0.9950225353240967
+      }
+    ],
+    "peaks_above_005": 7,
+    "median_peak": 0.604177713394165,
+    "maximum_peak": 0.8703891038894653
+  },
+  {
+    "iteration": 22500,
+    "camera": 1,
+    "directory": "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00022500_001",
+    "rows": [
+      {
+        "id": 1,
+        "name": "nose_tip",
+        "valid": true,
+        "source_detection_valid": true,
+        "target_supervised": true,
+        "mean": 0.0009739375091157854,
+        "maximum": 0.8382796049118042,
+        "target_maximum": 0.9988182187080383
+      },
+      {
+        "id": 33,
+        "name": "outer_eye_corner_mp33",
+        "valid": false,
+        "source_detection_valid": true,
+        "target_supervised": false,
+        "mean": 0.00010096812184201553,
+        "maximum": 0.48382315039634705,
+        "target_maximum": 0.0
+      },
+      {
+        "id": 291,
+        "name": "mouth_corner_mp291",
+        "valid": true,
+        "source_detection_valid": true,
+        "target_supervised": true,
+        "mean": 0.0010459288023412228,
+        "maximum": 0.9050504565238953,
+        "target_maximum": 0.9975932240486145
+      },
+      {
+        "id": 263,
+        "name": "outer_eye_corner_mp263",
+        "valid": true,
+        "source_detection_valid": true,
+        "target_supervised": true,
+        "mean": 0.000955699710175395,
+        "maximum": 0.8860846161842346,
+        "target_maximum": 0.9995061755180359
+      },
+      {
+        "id": 133,
+        "name": "inner_eye_corner_mp133",
+        "valid": false,
+        "source_detection_valid": true,
+        "target_supervised": false,
+        "mean": 0.00013784448674414307,
+        "maximum": 0.27938416600227356,
+        "target_maximum": 0.0
+      },
+      {
+        "id": 362,
+        "name": "inner_eye_corner_mp362",
+        "valid": true,
+        "source_detection_valid": true,
+        "target_supervised": true,
+        "mean": 0.0005962930154055357,
+        "maximum": 0.8198196291923523,
+        "target_maximum": 0.9974165558815002
+      },
+      {
+        "id": 61,
+        "name": "mouth_corner_mp61",
+        "valid": true,
+        "source_detection_valid": true,
+        "target_supervised": true,
+        "mean": 0.00030533221433870494,
+        "maximum": 0.7075545191764832,
+        "target_maximum": 0.9958805441856384
+      },
+      {
+        "id": 10,
+        "name": "forehead_center_mp10",
+        "valid": true,
+        "source_detection_valid": true,
+        "target_supervised": true,
+        "mean": 3.055430353171573e-10,
+        "maximum": 6.171659379106131e-07,
+        "target_maximum": 0.9998759627342224
+      },
+      {
+        "id": 168,
+        "name": "nose_bridge_mp168",
+        "valid": true,
+        "source_detection_valid": true,
+        "target_supervised": true,
+        "mean": 0.0010133550968021154,
+        "maximum": 0.7653775215148926,
+        "target_maximum": 0.9955459833145142
+      },
+      {
+        "id": 152,
+        "name": "chin_mp152",
+        "valid": true,
+        "source_detection_valid": true,
+        "target_supervised": true,
+        "mean": 5.865613550426474e-10,
+        "maximum": 1.2183282933619921e-06,
+        "target_maximum": 0.9950225353240967
+      }
+    ],
+    "peaks_above_005": 8,
+    "median_peak": 0.7364660203456879,
+    "maximum_peak": 0.9050504565238953
+  },
+  {
+    "iteration": 25000,
+    "camera": 1,
+    "directory": "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00025000_001",
+    "rows": [
+      {
+        "id": 1,
+        "name": "nose_tip",
+        "valid": true,
+        "source_detection_valid": true,
+        "target_supervised": true,
+        "mean": 0.0009066109196282923,
+        "maximum": 0.8607000112533569,
+        "target_maximum": 0.9988182187080383
+      },
+      {
+        "id": 33,
+        "name": "outer_eye_corner_mp33",
+        "valid": false,
+        "source_detection_valid": true,
+        "target_supervised": false,
+        "mean": 0.00011008796718670055,
+        "maximum": 0.599058985710144,
+        "target_maximum": 0.0
+      },
+      {
+        "id": 291,
+        "name": "mouth_corner_mp291",
+        "valid": true,
+        "source_detection_valid": true,
+        "target_supervised": true,
+        "mean": 0.0007923506200313568,
+        "maximum": 0.8690524101257324,
+        "target_maximum": 0.9975932240486145
+      },
+      {
+        "id": 263,
+        "name": "outer_eye_corner_mp263",
+        "valid": true,
+        "source_detection_valid": true,
+        "target_supervised": true,
+        "mean": 0.0008831092272885144,
+        "maximum": 0.8351051807403564,
+        "target_maximum": 0.9995061755180359
+      },
+      {
+        "id": 133,
+        "name": "inner_eye_corner_mp133",
+        "valid": false,
+        "source_detection_valid": true,
+        "target_supervised": false,
+        "mean": 0.0001276212715310976,
+        "maximum": 0.25826042890548706,
+        "target_maximum": 0.0
+      },
+      {
+        "id": 362,
+        "name": "inner_eye_corner_mp362",
+        "valid": true,
+        "source_detection_valid": true,
+        "target_supervised": true,
+        "mean": 0.0005667668301612139,
+        "maximum": 0.791325569152832,
+        "target_maximum": 0.9974165558815002
+      },
+      {
+        "id": 61,
+        "name": "mouth_corner_mp61",
+        "valid": true,
+        "source_detection_valid": true,
+        "target_supervised": true,
+        "mean": 0.00027257553301751614,
+        "maximum": 0.6901516914367676,
+        "target_maximum": 0.9958805441856384
+      },
+      {
+        "id": 10,
+        "name": "forehead_center_mp10",
+        "valid": true,
+        "source_detection_valid": true,
+        "target_supervised": true,
+        "mean": 1.1280532064006366e-10,
+        "maximum": 2.404135557299014e-07,
+        "target_maximum": 0.9998759627342224
+      },
+      {
+        "id": 168,
+        "name": "nose_bridge_mp168",
+        "valid": true,
+        "source_detection_valid": true,
+        "target_supervised": true,
+        "mean": 0.0007507637492381036,
+        "maximum": 0.8020869493484497,
+        "target_maximum": 0.9955459833145142
+      },
+      {
+        "id": 152,
+        "name": "chin_mp152",
+        "valid": true,
+        "source_detection_valid": true,
+        "target_supervised": true,
+        "mean": 2.2281021472281282e-10,
+        "maximum": 4.89346291487891e-07,
+        "target_maximum": 0.9950225353240967
+      }
+    ],
+    "peaks_above_005": 8,
+    "median_peak": 0.7407386302947998,
+    "maximum_peak": 0.8690524101257324
+  },
+  {
+    "iteration": 27500,
+    "camera": 1,
+    "directory": "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00027500_001",
+    "rows": [
+      {
+        "id": 1,
+        "name": "nose_tip",
+        "valid": true,
+        "source_detection_valid": true,
+        "target_supervised": true,
+        "mean": 0.000990548636764288,
+        "maximum": 0.8626982569694519,
+        "target_maximum": 0.9988182187080383
+      },
+      {
+        "id": 33,
+        "name": "outer_eye_corner_mp33",
+        "valid": false,
+        "source_detection_valid": true,
+        "target_supervised": false,
+        "mean": 7.566480780951679e-05,
+        "maximum": 0.4540477991104126,
+        "target_maximum": 0.0
+      },
+      {
+        "id": 291,
+        "name": "mouth_corner_mp291",
+        "valid": true,
+        "source_detection_valid": true,
+        "target_supervised": true,
+        "mean": 0.0008471671026200056,
+        "maximum": 0.88692307472229,
+        "target_maximum": 0.9975932240486145
+      },
+      {
+        "id": 263,
+        "name": "outer_eye_corner_mp263",
+        "valid": true,
+        "source_detection_valid": true,
+        "target_supervised": true,
+        "mean": 0.0009121799375861883,
+        "maximum": 0.8662307858467102,
+        "target_maximum": 0.9995061755180359
+      },
+      {
+        "id": 133,
+        "name": "inner_eye_corner_mp133",
+        "valid": false,
+        "source_detection_valid": true,
+        "target_supervised": false,
+        "mean": 9.894321556203067e-05,
+        "maximum": 0.28607743978500366,
+        "target_maximum": 0.0
+      },
+      {
+        "id": 362,
+        "name": "inner_eye_corner_mp362",
+        "valid": true,
+        "source_detection_valid": true,
+        "target_supervised": true,
+        "mean": 0.0006393661606125534,
+        "maximum": 0.834648847579956,
+        "target_maximum": 0.9974165558815002
+      },
+      {
+        "id": 61,
+        "name": "mouth_corner_mp61",
+        "valid": true,
+        "source_detection_valid": true,
+        "target_supervised": true,
+        "mean": 0.000294544268399477,
+        "maximum": 0.7701181173324585,
+        "target_maximum": 0.9958805441856384
+      },
+      {
+        "id": 10,
+        "name": "forehead_center_mp10",
+        "valid": true,
+        "source_detection_valid": true,
+        "target_supervised": true,
+        "mean": 7.116641304039106e-11,
+        "maximum": 1.8251461142426706e-07,
+        "target_maximum": 0.9998759627342224
+      },
+      {
+        "id": 168,
+        "name": "nose_bridge_mp168",
+        "valid": true,
+        "source_detection_valid": true,
+        "target_supervised": true,
+        "mean": 0.0007369694649241865,
+        "maximum": 0.8504995107650757,
+        "target_maximum": 0.9955459833145142
+      },
+      {
+        "id": 152,
+        "name": "chin_mp152",
+        "valid": true,
+        "source_detection_valid": true,
+        "target_supervised": true,
+        "mean": 1.4015821836466102e-10,
+        "maximum": 3.654473630376742e-07,
+        "target_maximum": 0.9950225353240967
+      }
+    ],
+    "peaks_above_005": 8,
+    "median_peak": 0.8023834824562073,
+    "maximum_peak": 0.88692307472229
+  },
+  {
+    "iteration": 30000,
+    "camera": 1,
+    "directory": "exp/122_1_masked/staged_10_corrected/geometry/landmark_validation/00030000_001",
+    "rows": [
+      {
+        "id": 1,
+        "name": "nose_tip",
+        "valid": true,
+        "source_detection_valid": true,
+        "target_supervised": true,
+        "mean": 0.0011083357967436314,
+        "maximum": 0.8915066719055176,
+        "target_maximum": 0.9988182187080383
+      },
+      {
+        "id": 33,
+        "name": "outer_eye_corner_mp33",
+        "valid": false,
+        "source_detection_valid": true,
+        "target_supervised": false,
+        "mean": 0.00011350709974067286,
+        "maximum": 0.6230239868164062,
+        "target_maximum": 0.0
+      },
+      {
+        "id": 291,
+        "name": "mouth_corner_mp291",
+        "valid": true,
+        "source_detection_valid": true,
+        "target_supervised": true,
+        "mean": 0.0008538142428733408,
+        "maximum": 0.8794915676116943,
+        "target_maximum": 0.9975932240486145
+      },
+      {
+        "id": 263,
+        "name": "outer_eye_corner_mp263",
+        "valid": true,
+        "source_detection_valid": true,
+        "target_supervised": true,
+        "mean": 0.0009288127184845507,
+        "maximum": 0.8779448866844177,
+        "target_maximum": 0.9995061755180359
+      },
+      {
+        "id": 133,
+        "name": "inner_eye_corner_mp133",
+        "valid": false,
+        "source_detection_valid": true,
+        "target_supervised": false,
+        "mean": 8.96860656212084e-05,
+        "maximum": 0.281463086605072,
+        "target_maximum": 0.0
+      },
+      {
+        "id": 362,
+        "name": "inner_eye_corner_mp362",
+        "valid": true,
+        "source_detection_valid": true,
+        "target_supervised": true,
+        "mean": 0.0006108101224526763,
+        "maximum": 0.8232643604278564,
+        "target_maximum": 0.9974165558815002
+      },
+      {
+        "id": 61,
+        "name": "mouth_corner_mp61",
+        "valid": true,
+        "source_detection_valid": true,
+        "target_supervised": true,
+        "mean": 0.00028045871295034885,
+        "maximum": 0.7420757412910461,
+        "target_maximum": 0.9958805441856384
+      },
+      {
+        "id": 10,
+        "name": "forehead_center_mp10",
+        "valid": true,
+        "source_detection_valid": true,
+        "target_supervised": true,
+        "mean": 7.557317271977837e-11,
+        "maximum": 2.1585034915005963e-07,
+        "target_maximum": 0.9998759627342224
+      },
+      {
+        "id": 168,
+        "name": "nose_bridge_mp168",
+        "valid": true,
+        "source_detection_valid": true,
+        "target_supervised": true,
+        "mean": 0.0006779729737900198,
+        "maximum": 0.8266083002090454,
+        "target_maximum": 0.9955459833145142
+      },
+      {
+        "id": 152,
+        "name": "chin_mp152",
+        "valid": true,
+        "source_detection_valid": true,
+        "target_supervised": true,
+        "mean": 1.478736300075667e-10,
+        "maximum": 4.2550800571916625e-07,
+        "target_maximum": 0.9950225353240967
+      }
+    ],
+    "peaks_above_005": 8,
+    "median_peak": 0.7826700508594513,
+    "maximum_peak": 0.8915066719055176
+  }
+]

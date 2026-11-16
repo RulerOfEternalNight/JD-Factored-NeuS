@@ -1,0 +1,5561 @@
+{
+  "iteration": 30000,
+  "strategy": "staged",
+  "coordinates": "world",
+  "field_query_coordinates": "normalized",
+  "normalized_to_world": [
+    [
+      0.497141569852829,
+      0.0,
+      0.0,
+      1.6426622867584229
+    ],
+    [
+      0.0,
+      0.497141569852829,
+      0.0,
+      -0.7038520574569702
+    ],
+    [
+      0.0,
+      0.0,
+      0.497141569852829,
+      2.2960002422332764
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "mesh_resolution": 256,
+  "mesh": "mesh_world.ply",
+  "landmarks": [
+    {
+      "id": 1,
+      "name": "nose_tip",
+      "valid": true,
+      "vertex_index": 76737,
+      "confidence": 0.7569541003820084,
+      "confidence_type": "mean_response_over_visible_cameras",
+      "raw_probability": 0.943010687828064,
+      "supporting_views": [
+        0,
+        4,
+        8,
+        17,
+        34,
+        38,
+        42,
+        47
+      ],
+      "visible_views": [
+        0,
+        4,
+        8,
+        17,
+        29,
+        34,
+        38,
+        42,
+        47
+      ],
+      "active_views": 12,
+      "camera_spread_degrees": 130.93818126789017,
+      "support_fraction": 0.8888888888888888,
+      "visibility_backend": "embreex",
+      "normalized": [
+        -0.3287450949350993,
+        0.034278967658873505,
+        -0.4475691000620524
+      ],
+      "world": [
+        1.4792294341809704,
+        -0.6868105576621035,
+        2.07349503721081
+      ],
+      "surface_vertex_distance": 0.0
+    },
+    {
+      "id": 33,
+      "name": "outer_eye_corner_mp33",
+      "valid": true,
+      "vertex_index": 35843,
+      "confidence": 0.7979379141926152,
+      "confidence_type": "mean_response_over_visible_cameras",
+      "raw_probability": 0.9939716458320618,
+      "supporting_views": [
+        8,
+        12,
+        17,
+        29,
+        34,
+        38,
+        47
+      ],
+      "visible_views": [
+        8,
+        12,
+        17,
+        29,
+        34,
+        38,
+        47
+      ],
+      "active_views": 8,
+      "camera_spread_degrees": 117.4659190294975,
+      "support_fraction": 1.0,
+      "visibility_backend": "embreex",
+      "normalized": [
+        -0.4554901917775471,
+        -0.23368615309397378,
+        -0.17037967553319933
+      ],
+      "world": [
+        1.416219177765567,
+        -0.8200271584589769,
+        2.211297422867686
+      ],
+      "surface_vertex_distance": 0.0
+    },
+    {
+      "id": 291,
+      "name": "mouth_corner_mp291",
+      "valid": true,
+      "vertex_index": 139512,
+      "confidence": 0.8320504089215495,
+      "confidence_type": "mean_response_over_visible_cameras",
+      "raw_probability": 0.9969053864479065,
+      "supporting_views": [
+        0,
+        4,
+        8,
+        17,
+        21,
+        34,
+        38,
+        42,
+        47
+      ],
+      "visible_views": [
+        0,
+        4,
+        8,
+        17,
+        21,
+        34,
+        38,
+        42,
+        47
+      ],
+      "active_views": 10,
+      "camera_spread_degrees": 130.06140497086736,
+      "support_fraction": 1.0,
+      "visibility_backend": "embreex",
+      "normalized": [
+        -0.13070588111877435,
+        0.19407854874928798,
+        -0.346570825418572
+      ],
+      "world": [
+        1.5776829598300381,
+        -0.6073675430569904,
+        2.1237054780194966
+      ],
+      "surface_vertex_distance": 0.0
+    },
+    {
+      "id": 263,
+      "name": "outer_eye_corner_mp263",
+      "valid": true,
+      "vertex_index": 179986,
+      "confidence": 0.7849246808034278,
+      "confidence_type": "mean_response_over_visible_cameras",
+      "raw_probability": 0.9882912039756775,
+      "supporting_views": [
+        0,
+        4,
+        8,
+        17,
+        21,
+        25,
+        34,
+        38,
+        42,
+        47
+      ],
+      "visible_views": [
+        0,
+        4,
+        8,
+        17,
+        21,
+        25,
+        34,
+        38,
+        42,
+        47
+      ],
+      "active_views": 12,
+      "camera_spread_degrees": 146.5437844104782,
+      "support_fraction": 1.0,
+      "visibility_backend": "embreex",
+      "normalized": [
+        0.011882352828979537,
+        -0.18615674177805586,
+        -0.4261568111496695
+      ],
+      "world": [
+        1.6485694982973669,
+        -0.7963983123032006,
+        2.0841399761348542
+      ],
+      "surface_vertex_distance": 0.0
+    },
+    {
+      "id": 133,
+      "name": "inner_eye_corner_mp133",
+      "valid": true,
+      "vertex_index": 76489,
+      "confidence": 0.7918374346379263,
+      "confidence_type": "mean_response_over_visible_cameras",
+      "raw_probability": 0.9830235838890076,
+      "supporting_views": [
+        8,
+        17,
+        29,
+        34,
+        38,
+        47
+      ],
+      "visible_views": [
+        8,
+        17,
+        29,
+        34,
+        38,
+        47
+      ],
+      "active_views": 7,
+      "camera_spread_degrees": 117.28848674790925,
+      "support_fraction": 1.0,
+      "visibility_backend": "embreex",
+      "normalized": [
+        -0.3287450949350993,
+        -0.19407831033070877,
+        -0.28471738975240146
+      ],
+      "world": [
+        1.4792294341809704,
+        -0.8003364533291633,
+        2.154455392127368
+      ],
+      "surface_vertex_distance": 0.0
+    },
+    {
+      "id": 362,
+      "name": "inner_eye_corner_mp362",
+      "valid": true,
+      "vertex_index": 139074,
+      "confidence": 0.8306066792878242,
+      "confidence_type": "mean_response_over_visible_cameras",
+      "raw_probability": 0.9937373399734497,
+      "supporting_views": [
+        8,
+        17,
+        34,
+        38
+      ],
+      "visible_views": [
+        8,
+        17,
+        34,
+        38
+      ],
+      "active_views": 12,
+      "camera_spread_degrees": 40.95261507578109,
+      "support_fraction": 1.0,
+      "visibility_backend": "embreex",
+      "normalized": [
+        -0.13070588111877435,
+        -0.18615674177805586,
+        -0.37394692899851734
+      ],
+      "world": [
+        1.5776829598300381,
+        -0.7963983123032006,
+        2.110095678909309
+      ],
+      "surface_vertex_distance": 0.0
+    },
+    {
+      "id": 61,
+      "name": "mouth_corner_mp61",
+      "valid": true,
+      "vertex_index": 60924,
+      "confidence": 0.8579474703221587,
+      "confidence_type": "mean_response_over_visible_cameras",
+      "raw_probability": 0.9725722670555115,
+      "supporting_views": [
+        8,
+        17,
+        34,
+        38,
+        47
+      ],
+      "visible_views": [
+        8,
+        17,
+        34,
+        38,
+        47
+      ],
+      "active_views": 9,
+      "camera_spread_degrees": 84.34504832135869,
+      "support_fraction": 1.0,
+      "visibility_backend": "embreex",
+      "normalized": [
+        -0.3762745062510172,
+        0.1623922745386761,
+        -0.20721485595976796
+      ],
+      "world": [
+        1.455600588025194,
+        -0.6231201071608412,
+        2.1929851234446094
+      ],
+      "surface_vertex_distance": 0.0
+    },
+    {
+      "id": 10,
+      "name": "forehead_center_mp10",
+      "valid": false,
+      "reason": "No surface proposals with sufficient heatmap support in search region",
+      "active_views": 0,
+      "visibility_backend": "embreex",
+      "vertex_index": null,
+      "normalized": null,
+      "world": null,
+      "confidence": 0.0,
+      "surface_vertex_distance": null
+    },
+    {
+      "id": 168,
+      "name": "nose_bridge_mp168",
+      "valid": true,
+      "vertex_index": 95459,
+      "confidence": 0.7509749095930386,
+      "confidence_type": "mean_response_over_visible_cameras",
+      "raw_probability": 0.8562522530555725,
+      "supporting_views": [
+        8,
+        12,
+        17,
+        29,
+        34,
+        38,
+        47
+      ],
+      "visible_views": [
+        8,
+        12,
+        17,
+        29,
+        34,
+        38,
+        47
+      ],
+      "active_views": 12,
+      "camera_spread_degrees": 117.298342840511,
+      "support_fraction": 1.0,
+      "visibility_backend": "embreex",
+      "normalized": [
+        -0.2776857786608161,
+        -0.22576458454132076,
+        -0.36043184598286937
+      ],
+      "world": [
+        1.5046131428291796,
+        -0.8160890174330141,
+        2.1168145884964
+      ],
+      "surface_vertex_distance": 0.0
+    },
+    {
+      "id": 152,
+      "name": "chin_mp152",
+      "valid": false,
+      "reason": "No surface proposals with sufficient heatmap support in search region",
+      "active_views": 0,
+      "visibility_backend": "embreex",
+      "vertex_index": null,
+      "normalized": null,
+      "world": null,
+      "confidence": 0.0,
+      "surface_vertex_distance": null
+    }
+  ],
+  "geometry_metrics": {
+    "chamfer_distance": null,
+    "reason": "No reference mesh supplied"
+  },
+  "selection": {
+    "method": "multiview",
+    "view_indices": [
+      0,
+      4,
+      8,
+      12,
+      17,
+      21,
+      25,
+      29,
+      34,
+      38,
+      42,
+      47
+    ],
+    "resolution_level": 4,
+    "heatmap_size": [
+      432,
+      648
+    ],
+    "visibility_backend": "embreex",
+    "uses_annotation_coordinates": false,
+    "uses_annotation_visibility": false,
+    "options": {
+      "max_views": 12,
+      "resolution_level": 4,
+      "peaks_per_view": 8,
+      "min_views": 3,
+      "min_response": 0.05,
+      "min_relative_response": 0.5,
+      "min_support_fraction": 0.5,
+      "min_camera_spread_degrees": 10.0,
+      "min_peak_contrast": 2.0,
+      "visibility_tolerance": 0.02,
+      "visibility_chunk_size": 16,
+      "proposal_neighbors": 32,
+      "proposal_radius": 0.03,
+      "field_candidates": 32,
+      "score_mode": "visible_mean",
+      "domain": "unit_sphere",
+      "save_heatmaps": true
+    },
+    "confidence_caveat": "Model agreement score, not calibrated anatomical confidence"
+  },
+  "reprojection": {
+    "unit": "native_image_pixels",
+    "valid_observations": 280,
+    "selected_landmarks": 8,
+    "total_landmarks": 10,
+    "selection_coverage": 0.8,
+    "coverage_caveat": "Errors exclude unresolved landmarks; assess error together with coverage.",
+    "mean_error": 19.306544285955006,
+    "median_error": 12.372910900038086,
+    "per_landmark": [
+      {
+        "id": 1,
+        "count": 35,
+        "mean_error": 19.189007668095506
+      },
+      {
+        "id": 33,
+        "count": 35,
+        "mean_error": 21.582315045189816
+      },
+      {
+        "id": 291,
+        "count": 35,
+        "mean_error": 13.779957019021085
+      },
+      {
+        "id": 263,
+        "count": 35,
+        "mean_error": 19.20568472912132
+      },
+      {
+        "id": 133,
+        "count": 35,
+        "mean_error": 17.861976075558516
+      },
+      {
+        "id": 362,
+        "count": 35,
+        "mean_error": 18.942680712661932
+      },
+      {
+        "id": 61,
+        "count": 35,
+        "mean_error": 16.086593769531156
+      },
+      {
+        "id": 10,
+        "count": 0,
+        "mean_error": null
+      },
+      {
+        "id": 168,
+        "count": 35,
+        "mean_error": 27.80413926846073
+      },
+      {
+        "id": 152,
+        "count": 0,
+        "mean_error": null
+      }
+    ],
+    "visibility_reviewed_subset": {
+      "count": 223,
+      "mean_error": 14.145772727935658,
+      "per_landmark": [
+        {
+          "id": 1,
+          "count": 34,
+          "mean_error": 17.904402558866696
+        },
+        {
+          "id": 33,
+          "count": 22,
+          "mean_error": 12.75872461136865
+        },
+        {
+          "id": 291,
+          "count": 31,
+          "mean_error": 8.056060028263381
+        },
+        {
+          "id": 263,
+          "count": 24,
+          "mean_error": 10.313478171594973
+        },
+        {
+          "id": 133,
+          "count": 21,
+          "mean_error": 10.516340654162097
+        },
+        {
+          "id": 362,
+          "count": 29,
+          "mean_error": 12.723117952274524
+        },
+        {
+          "id": 61,
+          "count": 28,
+          "mean_error": 9.27308628893901
+        },
+        {
+          "id": 10,
+          "count": 0,
+          "mean_error": null
+        },
+        {
+          "id": 168,
+          "count": 34,
+          "mean_error": 27.010128307058007
+        },
+        {
+          "id": 152,
+          "count": 0,
+          "mean_error": null
+        }
+      ]
+    },
+    "observations": [
+      {
+        "image": "000.png",
+        "id": 1,
+        "predicted_xy": [
+          179.04034560964823,
+          967.6636643378108
+        ],
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "000.png",
+        "id": 33,
+        "predicted_xy": [
+          329.53992051274685,
+          859.6785965969491
+        ],
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "000.png",
+        "id": 291,
+        "predicted_xy": [
+          330.34183513474994,
+          1075.3398688745485
+        ],
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "000.png",
+        "id": 263,
+        "predicted_xy": [
+          377.77602044989914,
+          726.266722414547
+        ],
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "000.png",
+        "id": 133,
+        "predicted_xy": [
+          309.7629405246222,
+          833.5148237031711
+        ],
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "000.png",
+        "id": 362,
+        "predicted_xy": [
+          343.78388505671677,
+          772.6288167815811
+        ],
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "000.png",
+        "id": 61,
+        "predicted_xy": [
+          309.4951816763698,
+          1135.1128547076462
+        ],
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "000.png",
+        "id": 10,
+        "predicted_xy": null,
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "000.png",
+        "id": 168,
+        "predicted_xy": [
+          285.55390351863315,
+          778.9002924806005
+        ],
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "000.png",
+        "id": 152,
+        "predicted_xy": null,
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "001.png",
+        "id": 1,
+        "predicted_xy": [
+          700.2209796092703,
+          982.068557589868
+        ],
+        "valid": true,
+        "error_pixels": 33.65598696357131,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "001.png",
+        "id": 33,
+        "predicted_xy": [
+          714.6272558443518,
+          870.0909666802099
+        ],
+        "valid": true,
+        "error_pixels": 52.98185791226463,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "001.png",
+        "id": 291,
+        "predicted_xy": [
+          943.1030169950596,
+          1170.5094037089798
+        ],
+        "valid": true,
+        "error_pixels": 17.904915247309713,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "001.png",
+        "id": 263,
+        "predicted_xy": [
+          1087.140185990607,
+          719.5673959270151
+        ],
+        "valid": true,
+        "error_pixels": 6.138183807693305,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "001.png",
+        "id": 133,
+        "predicted_xy": [
+          790.8618785232841,
+          834.3148188659902
+        ],
+        "valid": true,
+        "error_pixels": 35.732763686293254,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "001.png",
+        "id": 362,
+        "predicted_xy": [
+          957.9087466568899,
+          768.0625697096347
+        ],
+        "valid": true,
+        "error_pixels": 2.538510237800591,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "001.png",
+        "id": 61,
+        "predicted_xy": [
+          748.4269423444817,
+          1236.5388473802257
+        ],
+        "valid": true,
+        "error_pixels": 24.617851006999626,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "001.png",
+        "id": 10,
+        "predicted_xy": null,
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "001.png",
+        "id": 168,
+        "predicted_xy": [
+          812.9446203305026,
+          756.8654501919654
+        ],
+        "valid": true,
+        "error_pixels": 23.170189815550145,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "001.png",
+        "id": 152,
+        "predicted_xy": null,
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "002.png",
+        "id": 1,
+        "predicted_xy": [
+          1499.2352210254942,
+          1354.6198043486704
+        ],
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "002.png",
+        "id": 33,
+        "predicted_xy": [
+          1423.08137587893,
+          1016.6468891886858
+        ],
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "002.png",
+        "id": 291,
+        "predicted_xy": [
+          1291.4733454098744,
+          1532.9644996375337
+        ],
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "002.png",
+        "id": 263,
+        "predicted_xy": [
+          1197.0656769151844,
+          1212.1372824894822
+        ],
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "002.png",
+        "id": 133,
+        "predicted_xy": [
+          1388.0101350616687,
+          1105.6425142385262
+        ],
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "002.png",
+        "id": 362,
+        "predicted_xy": [
+          1279.9136696881444,
+          1172.718685416684
+        ],
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "002.png",
+        "id": 61,
+        "predicted_xy": [
+          1409.3778593832392,
+          1430.2105169098827
+        ],
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "002.png",
+        "id": 10,
+        "predicted_xy": null,
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "002.png",
+        "id": 168,
+        "predicted_xy": [
+          1387.7133882188618,
+          1100.5868421535693
+        ],
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "002.png",
+        "id": 152,
+        "predicted_xy": null,
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "003.png",
+        "id": 1,
+        "predicted_xy": [
+          1317.622908534481,
+          1111.8822471008787
+        ],
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "003.png",
+        "id": 33,
+        "predicted_xy": [
+          1226.155537458173,
+          876.002953684289
+        ],
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "003.png",
+        "id": 291,
+        "predicted_xy": [
+          1123.665271600957,
+          1270.9708391745728
+        ],
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "003.png",
+        "id": 263,
+        "predicted_xy": [
+          1048.425526909066,
+          912.7296852898118
+        ],
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "003.png",
+        "id": 133,
+        "predicted_xy": [
+          1205.545306783583,
+          908.6081271936079
+        ],
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "003.png",
+        "id": 362,
+        "predicted_xy": [
+          1117.4777024347493,
+          913.642230577517
+        ],
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "003.png",
+        "id": 61,
+        "predicted_xy": [
+          1214.4481162672357,
+          1254.8819080487842
+        ],
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "003.png",
+        "id": 10,
+        "predicted_xy": null,
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "003.png",
+        "id": 168,
+        "predicted_xy": [
+          1212.595984586657,
+          874.2801160843146
+        ],
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "003.png",
+        "id": 152,
+        "predicted_xy": null,
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "004.png",
+        "id": 1,
+        "predicted_xy": [
+          337.170818540468,
+          1200.6305185796573
+        ],
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "004.png",
+        "id": 33,
+        "predicted_xy": [
+          381.7731984618185,
+          1311.0597332196303
+        ],
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "004.png",
+        "id": 291,
+        "predicted_xy": [
+          582.197233689725,
+          1335.0979638046983
+        ],
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "004.png",
+        "id": 263,
+        "predicted_xy": [
+          740.4068893233862,
+          952.7868226002762
+        ],
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "004.png",
+        "id": 133,
+        "predicted_xy": [
+          450.9579137026356,
+          1194.1383380916945
+        ],
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "004.png",
+        "id": 362,
+        "predicted_xy": [
+          613.9714375197207,
+          1050.8416350974553
+        ],
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "004.png",
+        "id": 61,
+        "predicted_xy": [
+          392.04512174185174,
+          1524.001203945548
+        ],
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "004.png",
+        "id": 10,
+        "predicted_xy": null,
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "004.png",
+        "id": 168,
+        "predicted_xy": [
+          470.77798383468075,
+          1088.1214360674178
+        ],
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "004.png",
+        "id": 152,
+        "predicted_xy": null,
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "005.png",
+        "id": 1,
+        "predicted_xy": [
+          1395.5842044809349,
+          1220.7031937737038
+        ],
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "005.png",
+        "id": 33,
+        "predicted_xy": [
+          1311.6398090836335,
+          930.5341088464646
+        ],
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "005.png",
+        "id": 291,
+        "predicted_xy": [
+          1206.534475439185,
+          1380.7526415613163
+        ],
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "005.png",
+        "id": 263,
+        "predicted_xy": [
+          1138.3803257850989,
+          1073.7763561842498
+        ],
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "005.png",
+        "id": 133,
+        "predicted_xy": [
+          1290.698062922571,
+          999.6821249746398
+        ],
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "005.png",
+        "id": 362,
+        "predicted_xy": [
+          1205.2795889670017,
+          1046.954270676592
+        ],
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "005.png",
+        "id": 61,
+        "predicted_xy": [
+          1295.8024223673874,
+          1306.0602729968136
+        ],
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "005.png",
+        "id": 10,
+        "predicted_xy": null,
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "005.png",
+        "id": 168,
+        "predicted_xy": [
+          1297.3620140964326,
+          988.0576514645006
+        ],
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "005.png",
+        "id": 152,
+        "predicted_xy": null,
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "006.png",
+        "id": 1,
+        "predicted_xy": [
+          1007.18622923794,
+          1055.3783512544608
+        ],
+        "valid": true,
+        "error_pixels": 13.116001393102065,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "006.png",
+        "id": 33,
+        "predicted_xy": [
+          715.6557169292414,
+          852.5467303371213
+        ],
+        "valid": true,
+        "error_pixels": 13.124474767581596,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "006.png",
+        "id": 291,
+        "predicted_xy": [
+          1103.4534516443694,
+          1292.0266965680894
+        ],
+        "valid": true,
+        "error_pixels": 1.3515642650394082,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "006.png",
+        "id": 263,
+        "predicted_xy": [
+          1262.7927795147182,
+          931.1194774635675
+        ],
+        "valid": true,
+        "error_pixels": 4.764715515619951,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "006.png",
+        "id": 133,
+        "predicted_xy": [
+          894.686459441045,
+          884.922985614668
+        ],
+        "valid": true,
+        "error_pixels": 6.953985253949032,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "006.png",
+        "id": 362,
+        "predicted_xy": [
+          1114.3372033942073,
+          912.8021969018632
+        ],
+        "valid": true,
+        "error_pixels": 9.707813742656365,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "006.png",
+        "id": 61,
+        "predicted_xy": [
+          808.2066261721695,
+          1246.4847631060813
+        ],
+        "valid": true,
+        "error_pixels": 5.3862445485407315,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "006.png",
+        "id": 10,
+        "predicted_xy": null,
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "006.png",
+        "id": 168,
+        "predicted_xy": [
+          986.0823026122998,
+          842.1558358050532
+        ],
+        "valid": true,
+        "error_pixels": 32.81763008652946,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "006.png",
+        "id": 152,
+        "predicted_xy": null,
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "007.png",
+        "id": 1,
+        "predicted_xy": [
+          1333.0778872030646,
+          1215.0447693822732
+        ],
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "007.png",
+        "id": 33,
+        "predicted_xy": [
+          1154.4284359037106,
+          979.1311264698711
+        ],
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "007.png",
+        "id": 291,
+        "predicted_xy": [
+          1153.7117414845509,
+          1381.066918571994
+        ],
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "007.png",
+        "id": 263,
+        "predicted_xy": [
+          1103.0773635222997,
+          1001.6294990509974
+        ],
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "007.png",
+        "id": 133,
+        "predicted_xy": [
+          1179.489128145288,
+          1007.1916193521104
+        ],
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "007.png",
+        "id": 362,
+        "predicted_xy": [
+          1140.3599500406553,
+          1006.3900692259205
+        ],
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "007.png",
+        "id": 61,
+        "predicted_xy": [
+          1177.037242135085,
+          1373.831931357411
+        ],
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "007.png",
+        "id": 10,
+        "predicted_xy": null,
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "007.png",
+        "id": 168,
+        "predicted_xy": [
+          1208.9834840047743,
+          967.6643802573681
+        ],
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "007.png",
+        "id": 152,
+        "predicted_xy": null,
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "008.png",
+        "id": 1,
+        "predicted_xy": [
+          519.158818934041,
+          1335.95690865776
+        ],
+        "valid": true,
+        "error_pixels": 13.63362406608865,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "008.png",
+        "id": 33,
+        "predicted_xy": [
+          380.7229533040313,
+          1202.6417217526257
+        ],
+        "valid": true,
+        "error_pixels": 15.294354274620062,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "008.png",
+        "id": 291,
+        "predicted_xy": [
+          731.28001226493,
+          1574.4447005550173
+        ],
+        "valid": true,
+        "error_pixels": 12.501315917476418,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "008.png",
+        "id": 263,
+        "predicted_xy": [
+          926.1898047265091,
+          1155.617657239211
+        ],
+        "valid": true,
+        "error_pixels": 5.101805773513317,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "008.png",
+        "id": 133,
+        "predicted_xy": [
+          526.6663799843869,
+          1192.4030086404168
+        ],
+        "valid": true,
+        "error_pixels": 3.2356489384218814,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "008.png",
+        "id": 362,
+        "predicted_xy": [
+          758.1042851809424,
+          1170.6245454088942
+        ],
+        "valid": true,
+        "error_pixels": 10.222752507128675,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "008.png",
+        "id": 61,
+        "predicted_xy": [
+          440.35885163361223,
+          1589.8014445420981
+        ],
+        "valid": true,
+        "error_pixels": 9.069432067287668,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "008.png",
+        "id": 10,
+        "predicted_xy": null,
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "008.png",
+        "id": 168,
+        "predicted_xy": [
+          591.9148867856042,
+          1124.295738399216
+        ],
+        "valid": true,
+        "error_pixels": 19.35681329900805,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "008.png",
+        "id": 152,
+        "predicted_xy": null,
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "009.png",
+        "id": 1,
+        "predicted_xy": [
+          470.7669287232096,
+          1192.7946239822716
+        ],
+        "valid": true,
+        "error_pixels": 10.204633850960086,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "009.png",
+        "id": 33,
+        "predicted_xy": [
+          467.20725929497,
+          958.8062951099613
+        ],
+        "valid": true,
+        "error_pixels": 11.226273996054804,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "009.png",
+        "id": 291,
+        "predicted_xy": [
+          685.1800346896705,
+          1348.8830217640977
+        ],
+        "valid": true,
+        "error_pixels": 1.1092980109432489,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "009.png",
+        "id": 263,
+        "predicted_xy": [
+          785.3147882051536,
+          971.8627807614207
+        ],
+        "valid": true,
+        "error_pixels": 9.623931579303386,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "009.png",
+        "id": 133,
+        "predicted_xy": [
+          534.0501443518109,
+          984.2760151680487
+        ],
+        "valid": true,
+        "error_pixels": 6.42891953783861,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "009.png",
+        "id": 362,
+        "predicted_xy": [
+          676.0462239975675,
+          979.8073399226711
+        ],
+        "valid": true,
+        "error_pixels": 13.410386569086572,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "009.png",
+        "id": 61,
+        "predicted_xy": [
+          520.563600347858,
+          1328.2673403228239
+        ],
+        "valid": true,
+        "error_pixels": 7.288958612879469,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "009.png",
+        "id": 10,
+        "predicted_xy": null,
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "009.png",
+        "id": 168,
+        "predicted_xy": [
+          550.449809212032,
+          946.8514100453023
+        ],
+        "valid": true,
+        "error_pixels": 20.09094824700678,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "009.png",
+        "id": 152,
+        "predicted_xy": null,
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "010.png",
+        "id": 1,
+        "predicted_xy": [
+          666.1677993966504,
+          985.4047906032292
+        ],
+        "valid": true,
+        "error_pixels": 4.555011835494053,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "010.png",
+        "id": 33,
+        "predicted_xy": [
+          525.4877154870156,
+          702.5190568006132
+        ],
+        "valid": true,
+        "error_pixels": 6.770621414994399,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "010.png",
+        "id": 291,
+        "predicted_xy": [
+          881.6631899232982,
+          1164.8055012605478
+        ],
+        "valid": true,
+        "error_pixels": 5.408766705719185,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "010.png",
+        "id": 263,
+        "predicted_xy": [
+          1044.3146456799961,
+          743.1312305900045
+        ],
+        "valid": true,
+        "error_pixels": 2.0362779696899582,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "010.png",
+        "id": 133,
+        "predicted_xy": [
+          664.2303247245061,
+          740.0381898234265
+        ],
+        "valid": true,
+        "error_pixels": 2.520261398157057,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "010.png",
+        "id": 362,
+        "predicted_xy": [
+          884.1899954330584,
+          745.1119016391358
+        ],
+        "valid": true,
+        "error_pixels": 21.097412661741796,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "010.png",
+        "id": 61,
+        "predicted_xy": [
+          610.1341738803326,
+          1130.5348302545997
+        ],
+        "valid": true,
+        "error_pixels": 10.646054753228064,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "010.png",
+        "id": 10,
+        "predicted_xy": null,
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "010.png",
+        "id": 168,
+        "predicted_xy": [
+          721.9008876605839,
+          701.340402781044
+        ],
+        "valid": true,
+        "error_pixels": 17.88913387804904,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "010.png",
+        "id": 152,
+        "predicted_xy": null,
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "011.png",
+        "id": 1,
+        "predicted_xy": [
+          1522.1647171527227,
+          1130.3781608917839
+        ],
+        "valid": true,
+        "error_pixels": 35.55213404278791,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "011.png",
+        "id": 33,
+        "predicted_xy": [
+          1195.0911018335646,
+          886.0493474746175
+        ],
+        "valid": true,
+        "error_pixels": 14.505165929763047,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "011.png",
+        "id": 291,
+        "predicted_xy": [
+          1420.4255245731931,
+          1255.0504065113346
+        ],
+        "valid": true,
+        "error_pixels": 24.482685204707053,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "011.png",
+        "id": 263,
+        "predicted_xy": [
+          1483.9688252507715,
+          818.0109577369592
+        ],
+        "valid": true,
+        "error_pixels": 62.28449377479573,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "011.png",
+        "id": 133,
+        "predicted_xy": [
+          1327.8531521742877,
+          893.2490826717734
+        ],
+        "valid": true,
+        "error_pixels": 29.21127442384864,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "011.png",
+        "id": 362,
+        "predicted_xy": [
+          1427.7391447043337,
+          851.9929714298439
+        ],
+        "valid": true,
+        "error_pixels": 29.929577762342152,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "011.png",
+        "id": 61,
+        "predicted_xy": [
+          1263.913787921181,
+          1294.3190086663967
+        ],
+        "valid": true,
+        "error_pixels": 10.108275125076688,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "011.png",
+        "id": 10,
+        "predicted_xy": null,
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "011.png",
+        "id": 168,
+        "predicted_xy": [
+          1410.231302620592,
+          842.720782960783
+        ],
+        "valid": true,
+        "error_pixels": 7.548713420946498,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "011.png",
+        "id": 152,
+        "predicted_xy": null,
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "012.png",
+        "id": 1,
+        "predicted_xy": [
+          1508.2112416043576,
+          1151.8413774624519
+        ],
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "012.png",
+        "id": 33,
+        "predicted_xy": [
+          1282.6701184974243,
+          774.9688901189298
+        ],
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "012.png",
+        "id": 291,
+        "predicted_xy": [
+          1299.0316692400759,
+          1388.2894804024893
+        ],
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "012.png",
+        "id": 263,
+        "predicted_xy": [
+          1247.5116506810182,
+          1015.7234730528061
+        ],
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "012.png",
+        "id": 133,
+        "predicted_xy": [
+          1320.693853645217,
+          877.8039899587759
+        ],
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "012.png",
+        "id": 362,
+        "predicted_xy": [
+          1284.6333956172703,
+          963.6418110685511
+        ],
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "012.png",
+        "id": 61,
+        "predicted_xy": [
+          1313.336760356997,
+          1264.9657063168645
+        ],
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "012.png",
+        "id": 10,
+        "predicted_xy": null,
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "012.png",
+        "id": 168,
+        "predicted_xy": [
+          1359.6374891737635,
+          867.5331793624629
+        ],
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "012.png",
+        "id": 152,
+        "predicted_xy": null,
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "013.png",
+        "id": 1,
+        "predicted_xy": [
+          930.7669755005711,
+          985.4839570682605
+        ],
+        "valid": true,
+        "error_pixels": 4.323606594724007,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "013.png",
+        "id": 33,
+        "predicted_xy": [
+          610.8285105876998,
+          720.0201021964934
+        ],
+        "valid": true,
+        "error_pixels": 10.675277147452768,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "013.png",
+        "id": 291,
+        "predicted_xy": [
+          1043.4834645566073,
+          1160.9677265538214
+        ],
+        "valid": true,
+        "error_pixels": 6.0071693828735375,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "013.png",
+        "id": 263,
+        "predicted_xy": [
+          1187.5038248959977,
+          735.8969074651108
+        ],
+        "valid": true,
+        "error_pixels": 1.9321954906441723,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "013.png",
+        "id": 133,
+        "predicted_xy": [
+          800.6562125308463,
+          748.8342571465812
+        ],
+        "valid": true,
+        "error_pixels": 5.275129834555707,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "013.png",
+        "id": 362,
+        "predicted_xy": [
+          1031.6659647692952,
+          744.1587401112924
+        ],
+        "valid": true,
+        "error_pixels": 12.503307901070968,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "013.png",
+        "id": 61,
+        "predicted_xy": [
+          736.308088768089,
+          1147.7624202267393
+        ],
+        "valid": true,
+        "error_pixels": 6.3867817958710225,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "013.png",
+        "id": 10,
+        "predicted_xy": null,
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "013.png",
+        "id": 168,
+        "predicted_xy": [
+          893.6310553731,
+          704.9483445467336
+        ],
+        "valid": true,
+        "error_pixels": 35.477604544009395,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "013.png",
+        "id": 152,
+        "predicted_xy": null,
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "014.png",
+        "id": 1,
+        "predicted_xy": [
+          1343.470473376671,
+          1208.1299618290905
+        ],
+        "valid": true,
+        "error_pixels": 4.8101219954973535,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "014.png",
+        "id": 33,
+        "predicted_xy": [
+          917.498426969205,
+          881.5563078218894
+        ],
+        "valid": true,
+        "error_pixels": 3.776217848094865,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "014.png",
+        "id": 291,
+        "predicted_xy": [
+          1288.496779991934,
+          1412.5658335232413
+        ],
+        "valid": true,
+        "error_pixels": 4.833549916366226,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "014.png",
+        "id": 263,
+        "predicted_xy": [
+          1392.8594612803608,
+          911.7292533284582
+        ],
+        "valid": true,
+        "error_pixels": 2.87129484201005,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "014.png",
+        "id": 133,
+        "predicted_xy": [
+          1111.2173936417516,
+          920.8870650774832
+        ],
+        "valid": true,
+        "error_pixels": 8.193549221502426,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "014.png",
+        "id": 362,
+        "predicted_xy": [
+          1286.614071368761,
+          919.0972737719275
+        ],
+        "valid": true,
+        "error_pixels": 7.845979167770571,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "014.png",
+        "id": 61,
+        "predicted_xy": [
+          1031.4794097020526,
+          1401.44465796294
+        ],
+        "valid": true,
+        "error_pixels": 4.21600640212286,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "014.png",
+        "id": 10,
+        "predicted_xy": null,
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "014.png",
+        "id": 168,
+        "predicted_xy": [
+          1221.2336247679732,
+          870.8311055559883
+        ],
+        "valid": true,
+        "error_pixels": 34.407736067070466,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "014.png",
+        "id": 152,
+        "predicted_xy": null,
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "015.png",
+        "id": 1,
+        "predicted_xy": [
+          410.2157189012007,
+          1023.6742865841662
+        ],
+        "valid": true,
+        "error_pixels": 26.851728316236205,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "015.png",
+        "id": 33,
+        "predicted_xy": [
+          396.17020645442847,
+          941.3652622453654
+        ],
+        "valid": true,
+        "error_pixels": 53.6573084473519,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "015.png",
+        "id": 291,
+        "predicted_xy": [
+          666.2350305722526,
+          1202.0709358400572
+        ],
+        "valid": true,
+        "error_pixels": 4.222941340635338,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "015.png",
+        "id": 263,
+        "predicted_xy": [
+          792.713854491146,
+          748.4772494930413
+        ],
+        "valid": true,
+        "error_pixels": 13.28939630318453,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "015.png",
+        "id": 133,
+        "predicted_xy": [
+          481.97574218813173,
+          891.1206159272257
+        ],
+        "valid": true,
+        "error_pixels": 34.54341741250918,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "015.png",
+        "id": 362,
+        "predicted_xy": [
+          658.0090068639308,
+          808.2256132210514
+        ],
+        "valid": true,
+        "error_pixels": 7.125393125918344,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "015.png",
+        "id": 61,
+        "predicted_xy": [
+          456.83228390522044,
+          1292.456165705113
+        ],
+        "valid": true,
+        "error_pixels": 22.71930238679633,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "015.png",
+        "id": 10,
+        "predicted_xy": null,
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "015.png",
+        "id": 168,
+        "predicted_xy": [
+          506.0566851472141,
+          807.3378850485261
+        ],
+        "valid": true,
+        "error_pixels": 14.092846704622144,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "015.png",
+        "id": 152,
+        "predicted_xy": null,
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "016.png",
+        "id": 1,
+        "predicted_xy": [
+          1363.727978200409,
+          1310.3029435585624
+        ],
+        "valid": true,
+        "error_pixels": 62.865581381875025,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "016.png",
+        "id": 33,
+        "predicted_xy": [
+          1089.0262922808538,
+          985.0455011502505
+        ],
+        "valid": true,
+        "error_pixels": 21.57748122133033,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "016.png",
+        "id": 291,
+        "predicted_xy": [
+          1195.194670215852,
+          1526.555952002439
+        ],
+        "valid": true,
+        "error_pixels": 78.38742671019007,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "016.png",
+        "id": 263,
+        "predicted_xy": [
+          1196.3521083347516,
+          1136.0079353356753
+        ],
+        "valid": true,
+        "error_pixels": 93.89203503111621,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "016.png",
+        "id": 133,
+        "predicted_xy": [
+          1169.9805152097854,
+          1057.0873281051088
+        ],
+        "valid": true,
+        "error_pixels": 55.86578277388512,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "016.png",
+        "id": 362,
+        "predicted_xy": [
+          1193.1848823211033,
+          1107.266096181657
+        ],
+        "valid": true,
+        "error_pixels": 65.39807022630937,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "016.png",
+        "id": 61,
+        "predicted_xy": [
+          1132.9389394920106,
+          1451.7159621244443
+        ],
+        "valid": true,
+        "error_pixels": 65.30574884216878,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "016.png",
+        "id": 10,
+        "predicted_xy": null,
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "016.png",
+        "id": 168,
+        "predicted_xy": [
+          1229.5349058925117,
+          1032.2179650299195
+        ],
+        "valid": true,
+        "error_pixels": 26.5619370368522,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "016.png",
+        "id": 152,
+        "predicted_xy": null,
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "017.png",
+        "id": 1,
+        "predicted_xy": [
+          524.3669537746244,
+          1064.0874860337276
+        ],
+        "valid": true,
+        "error_pixels": 6.918025883144115,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "017.png",
+        "id": 33,
+        "predicted_xy": [
+          375.01979454458706,
+          871.5459758320931
+        ],
+        "valid": true,
+        "error_pixels": 8.902834107132911,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "017.png",
+        "id": 291,
+        "predicted_xy": [
+          750.4373719107545,
+          1258.0046888034053
+        ],
+        "valid": true,
+        "error_pixels": 1.03444832570545,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "017.png",
+        "id": 263,
+        "predicted_xy": [
+          892.5914379606962,
+          822.7583584024621
+        ],
+        "valid": true,
+        "error_pixels": 3.465936415369021,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "017.png",
+        "id": 133,
+        "predicted_xy": [
+          514.0901325537304,
+          872.2018813690119
+        ],
+        "valid": true,
+        "error_pixels": 3.2988779433523843,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "017.png",
+        "id": 362,
+        "predicted_xy": [
+          733.2803266374219,
+          844.8553065491332
+        ],
+        "valid": true,
+        "error_pixels": 17.742897715628388,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "017.png",
+        "id": 61,
+        "predicted_xy": [
+          476.13714671719384,
+          1272.4566068157023
+        ],
+        "valid": true,
+        "error_pixels": 8.95650620992707,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "017.png",
+        "id": 10,
+        "predicted_xy": null,
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "017.png",
+        "id": 168,
+        "predicted_xy": [
+          569.3810825797522,
+          812.7739923887216
+        ],
+        "valid": true,
+        "error_pixels": 18.071562318498266,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "017.png",
+        "id": 152,
+        "predicted_xy": null,
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "018.png",
+        "id": 1,
+        "predicted_xy": [
+          830.6532442166538,
+          1021.6769448332753
+        ],
+        "valid": true,
+        "error_pixels": 7.517936779936059,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "018.png",
+        "id": 33,
+        "predicted_xy": [
+          595.2663072471387,
+          898.1446076851016
+        ],
+        "valid": true,
+        "error_pixels": 12.244825986849872,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "018.png",
+        "id": 291,
+        "predicted_xy": [
+          1007.7875703507813,
+          1268.7675956594185
+        ],
+        "valid": true,
+        "error_pixels": 6.6005344422150936,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "018.png",
+        "id": 263,
+        "predicted_xy": [
+          1177.957777002605,
+          884.0134335248562
+        ],
+        "valid": true,
+        "error_pixels": 4.870221238334647,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "018.png",
+        "id": 133,
+        "predicted_xy": [
+          768.3448422583767,
+          894.3181312706466
+        ],
+        "valid": true,
+        "error_pixels": 4.121919460228345,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "018.png",
+        "id": 362,
+        "predicted_xy": [
+          1009.0049756554818,
+          887.5298091074661
+        ],
+        "valid": true,
+        "error_pixels": 11.007585249652552,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "018.png",
+        "id": 61,
+        "predicted_xy": [
+          693.6497569756433,
+          1270.322965160851
+        ],
+        "valid": true,
+        "error_pixels": 7.90237462711271,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "018.png",
+        "id": 10,
+        "predicted_xy": null,
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "018.png",
+        "id": 168,
+        "predicted_xy": [
+          848.9683463420176,
+          831.0303894196147
+        ],
+        "valid": true,
+        "error_pixels": 20.501132613719744,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "018.png",
+        "id": 152,
+        "predicted_xy": null,
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "019.png",
+        "id": 1,
+        "predicted_xy": [
+          1271.5619513240495,
+          913.6034963273992
+        ],
+        "valid": true,
+        "error_pixels": 9.145597884197974,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "019.png",
+        "id": 33,
+        "predicted_xy": [
+          862.4863733813822,
+          632.445203826322
+        ],
+        "valid": true,
+        "error_pixels": 7.217474344603703,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "019.png",
+        "id": 291,
+        "predicted_xy": [
+          1257.249014130003,
+          1165.4612005628821
+        ],
+        "valid": true,
+        "error_pixels": 10.440643044379414,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "019.png",
+        "id": 263,
+        "predicted_xy": [
+          1345.0108211701518,
+          740.6049217780467
+        ],
+        "valid": true,
+        "error_pixels": 16.546063169530992,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "019.png",
+        "id": 133,
+        "predicted_xy": [
+          1051.7985235964538,
+          683.0550636633881
+        ],
+        "valid": true,
+        "error_pixels": 13.12592463852715,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "019.png",
+        "id": 362,
+        "predicted_xy": [
+          1232.7969684179418,
+          719.1246194303395
+        ],
+        "valid": true,
+        "error_pixels": 6.096660784189113,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "019.png",
+        "id": 61,
+        "predicted_xy": [
+          994.5695075294224,
+          1110.63077331394
+        ],
+        "valid": true,
+        "error_pixels": 6.326079793679266,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "019.png",
+        "id": 10,
+        "predicted_xy": null,
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "019.png",
+        "id": 168,
+        "predicted_xy": [
+          1153.8806818734606,
+          640.7096903529521
+        ],
+        "valid": true,
+        "error_pixels": 35.59077688674856,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "019.png",
+        "id": 152,
+        "predicted_xy": null,
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "020.png",
+        "id": 1,
+        "predicted_xy": [
+          1183.4194885079617,
+          986.2648315799679
+        ],
+        "valid": true,
+        "error_pixels": 19.457798044703132,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "020.png",
+        "id": 33,
+        "predicted_xy": [
+          819.8253053851671,
+          782.6413854008209
+        ],
+        "valid": true,
+        "error_pixels": 11.715327634365188,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "020.png",
+        "id": 291,
+        "predicted_xy": [
+          1240.8924820813838,
+          1268.908886414118
+        ],
+        "valid": true,
+        "error_pixels": 8.847229850722638,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "020.png",
+        "id": 263,
+        "predicted_xy": [
+          1372.706523607983,
+          920.3073666117975
+        ],
+        "valid": true,
+        "error_pixels": 5.625130627273974,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "020.png",
+        "id": 133,
+        "predicted_xy": [
+          1014.4489626863897,
+          827.8349864572159
+        ],
+        "valid": true,
+        "error_pixels": 12.087904253355193,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "020.png",
+        "id": 362,
+        "predicted_xy": [
+          1230.9515373363838,
+          882.3579183402717
+        ],
+        "valid": true,
+        "error_pixels": 2.1091643093310384,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "020.png",
+        "id": 61,
+        "predicted_xy": [
+          938.7249108069478,
+          1194.108008352104
+        ],
+        "valid": true,
+        "error_pixels": 9.874132961038555,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "020.png",
+        "id": 10,
+        "predicted_xy": null,
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "020.png",
+        "id": 168,
+        "predicted_xy": [
+          1115.5614872766973,
+          787.2844364283388
+        ],
+        "valid": true,
+        "error_pixels": 43.65171115044206,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "020.png",
+        "id": 152,
+        "predicted_xy": null,
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "021.png",
+        "id": 1,
+        "predicted_xy": [
+          109.50735344911254,
+          1516.719507621903
+        ],
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "021.png",
+        "id": 33,
+        "predicted_xy": [
+          243.8735212994704,
+          1293.7705858998354
+        ],
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "021.png",
+        "id": 291,
+        "predicted_xy": [
+          259.3000708822543,
+          1660.0212372214369
+        ],
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "021.png",
+        "id": 263,
+        "predicted_xy": [
+          287.846325442107,
+          1369.0453969650678
+        ],
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "021.png",
+        "id": 133,
+        "predicted_xy": [
+          225.19119664306524,
+          1334.8439959606226
+        ],
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "021.png",
+        "id": 362,
+        "predicted_xy": [
+          256.44591090802066,
+          1357.1995567439003
+        ],
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "021.png",
+        "id": 61,
+        "predicted_xy": [
+          240.15482060577398,
+          1608.882536087181
+        ],
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "021.png",
+        "id": 10,
+        "predicted_xy": null,
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "021.png",
+        "id": 168,
+        "predicted_xy": [
+          199.95850987167296,
+          1314.1448499680876
+        ],
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "021.png",
+        "id": 152,
+        "predicted_xy": null,
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "022.png",
+        "id": 1,
+        "predicted_xy": [
+          124.5619549750431,
+          1261.8125462967594
+        ],
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "022.png",
+        "id": 33,
+        "predicted_xy": [
+          357.68701969396045,
+          1116.5272841705223
+        ],
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "022.png",
+        "id": 291,
+        "predicted_xy": [
+          245.10566579627078,
+          1355.8736051860199
+        ],
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "022.png",
+        "id": 263,
+        "predicted_xy": [
+          235.70282331468442,
+          972.9429214566077
+        ],
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "022.png",
+        "id": 133,
+        "predicted_xy": [
+          284.7003647275111,
+          1094.3125416695887
+        ],
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "022.png",
+        "id": 362,
+        "predicted_xy": [
+          250.135644651028,
+          1026.3860490077293
+        ],
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "022.png",
+        "id": 61,
+        "predicted_xy": [
+          315.0768852329739,
+          1418.8840225389129
+        ],
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "022.png",
+        "id": 10,
+        "predicted_xy": null,
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "022.png",
+        "id": 168,
+        "predicted_xy": [
+          232.4304478774718,
+          1040.872779369386
+        ],
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "022.png",
+        "id": 152,
+        "predicted_xy": null,
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "023.png",
+        "id": 1,
+        "predicted_xy": [
+          1371.7731514074806,
+          1134.0666480776315
+        ],
+        "valid": true,
+        "error_pixels": 8.609589629545022,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "023.png",
+        "id": 33,
+        "predicted_xy": [
+          982.392666081561,
+          797.8657184634425
+        ],
+        "valid": true,
+        "error_pixels": 13.993193011129678,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "023.png",
+        "id": 291,
+        "predicted_xy": [
+          1270.5445340038973,
+          1421.5512626203097
+        ],
+        "valid": true,
+        "error_pixels": 76.67303477866562,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "023.png",
+        "id": 263,
+        "predicted_xy": [
+          1320.4493831165191,
+          1039.2365863239213
+        ],
+        "valid": true,
+        "error_pixels": 132.409427731041,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "023.png",
+        "id": 133,
+        "predicted_xy": [
+          1136.94136796222,
+          890.4577397961024
+        ],
+        "valid": true,
+        "error_pixels": 59.96338204499867,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "023.png",
+        "id": 362,
+        "predicted_xy": [
+          1254.2858672525347,
+          981.1498137507008
+        ],
+        "valid": true,
+        "error_pixels": 95.5056652190103,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "023.png",
+        "id": 61,
+        "predicted_xy": [
+          1082.8497352213178,
+          1296.771018737959
+        ],
+        "valid": true,
+        "error_pixels": 6.303180229727497,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "023.png",
+        "id": 10,
+        "predicted_xy": null,
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "023.png",
+        "id": 168,
+        "predicted_xy": [
+          1228.6894923208777,
+          868.6087435340529
+        ],
+        "valid": true,
+        "error_pixels": 11.847981214684406,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "023.png",
+        "id": 152,
+        "predicted_xy": null,
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "024.png",
+        "id": 1,
+        "predicted_xy": [
+          814.0518105920125,
+          755.6508815637219
+        ],
+        "valid": true,
+        "error_pixels": 31.48805169030102,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "024.png",
+        "id": 33,
+        "predicted_xy": [
+          537.3416000704802,
+          788.8522129808836
+        ],
+        "valid": true,
+        "error_pixels": 36.152232097618565,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "024.png",
+        "id": 291,
+        "predicted_xy": [
+          1019.1249017015209,
+          1060.6158214305553
+        ],
+        "valid": true,
+        "error_pixels": 9.097992073192332,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "024.png",
+        "id": 263,
+        "predicted_xy": [
+          1221.8611001400734,
+          738.8310472748329
+        ],
+        "valid": true,
+        "error_pixels": 15.533484598869686,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "024.png",
+        "id": 133,
+        "predicted_xy": [
+          741.1109917071961,
+          750.057326811504
+        ],
+        "valid": true,
+        "error_pixels": 11.60912843572934,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "024.png",
+        "id": 362,
+        "predicted_xy": [
+          1023.717422352836,
+          738.9317217016559
+        ],
+        "valid": true,
+        "error_pixels": 10.290566319323672,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "024.png",
+        "id": 61,
+        "predicted_xy": [
+          643.1069478394378,
+          1085.820838112042
+        ],
+        "valid": true,
+        "error_pixels": 4.18731789498463,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "024.png",
+        "id": 10,
+        "predicted_xy": null,
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "024.png",
+        "id": 168,
+        "predicted_xy": [
+          837.4420537194097,
+          668.9743007155707
+        ],
+        "valid": true,
+        "error_pixels": 30.277102205759615,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "024.png",
+        "id": 152,
+        "predicted_xy": null,
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "025.png",
+        "id": 1,
+        "predicted_xy": [
+          227.91307964254744,
+          1241.4978241341687
+        ],
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "025.png",
+        "id": 33,
+        "predicted_xy": [
+          433.5957054914365,
+          1046.3329958204104
+        ],
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "025.png",
+        "id": 291,
+        "predicted_xy": [
+          335.9954248575174,
+          1380.2984753878288
+        ],
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "025.png",
+        "id": 263,
+        "predicted_xy": [
+          327.9179398561566,
+          1065.875740446372
+        ],
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "025.png",
+        "id": 133,
+        "predicted_xy": [
+          369.3172862093802,
+          1069.6928551637786
+        ],
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "025.png",
+        "id": 362,
+        "predicted_xy": [
+          339.8162559597185,
+          1069.7036844703093
+        ],
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "025.png",
+        "id": 61,
+        "predicted_xy": [
+          395.9905202829865,
+          1358.1954799315818
+        ],
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "025.png",
+        "id": 10,
+        "predicted_xy": null,
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "025.png",
+        "id": 168,
+        "predicted_xy": [
+          323.0522928045443,
+          1038.9624450433334
+        ],
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "025.png",
+        "id": 152,
+        "predicted_xy": null,
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "026.png",
+        "id": 1,
+        "predicted_xy": [
+          1472.9966894250963,
+          1137.6668927016524
+        ],
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "026.png",
+        "id": 33,
+        "predicted_xy": [
+          1296.771172842845,
+          932.50466329631
+        ],
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "026.png",
+        "id": 291,
+        "predicted_xy": [
+          1267.4343909123793,
+          1285.118332073875
+        ],
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "026.png",
+        "id": 263,
+        "predicted_xy": [
+          1226.213174526086,
+          851.9880776065797
+        ],
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "026.png",
+        "id": 133,
+        "predicted_xy": [
+          1318.3600596565323,
+          929.4222185053001
+        ],
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "026.png",
+        "id": 362,
+        "predicted_xy": [
+          1270.232441295799,
+          885.8284752426503
+        ],
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "026.png",
+        "id": 61,
+        "predicted_xy": [
+          1300.1813199672729,
+          1333.3803103964765
+        ],
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "026.png",
+        "id": 10,
+        "predicted_xy": null,
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "026.png",
+        "id": 168,
+        "predicted_xy": [
+          1350.3325378560905,
+          871.853913568719
+        ],
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "026.png",
+        "id": 152,
+        "predicted_xy": null,
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "027.png",
+        "id": 1,
+        "predicted_xy": [
+          927.1420657483093,
+          1024.0452310960563
+        ],
+        "valid": true,
+        "error_pixels": 16.938221732949508,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "027.png",
+        "id": 33,
+        "predicted_xy": [
+          708.8663677783802,
+          888.1022352122784
+        ],
+        "valid": true,
+        "error_pixels": 14.488586790380772,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "027.png",
+        "id": 291,
+        "predicted_xy": [
+          1121.5220681888409,
+          1242.073701091145
+        ],
+        "valid": true,
+        "error_pixels": 7.990186326454234,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "027.png",
+        "id": 263,
+        "predicted_xy": [
+          1266.3263663189816,
+          839.3971600567702
+        ],
+        "valid": true,
+        "error_pixels": 1.437862668099184,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "027.png",
+        "id": 133,
+        "predicted_xy": [
+          871.3142866770763,
+          879.0233434833665
+        ],
+        "valid": true,
+        "error_pixels": 2.6835673333654078,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "027.png",
+        "id": 362,
+        "predicted_xy": [
+          1102.6324720147884,
+          855.828777131335
+        ],
+        "valid": true,
+        "error_pixels": 10.157287807965423,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "027.png",
+        "id": 61,
+        "predicted_xy": [
+          822.348514921727,
+          1260.7094846035748
+        ],
+        "valid": true,
+        "error_pixels": 8.413456830228409,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "027.png",
+        "id": 10,
+        "predicted_xy": null,
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "027.png",
+        "id": 168,
+        "predicted_xy": [
+          942.3665328537927,
+          814.7948418220229
+        ],
+        "valid": true,
+        "error_pixels": 20.966609977296894,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "027.png",
+        "id": 152,
+        "predicted_xy": null,
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "028.png",
+        "id": 1,
+        "predicted_xy": [
+          1055.5803806537995,
+          807.151099883809
+        ],
+        "valid": true,
+        "error_pixels": 9.766719284171463,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "028.png",
+        "id": 33,
+        "predicted_xy": [
+          748.9684768072035,
+          568.6599263697537
+        ],
+        "valid": true,
+        "error_pixels": 15.354276385423487,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "028.png",
+        "id": 291,
+        "predicted_xy": [
+          1190.2723540922946,
+          1041.8744041831958
+        ],
+        "valid": true,
+        "error_pixels": 1.3581454500063728,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "028.png",
+        "id": 263,
+        "predicted_xy": [
+          1362.2352787763512,
+          615.140115445889
+        ],
+        "valid": true,
+        "error_pixels": 1.4184296464868942,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "028.png",
+        "id": 133,
+        "predicted_xy": [
+          944.3020517965555,
+          597.5006088891571
+        ],
+        "valid": true,
+        "error_pixels": 3.1537612326282396,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "028.png",
+        "id": 362,
+        "predicted_xy": [
+          1192.5953053286373,
+          609.3873503968795
+        ],
+        "valid": true,
+        "error_pixels": 11.609147242119782,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "028.png",
+        "id": 61,
+        "predicted_xy": [
+          861.5338954962496,
+          1011.5364699470672
+        ],
+        "valid": true,
+        "error_pixels": 7.51968849533505,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "028.png",
+        "id": 10,
+        "predicted_xy": null,
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "028.png",
+        "id": 168,
+        "predicted_xy": [
+          1040.427553455891,
+          547.2106922694936
+        ],
+        "valid": true,
+        "error_pixels": 33.451361693359246,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "028.png",
+        "id": 152,
+        "predicted_xy": null,
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "029.png",
+        "id": 1,
+        "predicted_xy": [
+          1415.7656285221851,
+          1161.1629411185452
+        ],
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "029.png",
+        "id": 33,
+        "predicted_xy": [
+          1125.6467290742567,
+          932.4519135678507
+        ],
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "029.png",
+        "id": 291,
+        "predicted_xy": [
+          1246.890931604443,
+          1300.9217315396447
+        ],
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "029.png",
+        "id": 263,
+        "predicted_xy": [
+          1255.9490114821583,
+          833.3516319307482
+        ],
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "029.png",
+        "id": 133,
+        "predicted_xy": [
+          1215.5943290822768,
+          927.9199478305084
+        ],
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "029.png",
+        "id": 362,
+        "predicted_xy": [
+          1247.4248874223845,
+          874.655571367593
+        ],
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "029.png",
+        "id": 61,
+        "predicted_xy": [
+          1173.5334427130763,
+          1359.5124617474678
+        ],
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "029.png",
+        "id": 10,
+        "predicted_xy": null,
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "029.png",
+        "id": 168,
+        "predicted_xy": [
+          1280.4088289339957,
+          867.1011932401882
+        ],
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "029.png",
+        "id": 152,
+        "predicted_xy": null,
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "030.png",
+        "id": 1,
+        "predicted_xy": [
+          1012.0977023943732,
+          961.1911736464165
+        ],
+        "valid": true,
+        "error_pixels": 33.75787635284218,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "030.png",
+        "id": 33,
+        "predicted_xy": [
+          619.4070589001207,
+          872.8941706566452
+        ],
+        "valid": true,
+        "error_pixels": 47.225893523760526,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "030.png",
+        "id": 291,
+        "predicted_xy": [
+          1109.187301322933,
+          1318.4138665414355
+        ],
+        "valid": true,
+        "error_pixels": 19.84450751452762,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "030.png",
+        "id": 263,
+        "predicted_xy": [
+          1283.0485655359585,
+          1058.9120633237023
+        ],
+        "valid": true,
+        "error_pixels": 36.28995988545094,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "030.png",
+        "id": 133,
+        "predicted_xy": [
+          843.7158711801918,
+          909.7655540418369
+        ],
+        "valid": true,
+        "error_pixels": 21.86594539190048,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "030.png",
+        "id": 362,
+        "predicted_xy": [
+          1107.2415590218422,
+          994.166209267063
+        ],
+        "valid": true,
+        "error_pixels": 1.9512190478892688,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "030.png",
+        "id": 61,
+        "predicted_xy": [
+          740.7294052292926,
+          1216.4423786018865
+        ],
+        "valid": true,
+        "error_pixels": 26.996593203268276,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "030.png",
+        "id": 10,
+        "predicted_xy": null,
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "030.png",
+        "id": 168,
+        "predicted_xy": [
+          959.5716159526575,
+          865.7286852814337
+        ],
+        "valid": true,
+        "error_pixels": 42.44303327108698,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "030.png",
+        "id": 152,
+        "predicted_xy": null,
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "031.png",
+        "id": 1,
+        "predicted_xy": [
+          1007.1995323209132,
+          1200.7124470266028
+        ],
+        "valid": true,
+        "error_pixels": 2.9340700204276042,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "031.png",
+        "id": 33,
+        "predicted_xy": [
+          662.8509872173854,
+          864.1495002638743
+        ],
+        "valid": true,
+        "error_pixels": 12.58672525321719,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "031.png",
+        "id": 291,
+        "predicted_xy": [
+          1154.851106252685,
+          1390.2608986026196
+        ],
+        "valid": true,
+        "error_pixels": 6.815179528167425,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "031.png",
+        "id": 263,
+        "predicted_xy": [
+          1343.2920901649477,
+          897.5742287840543
+        ],
+        "valid": true,
+        "error_pixels": 2.088497983051838,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "031.png",
+        "id": 133,
+        "predicted_xy": [
+          880.4364853335619,
+          906.3711858094249
+        ],
+        "valid": true,
+        "error_pixels": 6.475916286515564,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "031.png",
+        "id": 362,
+        "predicted_xy": [
+          1155.6418585419246,
+          905.3167676284427
+        ],
+        "valid": true,
+        "error_pixels": 18.013858794737118,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "031.png",
+        "id": 61,
+        "predicted_xy": [
+          794.2262010977088,
+          1365.2845790389456
+        ],
+        "valid": true,
+        "error_pixels": 8.612988640561552,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "031.png",
+        "id": 10,
+        "predicted_xy": null,
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "031.png",
+        "id": 168,
+        "predicted_xy": [
+          987.0140963451094,
+          861.3093105943592
+        ],
+        "valid": true,
+        "error_pixels": 36.60214387878043,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "031.png",
+        "id": 152,
+        "predicted_xy": null,
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "032.png",
+        "id": 1,
+        "predicted_xy": [
+          1400.3270563277113,
+          1133.054387355467
+        ],
+        "valid": true,
+        "error_pixels": 59.00384409256826,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "032.png",
+        "id": 33,
+        "predicted_xy": [
+          1096.8390956359488,
+          831.1370219874573
+        ],
+        "valid": true,
+        "error_pixels": 16.895394260176136,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "032.png",
+        "id": 291,
+        "predicted_xy": [
+          1228.4347060244781,
+          1329.963382129238
+        ],
+        "valid": true,
+        "error_pixels": 53.017488096010375,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "032.png",
+        "id": 263,
+        "predicted_xy": [
+          1235.0774337117816,
+          875.2059300911272
+        ],
+        "valid": true,
+        "error_pixels": 65.1561892712663,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "032.png",
+        "id": 133,
+        "predicted_xy": [
+          1190.9267978262071,
+          872.0090028646777
+        ],
+        "valid": true,
+        "error_pixels": 29.90653225671904,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "032.png",
+        "id": 362,
+        "predicted_xy": [
+          1225.288005055423,
+          877.2025181226269
+        ],
+        "valid": true,
+        "error_pixels": 50.38282620598344,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "032.png",
+        "id": 61,
+        "predicted_xy": [
+          1150.0560121963883,
+          1314.2848703885313
+        ],
+        "valid": true,
+        "error_pixels": 59.55550445912932,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "032.png",
+        "id": 10,
+        "predicted_xy": null,
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "032.png",
+        "id": 168,
+        "predicted_xy": [
+          1257.7212946850975,
+          827.8593195668747
+        ],
+        "valid": true,
+        "error_pixels": 8.820167778205564,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "032.png",
+        "id": 152,
+        "predicted_xy": null,
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "033.png",
+        "id": 1,
+        "predicted_xy": [
+          228.7569458151655,
+          1453.0565018988011
+        ],
+        "valid": true,
+        "error_pixels": 17.209508227297697,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "033.png",
+        "id": 33,
+        "predicted_xy": [
+          337.34591741391444,
+          1104.6880336344634
+        ],
+        "valid": true,
+        "error_pixels": 88.78805058280432,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "033.png",
+        "id": 291,
+        "predicted_xy": [
+          473.57748021292076,
+          1654.4250212500556
+        ],
+        "valid": true,
+        "error_pixels": 8.395050230218063,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "033.png",
+        "id": 263,
+        "predicted_xy": [
+          559.4089155285676,
+          1244.513079468732
+        ],
+        "valid": true,
+        "error_pixels": 14.760877547302137,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "033.png",
+        "id": 133,
+        "predicted_xy": [
+          360.73747559760477,
+          1175.5205478869925
+        ],
+        "valid": true,
+        "error_pixels": 53.60384646362803,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "033.png",
+        "id": 362,
+        "predicted_xy": [
+          469.0975722963023,
+          1219.556868940361
+        ],
+        "valid": true,
+        "error_pixels": 18.936588527842268,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "033.png",
+        "id": 61,
+        "predicted_xy": [
+          362.8904720410689,
+          1561.37734074394
+        ],
+        "valid": true,
+        "error_pixels": 56.452055996077824,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "033.png",
+        "id": 10,
+        "predicted_xy": null,
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "033.png",
+        "id": 168,
+        "predicted_xy": [
+          349.9774236847591,
+          1152.8811122394347
+        ],
+        "valid": true,
+        "error_pixels": 36.15746730224769,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "033.png",
+        "id": 152,
+        "predicted_xy": null,
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "034.png",
+        "id": 1,
+        "predicted_xy": [
+          871.4265585753373,
+          1324.9154297613748
+        ],
+        "valid": true,
+        "error_pixels": 12.739678049525217,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "034.png",
+        "id": 33,
+        "predicted_xy": [
+          630.9029355900702,
+          943.9765790448783
+        ],
+        "valid": true,
+        "error_pixels": 12.673024576426442,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "034.png",
+        "id": 291,
+        "predicted_xy": [
+          1077.0631194391467,
+          1488.311787507178
+        ],
+        "valid": true,
+        "error_pixels": 8.39509692927706,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "034.png",
+        "id": 263,
+        "predicted_xy": [
+          1280.6836839467117,
+          1027.5415030779998
+        ],
+        "valid": true,
+        "error_pixels": 8.49903016630378,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "034.png",
+        "id": 133,
+        "predicted_xy": [
+          819.4349158063359,
+          1007.4914458301622
+        ],
+        "valid": true,
+        "error_pixels": 5.301270207120978,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "034.png",
+        "id": 362,
+        "predicted_xy": [
+          1089.3764379863712,
+          1024.5291585809023
+        ],
+        "valid": true,
+        "error_pixels": 26.50307429115803,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "034.png",
+        "id": 61,
+        "predicted_xy": [
+          737.763180830072,
+          1431.9785900592162
+        ],
+        "valid": true,
+        "error_pixels": 7.734494744282576,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "034.png",
+        "id": 10,
+        "predicted_xy": null,
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "034.png",
+        "id": 168,
+        "predicted_xy": [
+          906.2096339211055,
+          979.2340848324964
+        ],
+        "valid": true,
+        "error_pixels": 30.028378612978127,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "034.png",
+        "id": 152,
+        "predicted_xy": null,
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "035.png",
+        "id": 1,
+        "predicted_xy": [
+          1430.9322373461443,
+          1368.1496064890212
+        ],
+        "valid": true,
+        "error_pixels": 5.119129614031164,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "035.png",
+        "id": 33,
+        "predicted_xy": [
+          1024.213904782017,
+          1024.5358549376488
+        ],
+        "valid": true,
+        "error_pixels": 5.84150492559254,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "035.png",
+        "id": 291,
+        "predicted_xy": [
+          1389.6974392655936,
+          1576.7018927651675
+        ],
+        "valid": true,
+        "error_pixels": 9.004970592331398,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "035.png",
+        "id": 263,
+        "predicted_xy": [
+          1529.189266326678,
+          1093.4805522866188
+        ],
+        "valid": true,
+        "error_pixels": 8.048426413132105,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "035.png",
+        "id": 133,
+        "predicted_xy": [
+          1221.6476533864948,
+          1076.4064620785437
+        ],
+        "valid": true,
+        "error_pixels": 14.0592158590303,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "035.png",
+        "id": 362,
+        "predicted_xy": [
+          1411.5687014247687,
+          1090.384354621544
+        ],
+        "valid": true,
+        "error_pixels": 4.688442664265781,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "035.png",
+        "id": 61,
+        "predicted_xy": [
+          1116.5462260232364,
+          1543.2494895724187
+        ],
+        "valid": true,
+        "error_pixels": 5.6107955057452905,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "035.png",
+        "id": 10,
+        "predicted_xy": null,
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "035.png",
+        "id": 168,
+        "predicted_xy": [
+          1335.204870623495,
+          1033.8467699078922
+        ],
+        "valid": true,
+        "error_pixels": 29.934563595356767,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "035.png",
+        "id": 152,
+        "predicted_xy": null,
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "036.png",
+        "id": 1,
+        "predicted_xy": [
+          940.8427908026084,
+          996.0635800730957
+        ],
+        "valid": true,
+        "error_pixels": 19.83456124338176,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "036.png",
+        "id": 33,
+        "predicted_xy": [
+          626.1664230955847,
+          806.9058595641542
+        ],
+        "valid": true,
+        "error_pixels": 15.547309603873783,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "036.png",
+        "id": 291,
+        "predicted_xy": [
+          1081.6348644415766,
+          1259.436502291589
+        ],
+        "valid": true,
+        "error_pixels": 1.8438357966429,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "036.png",
+        "id": 263,
+        "predicted_xy": [
+          1248.2231428654245,
+          851.0337727696694
+        ],
+        "valid": true,
+        "error_pixels": 8.864240798095594,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "036.png",
+        "id": 133,
+        "predicted_xy": [
+          824.5679891269376,
+          826.2811984804854
+        ],
+        "valid": true,
+        "error_pixels": 9.117532038846882,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "036.png",
+        "id": 362,
+        "predicted_xy": [
+          1076.3351809764713,
+          840.993607784608
+        ],
+        "valid": true,
+        "error_pixels": 13.003581189125402,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "036.png",
+        "id": 61,
+        "predicted_xy": [
+          745.3374086438903,
+          1231.2629850283638
+        ],
+        "valid": true,
+        "error_pixels": 7.620092044495424,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "036.png",
+        "id": 10,
+        "predicted_xy": null,
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "036.png",
+        "id": 168,
+        "predicted_xy": [
+          921.3376576738261,
+          770.1153346535576
+        ],
+        "valid": true,
+        "error_pixels": 32.161360622804246,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "036.png",
+        "id": 152,
+        "predicted_xy": null,
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "037.png",
+        "id": 1,
+        "predicted_xy": [
+          1090.5959457893407,
+          1325.0366296345298
+        ],
+        "valid": true,
+        "error_pixels": 11.756448155108075,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "037.png",
+        "id": 33,
+        "predicted_xy": [
+          764.8703863732264,
+          967.9169620467849
+        ],
+        "valid": true,
+        "error_pixels": 14.33880083217676,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "037.png",
+        "id": 291,
+        "predicted_xy": [
+          1229.6147791898657,
+          1471.7474309789454
+        ],
+        "valid": true,
+        "error_pixels": 6.286251458505969,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "037.png",
+        "id": 263,
+        "predicted_xy": [
+          1422.6102485738231,
+          1005.4315420830599
+        ],
+        "valid": true,
+        "error_pixels": 4.868838904885357,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "037.png",
+        "id": 133,
+        "predicted_xy": [
+          974.4358351660163,
+          1017.3283005187739
+        ],
+        "valid": true,
+        "error_pixels": 2.7428046276086446,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "037.png",
+        "id": 362,
+        "predicted_xy": [
+          1240.69383984842,
+          1015.4600138238521
+        ],
+        "valid": true,
+        "error_pixels": 19.973825341920524,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "037.png",
+        "id": 61,
+        "predicted_xy": [
+          883.4056097374091,
+          1444.2684073340238
+        ],
+        "valid": true,
+        "error_pixels": 6.975910734877669,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "037.png",
+        "id": 10,
+        "predicted_xy": null,
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "037.png",
+        "id": 168,
+        "predicted_xy": [
+          1078.1951628490272,
+          982.9291569438184
+        ],
+        "valid": true,
+        "error_pixels": 36.50830495838076,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "037.png",
+        "id": 152,
+        "predicted_xy": null,
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "038.png",
+        "id": 1,
+        "predicted_xy": [
+          435.25442637690054,
+          748.3599634523296
+        ],
+        "valid": true,
+        "error_pixels": 16.090328023509066,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "038.png",
+        "id": 33,
+        "predicted_xy": [
+          345.29583180012617,
+          616.7902377291919
+        ],
+        "valid": true,
+        "error_pixels": 15.430973690191326,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "038.png",
+        "id": 291,
+        "predicted_xy": [
+          663.0166699282539,
+          949.7699540482976
+        ],
+        "valid": true,
+        "error_pixels": 11.951019367562466,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "038.png",
+        "id": 263,
+        "predicted_xy": [
+          816.4166009342229,
+          526.591546534799
+        ],
+        "valid": true,
+        "error_pixels": 1.9897219910306831,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "038.png",
+        "id": 133,
+        "predicted_xy": [
+          463.50520297974606,
+          597.85312279179
+        ],
+        "valid": true,
+        "error_pixels": 6.4917609744941736,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "038.png",
+        "id": 362,
+        "predicted_xy": [
+          666.326646024343,
+          556.6448481337937
+        ],
+        "valid": true,
+        "error_pixels": 9.36122097643239,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "038.png",
+        "id": 61,
+        "predicted_xy": [
+          413.7350005476682,
+          986.6324124384363
+        ],
+        "valid": true,
+        "error_pixels": 5.249599313774403,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "038.png",
+        "id": 10,
+        "predicted_xy": null,
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "038.png",
+        "id": 168,
+        "predicted_xy": [
+          509.2809593087862,
+          529.1663288295091
+        ],
+        "valid": true,
+        "error_pixels": 17.27974599940533,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "038.png",
+        "id": 152,
+        "predicted_xy": null,
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "039.png",
+        "id": 1,
+        "predicted_xy": [
+          1236.85669961261,
+          1438.7612914415079
+        ],
+        "valid": true,
+        "error_pixels": 15.402270640539836,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "039.png",
+        "id": 33,
+        "predicted_xy": [
+          819.3868497796981,
+          1093.8472599307224
+        ],
+        "valid": true,
+        "error_pixels": 13.69911470680055,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "039.png",
+        "id": 291,
+        "predicted_xy": [
+          1293.7802965037502,
+          1568.7077223241897
+        ],
+        "valid": true,
+        "error_pixels": 3.975357664633312,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "039.png",
+        "id": 263,
+        "predicted_xy": [
+          1459.2823288115899,
+          1059.136707151221
+        ],
+        "valid": true,
+        "error_pixels": 5.218252543853518,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "039.png",
+        "id": 133,
+        "predicted_xy": [
+          1045.763318418323,
+          1123.535836105646
+        ],
+        "valid": true,
+        "error_pixels": 6.4878642103149735,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "039.png",
+        "id": 362,
+        "predicted_xy": [
+          1296.0755262642053,
+          1090.7067782878285
+        ],
+        "valid": true,
+        "error_pixels": 12.500995813226298,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "039.png",
+        "id": 61,
+        "predicted_xy": [
+          954.9309243321655,
+          1584.575446496519
+        ],
+        "valid": true,
+        "error_pixels": 3.5622048998110873,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "039.png",
+        "id": 10,
+        "predicted_xy": null,
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "039.png",
+        "id": 168,
+        "predicted_xy": [
+          1164.3460376525427,
+          1076.7479344561286
+        ],
+        "valid": true,
+        "error_pixels": 42.87627147519575,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "039.png",
+        "id": 152,
+        "predicted_xy": null,
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "040.png",
+        "id": 1,
+        "predicted_xy": [
+          572.0487039657557,
+          1268.0667638622176
+        ],
+        "valid": true,
+        "error_pixels": 16.199780606808684,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "040.png",
+        "id": 33,
+        "predicted_xy": [
+          482.898895511752,
+          920.072444707747
+        ],
+        "valid": true,
+        "error_pixels": 8.491366799565213,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "040.png",
+        "id": 291,
+        "predicted_xy": [
+          810.2416633421512,
+          1442.2260971272483
+        ],
+        "valid": true,
+        "error_pixels": 8.911074625705927,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "040.png",
+        "id": 263,
+        "predicted_xy": [
+          973.3070068742583,
+          1026.2325413671765
+        ],
+        "valid": true,
+        "error_pixels": 14.011872373919728,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "040.png",
+        "id": 133,
+        "predicted_xy": [
+          604.6409662956595,
+          984.0697022834249
+        ],
+        "valid": true,
+        "error_pixels": 10.78352969056484,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "040.png",
+        "id": 362,
+        "predicted_xy": [
+          816.0853878461563,
+          1013.1094473351999
+        ],
+        "valid": true,
+        "error_pixels": 15.985697192433884,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "040.png",
+        "id": 61,
+        "predicted_xy": [
+          556.603793053765,
+          1371.0091504290858
+        ],
+        "valid": true,
+        "error_pixels": 10.035844465249498,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "040.png",
+        "id": 10,
+        "predicted_xy": null,
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "040.png",
+        "id": 168,
+        "predicted_xy": [
+          650.9167913937039,
+          959.6798376641777
+        ],
+        "valid": true,
+        "error_pixels": 30.622317154394374,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "040.png",
+        "id": 152,
+        "predicted_xy": null,
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "041.png",
+        "id": 1,
+        "predicted_xy": [
+          1416.0053292321154,
+          1192.8123400602562
+        ],
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "041.png",
+        "id": 33,
+        "predicted_xy": [
+          1141.6492364390274,
+          839.1716122474309
+        ],
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "041.png",
+        "id": 291,
+        "predicted_xy": [
+          1249.4200470631345,
+          1427.6960790249818
+        ],
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "041.png",
+        "id": 263,
+        "predicted_xy": [
+          1267.5108466843892,
+          1082.9936450294897
+        ],
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "041.png",
+        "id": 133,
+        "predicted_xy": [
+          1227.182026037373,
+          939.1055255362256
+        ],
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "041.png",
+        "id": 362,
+        "predicted_xy": [
+          1258.5705261003413,
+          1027.9461296579277
+        ],
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "041.png",
+        "id": 61,
+        "predicted_xy": [
+          1176.6264748304789,
+          1301.1119301577462
+        ],
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "041.png",
+        "id": 10,
+        "predicted_xy": null,
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "041.png",
+        "id": 168,
+        "predicted_xy": [
+          1290.1897798953637,
+          930.1798367305355
+        ],
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "041.png",
+        "id": 152,
+        "predicted_xy": null,
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "042.png",
+        "id": 1,
+        "predicted_xy": [
+          504.8827740232715,
+          1212.893433812949
+        ],
+        "valid": true,
+        "error_pixels": 56.242692495861796,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "042.png",
+        "id": 33,
+        "predicted_xy": [
+          613.4000543582298,
+          1084.7250856652815
+        ],
+        "valid": true,
+        "error_pixels": 126.31665269222984,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "042.png",
+        "id": 291,
+        "predicted_xy": [
+          735.8963525866054,
+          1369.0906649255423
+        ],
+        "valid": true,
+        "error_pixels": 11.81215246570109,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "042.png",
+        "id": 263,
+        "predicted_xy": [
+          829.3747699221518,
+          912.6217699394365
+        ],
+        "valid": true,
+        "error_pixels": 40.114112220603225,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "042.png",
+        "id": 133,
+        "predicted_xy": [
+          636.8612803852309,
+          1048.3260975098376
+        ],
+        "valid": true,
+        "error_pixels": 94.81620120555135,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "042.png",
+        "id": 362,
+        "predicted_xy": [
+          742.1276427985821,
+          970.9807920332715
+        ],
+        "valid": true,
+        "error_pixels": 39.54306628727933,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "042.png",
+        "id": 61,
+        "predicted_xy": [
+          625.9785286918748,
+          1444.6712523503004
+        ],
+        "valid": true,
+        "error_pixels": 69.2258116449599,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "042.png",
+        "id": 10,
+        "predicted_xy": null,
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "042.png",
+        "id": 168,
+        "predicted_xy": [
+          629.1484713821114,
+          974.1457124567128
+        ],
+        "valid": true,
+        "error_pixels": 54.800511956153414,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "042.png",
+        "id": 152,
+        "predicted_xy": null,
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "043.png",
+        "id": 1,
+        "predicted_xy": [
+          353.2434297249614,
+          1104.0860735408223
+        ],
+        "valid": true,
+        "error_pixels": 2.1545428233582027,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "043.png",
+        "id": 33,
+        "predicted_xy": [
+          259.6232223426054,
+          821.0208082466747
+        ],
+        "valid": true,
+        "error_pixels": 5.179543926609503,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "043.png",
+        "id": 291,
+        "predicted_xy": [
+          598.9410821542428,
+          1301.967074892201
+        ],
+        "valid": true,
+        "error_pixels": 7.7998756189633625,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "043.png",
+        "id": 263,
+        "predicted_xy": [
+          761.612969954948,
+          846.5794160877075
+        ],
+        "valid": true,
+        "error_pixels": 5.402926239876521,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "043.png",
+        "id": 133,
+        "predicted_xy": [
+          384.53895238479976,
+          853.3551126754617
+        ],
+        "valid": true,
+        "error_pixels": 6.586917906324006,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "043.png",
+        "id": 362,
+        "predicted_xy": [
+          600.8862195585066,
+          852.5079820520822
+        ],
+        "valid": true,
+        "error_pixels": 18.35870031079659,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "043.png",
+        "id": 61,
+        "predicted_xy": [
+          336.9040179097605,
+          1272.8512607434911
+        ],
+        "valid": true,
+        "error_pixels": 13.90101007728087,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "043.png",
+        "id": 10,
+        "predicted_xy": null,
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "043.png",
+        "id": 168,
+        "predicted_xy": [
+          431.91197036542314,
+          807.4256685706562
+        ],
+        "valid": true,
+        "error_pixels": 18.507056271067707,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "043.png",
+        "id": 152,
+        "predicted_xy": null,
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "044.png",
+        "id": 1,
+        "predicted_xy": [
+          1336.0853573239071,
+          996.6770492473638
+        ],
+        "valid": true,
+        "error_pixels": 12.597826343077667,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "044.png",
+        "id": 33,
+        "predicted_xy": [
+          948.3599742759559,
+          717.1584531472251
+        ],
+        "valid": true,
+        "error_pixels": 1.3287931348218165,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "044.png",
+        "id": 291,
+        "predicted_xy": [
+          1312.5242043710145,
+          1274.5646936298144
+        ],
+        "valid": true,
+        "error_pixels": 9.34357369287053,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "044.png",
+        "id": 263,
+        "predicted_xy": [
+          1413.4070258077534,
+          904.3670583217178
+        ],
+        "valid": true,
+        "error_pixels": 22.724845317680714,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "044.png",
+        "id": 133,
+        "predicted_xy": [
+          1130.2519139369963,
+          787.0719406954416
+        ],
+        "valid": true,
+        "error_pixels": 18.228031970437094,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "044.png",
+        "id": 362,
+        "predicted_xy": [
+          1304.895572265374,
+          857.9562384023347
+        ],
+        "valid": true,
+        "error_pixels": 13.264198626281877,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "044.png",
+        "id": 61,
+        "predicted_xy": [
+          1057.3750292898328,
+          1176.063598122389
+        ],
+        "valid": true,
+        "error_pixels": 4.725179519771967,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "044.png",
+        "id": 10,
+        "predicted_xy": null,
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "044.png",
+        "id": 168,
+        "predicted_xy": [
+          1231.1875073449696,
+          756.6336898306473
+        ],
+        "valid": true,
+        "error_pixels": 34.52931407530705,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "044.png",
+        "id": 152,
+        "predicted_xy": null,
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "045.png",
+        "id": 1,
+        "predicted_xy": [
+          658.0977967866452,
+          1495.2532376833594
+        ],
+        "valid": true,
+        "error_pixels": 25.98264654080277,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "045.png",
+        "id": 33,
+        "predicted_xy": [
+          658.6542736552842,
+          1137.8590264153866
+        ],
+        "valid": true,
+        "error_pixels": 23.370866507159374,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "045.png",
+        "id": 291,
+        "predicted_xy": [
+          910.2462812013645,
+          1671.2071171269163
+        ],
+        "valid": true,
+        "error_pixels": 7.7282894973750285,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "045.png",
+        "id": 263,
+        "predicted_xy": [
+          1027.8716497530916,
+          1271.9774475618872
+        ],
+        "valid": true,
+        "error_pixels": 9.416065094453057,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "045.png",
+        "id": 133,
+        "predicted_xy": [
+          734.7594431409054,
+          1210.2813238944009
+        ],
+        "valid": true,
+        "error_pixels": 9.73787402449943,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "045.png",
+        "id": 362,
+        "predicted_xy": [
+          899.904017962365,
+          1250.7035586636132
+        ],
+        "valid": true,
+        "error_pixels": 22.54372214071882,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "045.png",
+        "id": 61,
+        "predicted_xy": [
+          721.2858370270405,
+          1583.2078280896812
+        ],
+        "valid": true,
+        "error_pixels": 29.52295386688598,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "045.png",
+        "id": 10,
+        "predicted_xy": null,
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "045.png",
+        "id": 168,
+        "predicted_xy": [
+          752.4721776890918,
+          1191.859383112627
+        ],
+        "valid": true,
+        "error_pixels": 27.48205631307824,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "045.png",
+        "id": 152,
+        "predicted_xy": null,
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "046.png",
+        "id": 1,
+        "predicted_xy": [
+          595.2616757739964,
+          1083.5239706338102
+        ],
+        "valid": true,
+        "error_pixels": 37.0416786388039,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "046.png",
+        "id": 33,
+        "predicted_xy": [
+          715.91298453831,
+          805.0634501009487
+        ],
+        "valid": true,
+        "error_pixels": 20.761088848166814,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "046.png",
+        "id": 291,
+        "predicted_xy": [
+          840.0800855170971,
+          1288.0638831440176
+        ],
+        "valid": true,
+        "error_pixels": 7.999090060474177,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "046.png",
+        "id": 263,
+        "predicted_xy": [
+          943.010132869295,
+          822.781426244263
+        ],
+        "valid": true,
+        "error_pixels": 31.38268751910099,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "046.png",
+        "id": 133,
+        "predicted_xy": [
+          738.942760463472,
+          834.7982673368314
+        ],
+        "valid": true,
+        "error_pixels": 26.55594086740195,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "046.png",
+        "id": 362,
+        "predicted_xy": [
+          850.0757177916603,
+          830.9315264336562
+        ],
+        "valid": true,
+        "error_pixels": 14.621465216899963,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "046.png",
+        "id": 61,
+        "predicted_xy": [
+          726.7116302622287,
+          1257.5059965000435
+        ],
+        "valid": true,
+        "error_pixels": 16.03333242119684,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "046.png",
+        "id": 10,
+        "predicted_xy": null,
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "046.png",
+        "id": 168,
+        "predicted_xy": [
+          729.6914182702723,
+          787.0443371480133
+        ],
+        "valid": true,
+        "error_pixels": 22.719479066882307,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "046.png",
+        "id": 152,
+        "predicted_xy": null,
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "047.png",
+        "id": 1,
+        "predicted_xy": [
+          1354.0661359121968,
+          1433.7815904198087
+        ],
+        "valid": true,
+        "error_pixels": 8.138015146113963,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "047.png",
+        "id": 33,
+        "predicted_xy": [
+          935.9445637139138,
+          1142.5667754462334
+        ],
+        "valid": true,
+        "error_pixels": 3.248139401059041,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "047.png",
+        "id": 291,
+        "predicted_xy": [
+          1325.7836810863196,
+          1571.1970709420739
+        ],
+        "valid": true,
+        "error_pixels": 20.923835534169843,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "047.png",
+        "id": 263,
+        "predicted_xy": [
+          1430.1867611809437,
+          1072.7069028748608
+        ],
+        "valid": true,
+        "error_pixels": 10.121535066663693,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "047.png",
+        "id": 133,
+        "predicted_xy": [
+          1131.2458056849468,
+          1154.710671671301
+        ],
+        "valid": true,
+        "error_pixels": 4.402780840444669,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "047.png",
+        "id": 362,
+        "predicted_xy": [
+          1316.0505647611876,
+          1110.2013736041736
+        ],
+        "valid": true,
+        "error_pixels": 19.063163767130966,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "047.png",
+        "id": 61,
+        "predicted_xy": [
+          1061.454636257693,
+          1610.3081727437568
+        ],
+        "valid": true,
+        "error_pixels": 5.989017813217528,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "047.png",
+        "id": 10,
+        "predicted_xy": null,
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      },
+      {
+        "image": "047.png",
+        "id": 168,
+        "predicted_xy": [
+          1238.916669479105,
+          1099.3615105622619
+        ],
+        "valid": true,
+        "error_pixels": 25.900910904647812,
+        "training_supervision_valid": true
+      },
+      {
+        "image": "047.png",
+        "id": 152,
+        "predicted_xy": null,
+        "valid": false,
+        "error_pixels": null,
+        "training_supervision_valid": false
+      }
+    ],
+    "caveat": "Detected 2D labels are pseudo-ground-truth; visibility/occlusion only as annotated."
+  }
+}

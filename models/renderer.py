@@ -1,4 +1,5 @@
 import torch
+from models.landmarks import aggregate_landmarks
 import torch.nn as nn
 import torch.nn.functional as F
 import numpy as np
@@ -91,9 +92,17 @@ class NeuSRenderer:
                  refColor_network=None,
                  lvis_network=None,
                  indiLgt_network=None,
-                 mateIllu_network=None
+                 mateIllu_network=None,
+                 landmark_head=None,
+                 landmark_domain='legacy',
+                 return_landmark_log_probs=False
                  ): 
         self.nerf = nerf
+        self.landmark_head = landmark_head
+        if landmark_domain not in ('legacy', 'unit_sphere'):
+            raise ValueError('Unknown landmark rendering domain')
+        self.landmark_domain = landmark_domain
+        self.return_landmark_log_probs = return_landmark_log_probs
         self.sdf_network = sdf_network
         self.deviation_network = deviation_network
         self.color_network = color_network
@@ -217,7 +226,7 @@ class NeuSRenderer:
                     background_alpha=None,
                     background_sampled_color=None,
                     background_rgb=None,
-                    cos_anneal_ratio=0.0):
+                    cos_anneal_ratio=0.0, render_landmarks=True):
         batch_size, n_samples = z_vals.shape  # 512， 128
 
         # Section length
@@ -358,6 +367,20 @@ class NeuSRenderer:
         # w = αΠ(1-α)
         # [batch, 160(uniform+importance+outside)]
         weights = alpha * torch.cumprod(torch.cat([torch.ones([batch_size, 1]), 1. - alpha + 1e-7], -1), -1)[:, :-1]
+        landmark_response = None
+        landmark_weights = None
+        landmark_log_probs = None
+        if self.landmark_head is not None and render_landmarks:
+            logits = self.landmark_head(feature_vector_input)
+            probabilities = logits.softmax(-1)
+            if self.return_landmark_log_probs:
+                landmark_log_probs = F.log_softmax(logits, dim=-1)
+            # RGB replaces SDF samples outside the unit sphere with NeRF samples.
+            # Exclude those replacements and appended outside samples entirely.
+            landmark_weights = weights[:, :n_samples]
+            if background_alpha is not None or self.landmark_domain == 'unit_sphere':
+                landmark_weights = landmark_weights * inside_sphere
+            landmark_response = aggregate_landmarks(probabilities, landmark_weights)
         weights_sum = weights.sum(dim=-1, keepdim=True)
 
         # C = Σwc
@@ -372,6 +395,9 @@ class NeuSRenderer:
         gradient_error = (relax_inside_sphere * gradient_error).sum() / (relax_inside_sphere.sum() + 1e-5)  # tensor
 
         return {
+            'landmark_response': landmark_response,
+            'landmark_weights': landmark_weights,
+            'landmark_log_probs': landmark_log_probs,
             'color': color,  # [batch, 3] uniform+importance+outside 
             'surface_color': surface_color,
             'sdf_mask': sdf_mask,
@@ -388,7 +414,7 @@ class NeuSRenderer:
             'diffuse_color': diffuse_color
         }
 
-    def render(self, rays_o, rays_d, near, far, perturb_overwrite=-1, background_rgb=None, cos_anneal_ratio=0.0):
+    def render(self, rays_o, rays_d, near, far, perturb_overwrite=-1, background_rgb=None, cos_anneal_ratio=0.0, render_landmarks=True):
         batch_size = len(rays_o)
         sample_dist = 2.0 / self.n_samples  # Assuming the region of interest is a unit sphere
         z_vals = torch.linspace(0.0, 1.0, self.n_samples)
@@ -469,7 +495,8 @@ class NeuSRenderer:
                                     background_rgb=background_rgb,
                                     background_alpha=background_alpha,
                                     background_sampled_color=background_sampled_color,
-                                    cos_anneal_ratio=cos_anneal_ratio)
+                                    cos_anneal_ratio=cos_anneal_ratio,
+                                    render_landmarks=render_landmarks)
 
         color_fine = ret_fine['color']
 
@@ -484,6 +511,9 @@ class NeuSRenderer:
         s_val = ret_fine['s_val'].reshape(batch_size, n_samples).mean(dim=-1, keepdim=True)  # [batch, 1]
 
         return {
+            'landmark_response': ret_fine['landmark_response'],
+            'landmark_weights': ret_fine['landmark_weights'],
+            'landmark_log_probs': ret_fine['landmark_log_probs'],
             'color_fine': color_fine,
             'surface_color': surface_color,
             'sdf_mask': sdf_mask,
